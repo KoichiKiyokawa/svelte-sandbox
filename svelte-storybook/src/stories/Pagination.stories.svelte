@@ -1,16 +1,17 @@
 <script lang="ts">
 	import { Meta, Story, Template } from '@storybook/addon-svelte-csf';
 	import Pagination from '../components/molecules/Pagination.svelte';
-</script>
+	// type importをすると動かなくなる
+	// import type { ArgType } from './type';
 
-<Meta
-	title="Components/Molecules/Pagination"
-	argTypes={{
+	const argTypes = {
 		allRowSize: { control: 'number' },
 		currentPageIndex: { control: 'number' },
 		rowsPerPage: { control: 'number' }
-	}}
-/>
+	};
+</script>
+
+<Meta title="Components/Molecules/Pagination" {argTypes} />
 
 <Template let:args><Pagination {...args} /></Template>
 
