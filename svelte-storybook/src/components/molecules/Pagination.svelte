@@ -1,21 +1,27 @@
 <script lang="ts">
+	import Button from '../atoms/Button.svelte';
+
 	export let allRowSize: number;
 	export let rowsPerPage: number;
 
 	/** @bind */
-	export let currentIndex: number;
+	export let currentPageIndex: number;
 	/** @bind */
 	export let offset: number;
 	/** @bind */
 	export let currentPageLastCount: number;
 
+	$: offset = currentPageIndex * rowsPerPage;
+	$: currentPageLastCount = Math.min(offset + rowsPerPage, allRowSize);
 	$: lastPageCount = Math.ceil(allRowSize / rowsPerPage);
-
-	$: isFirstPage = currentIndex === 0;
+	$: console.log({ allRowSize, rowsPerPage });
+	$: isFirstPage = currentPageIndex === 0;
 </script>
 
-<button on:click={() => (currentIndex = 0)} disabled={isFirstPage}>{'<<'}</button>
-<button on:click={() => currentIndex--} disabled={isFirstPage}>{'<'}</button>
-<span>{offset + 1}~{currentPageLastCount}/{lastPageCount}</span>
-<button on:click={() => currentIndex++} disabled={currentIndex === lastPageCount - 1}>{'>'}</button>
-<button on:click={() => (currentIndex = lastPageCount - 1)}>{'>>'}</button>
+<Button on:click={() => (currentPageIndex = 0)} disabled={isFirstPage}>{'<<'}</Button>
+<Button on:click={() => currentPageIndex--} disabled={isFirstPage}>{'<'}</Button>
+<span>{offset + 1}~{currentPageLastCount}({currentPageIndex + 1}/{lastPageCount})</span>
+<Button on:click={() => currentPageIndex++} disabled={currentPageIndex === lastPageCount - 1}
+	>{'>'}</Button
+>
+<Button on:click={() => (currentPageIndex = lastPageCount - 1)}>{'>>'}</Button>
