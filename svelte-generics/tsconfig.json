@@ -4,6 +4,7 @@
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
+    "strict": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
     /**
