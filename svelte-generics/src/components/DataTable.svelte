@@ -9,7 +9,11 @@
   <thead>
     <tr>
       {#each headers as header}
-        <th>{header.key}</th>
+        <th>
+          <slot name="header-cell" {header}>
+            {header.key}
+          </slot>
+        </th>
       {/each}
     </tr>
   </thead>
@@ -17,7 +21,15 @@
     {#each rows as row}
       <tr>
         {#each headers as header}
-          <td>{row[header.key]}</td>
+          <td>
+            <slot
+              name="cell"
+              {row}
+              cell={{ key: header.key, value: row[header.key] }}
+            >
+              {row[header.key]}
+            </slot>
+          </td>
         {/each}
       </tr>
     {/each}
