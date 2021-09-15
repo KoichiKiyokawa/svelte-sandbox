@@ -5,7 +5,7 @@
   export let price: number
 </script>
 
-<div class="card">
+<div class="card" data-testid="cart-card">
   <p>{productName}</p>
   <p>&yen{price}</p>
   <button on:click={() => amount++}>+</button>
