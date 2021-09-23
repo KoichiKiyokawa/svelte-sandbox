@@ -12,4 +12,6 @@ export default {
     "^@/(.+)": "<rootDir>/src/$1",
   },
   moduleFileExtensions: ["js", "ts", "svelte"],
+  setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
+  testEnvironment: "jsdom",
 }

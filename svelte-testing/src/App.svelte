@@ -5,7 +5,6 @@
 
   let loading = true
   let items: TCart[] = []
-  $: console.log(items)
 
   $: totalPrice = items.reduce(
     (total, item) => total + item.price * item.amount,

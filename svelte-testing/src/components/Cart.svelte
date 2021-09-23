@@ -10,9 +10,11 @@
   <p>&yen{price}</p>
   <button on:click={() => amount++}>+</button>
   <span>{amount}個</span>
-  <button disabled={amount <= 1} on:click={() => amount--}>-</button>
+  <button disabled={amount <= 1} on:click={() => amount >= 1 && amount--}>
+    -
+  </button>
 
-  <span>合計{price * amount}</span>
+  <span>合計{price * amount}円</span>
 </div>
 
 <style>
