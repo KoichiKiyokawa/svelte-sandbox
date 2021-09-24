@@ -1,0 +1,13 @@
+query GetUsersWithPosts {
+  users {
+    id
+    name
+    email
+    birthday
+    posts {
+      id
+      title
+      body
+    }
+  }
+}
