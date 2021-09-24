@@ -1,0 +1,20 @@
+schema:
+  - https://hasura-prac.herokuapp.com/v1/graphql:
+      headers:
+        x-hasura-admin-secret: ${AUTH_TOKEN}
+documents:
+  - "./**/*.gql"
+overwrite: true
+generates:
+  "./src/generated/graphql.ts":
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-document-nodes
+    config:
+      gqlImport: "@urql/svelte#gql"
+      scalars:
+        date: string
+  "./graphql.schema.json":
+    plugins:
+      - introspection

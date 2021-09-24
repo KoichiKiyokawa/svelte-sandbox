@@ -10,7 +10,7 @@ export type Scalars = {
   Boolean: boolean;
   Int: number;
   Float: number;
-  date: any;
+  date: string;
   uuid: any;
 };
 
@@ -675,7 +675,7 @@ export type Uuid_Comparison_Exp = {
 export type GetUsersWithPostsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetUsersWithPostsQuery = { __typename?: 'query_root', users: Array<{ __typename?: 'users', id: any, name: string, email: string, birthday: any, posts: Array<{ __typename?: 'posts', id: any, title: string, body: string }> }> };
+export type GetUsersWithPostsQuery = { __typename?: 'query_root', users: Array<{ __typename?: 'users', id: any, name: string, email: string, birthday: string, posts: Array<{ __typename?: 'posts', id: any, title: string, body: string }> }> };
 
 
 export const GetUsersWithPosts = gql`

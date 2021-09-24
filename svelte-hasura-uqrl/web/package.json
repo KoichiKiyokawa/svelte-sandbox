@@ -9,7 +9,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "codegen": "graphql-codegen --config codegen.js"
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.2.0",
