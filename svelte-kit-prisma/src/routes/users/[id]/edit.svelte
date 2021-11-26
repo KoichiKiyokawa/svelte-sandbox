@@ -3,6 +3,7 @@
 
 	export const load: Load = async ({ page, fetch }) => {
 		const user = await fetch(`/api/users/${page.params.id}.json`).then((r) => r.json());
+		if (!user.id) return { error: 'User not found' };
 		return { props: { user } };
 	};
 </script>
