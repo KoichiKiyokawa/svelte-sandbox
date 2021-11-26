@@ -9,7 +9,6 @@ export const get: RequestHandler<unknown, unknown, User> = async ({ params }) =>
 };
 
 export const put: RequestHandler<unknown, User, User> = async ({ body, params }) => {
-	// userSchemaが何故かundefinedになる
 	const user = await db.user.update({ where: { id: params.id }, data: userSchema.parse(body) });
 	return { body: user };
 };
