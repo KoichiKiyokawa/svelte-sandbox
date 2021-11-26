@@ -21,6 +21,7 @@
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
+		"ky-universal": "^0.9.1",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
 		"prisma": "^3.5.0",
@@ -33,7 +34,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@prisma/client": "^3.5.0"
+		"@prisma/client": "^3.5.0",
+		"felte": "^0.8.5",
+		"ky": "^0.28.7",
+		"zod": "^3.11.6"
 	},
 	"prisma": {
 		"seed": "node --loader ts-node/esm prisma/seed.ts"
