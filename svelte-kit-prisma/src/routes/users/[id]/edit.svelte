@@ -1,8 +1,9 @@
 <script lang="ts" context="module">
 	import type { Load } from '@sveltejs/kit';
+	import { api } from '$lib/server/api';
 
 	export const load: Load = async ({ page, fetch }) => {
-		const user = await fetch(`/api/users/${page.params.id}.json`).then((r) => r.json());
+		const user = await api(`/api/users/${page.params.id}.json`).json<User>();
 		if (!user.id) return { error: 'User not found' };
 		return { props: { user } };
 	};
@@ -14,7 +15,6 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
-	import ky from 'ky';
 
 	export let user: User;
 

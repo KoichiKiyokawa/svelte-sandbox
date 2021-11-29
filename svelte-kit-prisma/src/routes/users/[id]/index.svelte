@@ -1,8 +1,9 @@
 <script lang="ts" context="module">
 	import type { Load } from '@sveltejs/kit';
+	import { api } from '$lib/server/api';
 
-	export const load: Load = async ({ page, fetch }) => {
-		const user = await fetch(`/api/users/${page.params.id}.json`).then((r) => r.json());
+	export const load: Load = async ({ page }) => {
+		const user = await api(`/api/users/${page.params.id}.json`).json();
 		return { props: { user } };
 	};
 </script>
