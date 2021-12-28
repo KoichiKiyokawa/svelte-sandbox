@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Form from './lib/components/Form.svelte';
+	import Form from '../lib/components/Form.svelte';
 </script>
 
 <Form method="POST" action="/api/user.json">

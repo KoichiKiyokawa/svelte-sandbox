@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher<{ afterSubmit: undefined }>();
 
 	export let action: string = '';
 	export let method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH' = 'GET';
@@ -38,6 +41,7 @@
 			.then((res) => {
 				const location = res.headers.get('location');
 				if (location) goto(location);
+				dispatch('afterSubmit');
 			})
 			.catch((err) => {
 				console.error(err);
