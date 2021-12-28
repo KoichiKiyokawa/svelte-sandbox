@@ -19,5 +19,5 @@
 <a href="new">create</a>
 
 {#each users as user}
-	{JSON.stringify(user)}
+	<div>{JSON.stringify(user)}</div>
 {/each}
