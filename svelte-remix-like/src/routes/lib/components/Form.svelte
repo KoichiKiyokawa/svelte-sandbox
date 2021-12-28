@@ -9,14 +9,19 @@
 
 	let errorMessages: string[] = [];
 
-	function onSubmit(this: HTMLFormElement) {
+	export const onSubmit = (
+		e: Event & {
+			currentTarget: EventTarget & HTMLFormElement;
+		}
+	) => {
 		submitting = true;
-		const formData = new FormData(this);
-		const action = !this.action
+		const formData = new FormData(e.currentTarget);
+
+		const action = !e.currentTarget.action
 			? window.location.href
-			: this.action.endsWith('.json')
-			? this.action
-			: `${this.action}.json`;
+			: e.currentTarget.action.endsWith('.json')
+			? e.currentTarget.action
+			: `${e.currentTarget.action}.json`;
 
 		const body: any = {};
 		formData.forEach((value, key) => {
@@ -24,7 +29,7 @@
 		});
 
 		fetch(action, {
-			method: this.method,
+			method: e.currentTarget.method,
 			body: JSON.stringify(body),
 			headers: {
 				'Content-Type': 'application/json'
@@ -41,7 +46,7 @@
 			.finally(() => {
 				submitting = false;
 			});
-	}
+	};
 </script>
 
 {#each errorMessages as err}
