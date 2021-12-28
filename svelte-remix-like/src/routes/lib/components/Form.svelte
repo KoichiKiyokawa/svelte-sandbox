@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
+
 	export let action: string = '';
 	export let method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH' = 'GET';
 
@@ -28,6 +30,10 @@
 				'Content-Type': 'application/json'
 			}
 		})
+			.then((res) => {
+				const location = res.headers.get('location');
+				if (location) goto(location);
+			})
 			.catch((err) => {
 				console.error(err);
 				errorMessages = err.messages;
