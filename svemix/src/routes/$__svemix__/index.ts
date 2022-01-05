@@ -1,4 +1,7 @@
-<script lang="ts" context="module" ssr>
+
+  import * as svemixHandlers from "svemix/server";
+
+  
 	import { Action, Loader } from 'svemix';
 	import { Post } from '@prisma/client';
 	import { db } from '$lib/db.server';
@@ -18,25 +21,18 @@
 		});
 		return { data: created, status: 201, redirect: '.' };
 	};
-</script>
 
-<script lang="ts">
-	import { Form } from 'svemix';
 
-	export let posts: Post[];
-</script>
+  
+  export const get = svemixHandlers.getHandler({
+    hasMeta: false,
+    loader: loader,
+    metadata: () => ({})
+  });
+  
 
-<Form>
-	<label>title:<input name="title" /></label>
-	<label>body:<textarea name="body" /></label>
-	<button>create</button>
-</Form>
-
-<ul>
-	{#each posts as post}
-		<li>
-			<span>title: {post.title}</span>
-			<span>body: {post.body}</span>
-		</li>
-	{/each}
-</ul>
+  
+  export const post = svemixHandlers.postHandler({
+    action: action,
+  });  
+  
