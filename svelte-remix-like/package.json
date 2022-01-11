@@ -30,7 +30,7 @@
   },
   "type": "module",
   "volta": {
-    "node": "16.13.1"
+    "node": "16.13.2"
   },
   "packageManager": "pnpm@6.24.3",
   "dependencies": {
