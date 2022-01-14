@@ -198,18 +198,12 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-carbon-components-svelte@0.44.1:
-  version "0.44.1"
-  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.44.1.tgz#ecf52590b9ef537fbcbf2de50039c32491c1d4bb"
-  integrity sha512-4+3fkXR60myK4d2EaJFkQ5cDFLUQ1As5I/VjxGSVfxI2q3Xkml2DbSeivhO/rIQQxWqU296P2+wy3N6ncN7n0Q==
+carbon-components-svelte@0.51.3:
+  version "0.51.3"
+  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.51.3.tgz#76cddddd2ca2d4c91063a76504afec114d6e4042"
+  integrity sha512-d2CmC0abuZCU+jBEgwgoOiq/R3AqZftUyBiishujLV71W/2/C7SQzIIXJPY7kCVl1bydvGikrFPPgkUb70jL+w==
   dependencies:
-    carbon-icons-svelte "^10.36.0"
     flatpickr "4.6.9"
-
-carbon-icons-svelte@^10.36.0:
-  version "10.38.0"
-  resolved "https://registry.yarnpkg.com/carbon-icons-svelte/-/carbon-icons-svelte-10.38.0.tgz#daf74e4a2a826ad994c950a67307b8392d80ca3a"
-  integrity sha512-uEckbbNHFtDzKz+QRx6GxvZcezXXqfDOiaE7mupkiRPkBbALrA9CPJZbI5Q2XW5mpn8lgN3IlTm2u1iJEAlVJw==
 
 chalk@^2.0.0:
   version "2.4.2"
