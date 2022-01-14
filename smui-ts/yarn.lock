@@ -718,20 +718,6 @@
     "@smui/common" "^5.0.1"
     svelte2tsx "^0.4.6"
 
-"@smui/button@5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/button/-/button-5.0.0-beta.1.tgz#c3f833fc82063b5b08d53a9c5401fba29284724a"
-  integrity sha512-TK6D+RTlCTFLSrgWwCK700XkkBBYJTCDWrPbGOWWuUNKXB8vReqWgv5HJEonRweJ/stGkDP7o7E52FYtzIz8Yg==
-  dependencies:
-    "@material/button" "^11.0.0"
-    "@material/elevation" "^11.0.0"
-    "@material/feature-targeting" "^11.0.0"
-    "@material/ripple" "^11.0.0"
-    "@material/theme" "^11.0.0"
-    "@smui/common" "^5.0.0-beta.1"
-    "@smui/ripple" "^5.0.0-beta.1"
-    svelte2tsx "^0.4.6"
-
 "@smui/button@5.0.1", "@smui/button@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@smui/button/-/button-5.0.1.tgz#1f9c53b800afa636ba3ceb07425f5ac164a64de2"
