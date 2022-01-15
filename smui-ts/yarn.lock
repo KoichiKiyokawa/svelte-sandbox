@@ -744,16 +744,6 @@
     "@smui/ripple" "^5.0.1"
     svelte2tsx "^0.4.6"
 
-"@smui/checkbox@5.0.0-beta.1", "@smui/checkbox@^5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/checkbox/-/checkbox-5.0.0-beta.1.tgz#6673c2ad580191087de3c41857667834f7f45342"
-  integrity sha512-/8YZSJAVUes4CTMXxdDy1QNwmPHM0vC7tQFU4tqvXvk73Sm5ytneFinI+qgxE5l8WTtIBXUFpd3DdRE3IJx21w==
-  dependencies:
-    "@material/checkbox" "^11.0.0"
-    "@smui/common" "^5.0.0-beta.1"
-    "@smui/ripple" "^5.0.0-beta.1"
-    svelte2tsx "^0.4.6"
-
 "@smui/checkbox@5.0.1", "@smui/checkbox@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@smui/checkbox/-/checkbox-5.0.1.tgz#399a8be9ed600c87647589595e45f84e4a71faa1"
@@ -762,6 +752,16 @@
     "@material/checkbox" "^11.0.0"
     "@smui/common" "^5.0.1"
     "@smui/ripple" "^5.0.1"
+    svelte2tsx "^0.4.6"
+
+"@smui/checkbox@^5.0.0-beta.1":
+  version "5.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@smui/checkbox/-/checkbox-5.0.0-beta.1.tgz#6673c2ad580191087de3c41857667834f7f45342"
+  integrity sha512-/8YZSJAVUes4CTMXxdDy1QNwmPHM0vC7tQFU4tqvXvk73Sm5ytneFinI+qgxE5l8WTtIBXUFpd3DdRE3IJx21w==
+  dependencies:
+    "@material/checkbox" "^11.0.0"
+    "@smui/common" "^5.0.0-beta.1"
+    "@smui/ripple" "^5.0.0-beta.1"
     svelte2tsx "^0.4.6"
 
 "@smui/chips@5.0.1":
