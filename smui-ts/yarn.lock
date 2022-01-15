@@ -754,16 +754,6 @@
     "@smui/ripple" "^5.0.1"
     svelte2tsx "^0.4.6"
 
-"@smui/checkbox@^5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/checkbox/-/checkbox-5.0.0-beta.1.tgz#6673c2ad580191087de3c41857667834f7f45342"
-  integrity sha512-/8YZSJAVUes4CTMXxdDy1QNwmPHM0vC7tQFU4tqvXvk73Sm5ytneFinI+qgxE5l8WTtIBXUFpd3DdRE3IJx21w==
-  dependencies:
-    "@material/checkbox" "^11.0.0"
-    "@smui/common" "^5.0.0-beta.1"
-    "@smui/ripple" "^5.0.0-beta.1"
-    svelte2tsx "^0.4.6"
-
 "@smui/chips@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@smui/chips/-/chips-5.0.1.tgz#ee372a9fc3be8da9381672989cfa98c5570529dd"
@@ -797,32 +787,6 @@
     svelte2tsx "^0.4.6"
     tslib "^2.3.1"
     typescript "^4.4.2"
-
-"@smui/common@^5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/common/-/common-5.0.0-beta.1.tgz#cf33e7028e345a72fba1d746d0833e0cc8f9f1ce"
-  integrity sha512-u+U9tdozpu7jec2qGwHkXJEBxBSOyYYuTy+g3alNrGv6ys1Piwr4AMiQPw2D1YFTO5S/uPFzYseuD++Ces7ISg==
-  dependencies:
-    "@material/dom" "^11.0.0"
-    "@tsconfig/svelte" "^2.0.1"
-    sass "^1.32.11"
-    svelte "^3.35.0"
-    svelte2tsx "^0.4.6"
-    tslib "^2.3.1"
-    typescript "^4.4.2"
-
-"@smui/data-table@5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/data-table/-/data-table-5.0.0-beta.1.tgz#9bdb6caa4ec21d887e71c45c327bd41e9f0da6db"
-  integrity sha512-TzY25L5anKseJJrN/gb27UchPS+x+u7tz2vwif9JKNfJZBhx1BIckwLff8sKtlxaYTOC2LaBNO6YU9DKehdYPA==
-  dependencies:
-    "@material/data-table" "^11.0.0"
-    "@material/dom" "^11.0.0"
-    "@smui/checkbox" "^5.0.0-beta.1"
-    "@smui/common" "^5.0.0-beta.1"
-    "@smui/icon-button" "^5.0.0-beta.1"
-    "@smui/ripple" "^5.0.0-beta.1"
-    svelte2tsx "^0.4.6"
 
 "@smui/data-table@5.0.1":
   version "5.0.1"
@@ -898,17 +862,6 @@
     "@material/icon-button" "^11.0.0"
     "@smui/common" "^5.0.1"
     "@smui/ripple" "^5.0.1"
-    svelte2tsx "^0.4.6"
-
-"@smui/icon-button@^5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/icon-button/-/icon-button-5.0.0-beta.1.tgz#87b5f77939fe2697631daa25b47a3c0a6ce35ec1"
-  integrity sha512-PqfaRmjdwJf+9xxu6sm69iL+6bt/SvXMDaxeqkZpoOAmH3zQAC9HkmhMSG4wF2HNKdNUZ1LUgB3vm/uonZaQeg==
-  dependencies:
-    "@material/density" "^11.0.0"
-    "@material/icon-button" "^11.0.0"
-    "@smui/common" "^5.0.0-beta.1"
-    "@smui/ripple" "^5.0.0-beta.1"
     svelte2tsx "^0.4.6"
 
 "@smui/image-list@5.0.1":
@@ -1022,16 +975,6 @@
     "@material/dom" "^11.0.0"
     "@material/ripple" "^11.0.0"
     "@smui/common" "^5.0.1"
-    svelte2tsx "^0.4.6"
-
-"@smui/ripple@^5.0.0-beta.1":
-  version "5.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-5.0.0-beta.1.tgz#3920772973618df7176886c6d355424e4a30ab51"
-  integrity sha512-nJ71fYY793snHubEm1DwBitYJeh7gwWFBEy4HXK0ta/+acz2V/FrBJqtlwKiDaixsnMlVJNRqPp9iCeY/mIs3g==
-  dependencies:
-    "@material/dom" "^11.0.0"
-    "@material/ripple" "^11.0.0"
-    "@smui/common" "^5.0.0-beta.1"
     svelte2tsx "^0.4.6"
 
 "@smui/segmented-button@5.0.1":
@@ -2358,7 +2301,7 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-sass@1.41.0, sass@^1.32.11:
+sass@1.41.0:
   version "1.41.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.41.0.tgz#f7b41dc00336a4c03429c37b9680b86758af61d4"
   integrity sha512-wb8nT60cjo9ZZMcHzG7TzdbFtCAmHEKWrH+zAdScPb4ZxL64WQBnGdbp5nwlenW5wJPcHva1JWmVa0h6iqA5eg==
