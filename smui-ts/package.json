@@ -23,7 +23,7 @@
 		"eslint-plugin-svelte3": "3.2.1",
 		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.4.0",
-		"sass": "1.41.0",
+		"sass": "1.48.0",
 		"svelte": "3.42.5",
 		"svelte-check": "2.2.12",
 		"svelte-material-ui": "5.0.1",
