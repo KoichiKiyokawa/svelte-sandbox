@@ -10,7 +10,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.4.0
   prettier: 2.5.1
-  prettier-plugin-svelte: 2.5.1
+  prettier-plugin-svelte: 2.6.0
   prisma: 3.7.0
   svelte: 3.44.3
   svelte-check: 2.3.0
@@ -23,14 +23,14 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.10
-  '@sveltejs/kit': 1.0.0-next.231_svelte@3.44.3
+  '@sveltejs/kit': 1.0.0-next.232_svelte@3.44.3
   '@typescript-eslint/eslint-plugin': 4.33.0_3289a875d95a672b97ebf589745c66ef
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.4
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-svelte3: 3.4.0_eslint@7.32.0+svelte@3.44.3
   prettier: 2.5.1
-  prettier-plugin-svelte: 2.5.1_prettier@2.5.1+svelte@3.44.3
+  prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.44.3
   prisma: 3.7.0
   svelte: 3.44.3
   svelte-check: 2.3.0_svelte@3.44.3
@@ -176,8 +176,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.231_svelte@3.44.3:
-    resolution: {integrity: sha512-utG2cfgweIIwFA1IcDDzDTa7cz+UiJX03ELG9cvpwkGIlHypzbGr0AnUzRAX60HUsBQLNhtjNCU2BUUy8IQLPw==}
+  /@sveltejs/kit/1.0.0-next.232_svelte@3.44.3:
+    resolution: {integrity: sha512-STQ0hnJozIop8k9I313nwVasBIQ45Z2K1pUOkDVjCSOGijgsj+De5q0prQBtL1ZlqqisfkYlOf8W9gvDSyTLEA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1290,8 +1290,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.5.1_prettier@2.5.1+svelte@3.44.3:
-    resolution: {integrity: sha512-IhZUcqr7Bg4LY15d87t9lDr7EyC0IPehkzH5ya5igG8zYwf3UYaYDFnVW2mckREaZyLREcH9YOouesmt4f5Ozg==}
+  /prettier-plugin-svelte/2.6.0_prettier@2.5.1+svelte@3.44.3:
+    resolution: {integrity: sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
