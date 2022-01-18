@@ -2,7 +2,7 @@
 	"name": "smui6",
 	"version": "0.0.1",
 	"scripts": {
-		"prepare": "smui-theme compile static/smui.css -i src/theme",
+		"prepare": "smui-theme compile static/smui.css -i src/theme -i ./node_modules",
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
