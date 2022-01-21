@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 4.33.0
   '@typescript-eslint/parser': 4.33.0
-  carbon-components-svelte: 0.51.3
+  carbon-components-svelte: 0.54.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.4.0
@@ -26,11 +26,11 @@ dependencies:
   zod: 3.11.6
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.10
+  '@sveltejs/adapter-auto': 1.0.0-next.11
   '@sveltejs/kit': 1.0.0-next.232_svelte@3.46.2
   '@typescript-eslint/eslint-plugin': 4.33.0_3289a875d95a672b97ebf589745c66ef
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.4
-  carbon-components-svelte: 0.51.3
+  carbon-components-svelte: 0.54.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-svelte3: 3.4.0_eslint@7.32.0+svelte@3.46.2
@@ -148,12 +148,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.10:
-    resolution: {integrity: sha512-ETMhpg8bUtLpRAqGxuRmm7teRCdg8u8ANF6eC8R2QLSy1ylPP6RPPg8D5q6LiJavVG/kHMH8fj7vvfobpVfwFg==}
+  /@sveltejs/adapter-auto/1.0.0-next.11:
+    resolution: {integrity: sha512-VvFB5E/5y2aKr/XBS6fghT7aZF/D/Tm9/muscGIGtZK0mojL6SDdAhI3hqoWuHfBKz0D7YzLh4mlWEmERdmt/w==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.7
-      '@sveltejs/adapter-netlify': 1.0.0-next.38
-      '@sveltejs/adapter-vercel': 1.0.0-next.36
+      '@sveltejs/adapter-netlify': 1.0.0-next.39
+      '@sveltejs/adapter-vercel': 1.0.0-next.37
     dev: true
 
   /@sveltejs/adapter-cloudflare/1.0.0-next.7:
@@ -162,16 +162,16 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.38:
-    resolution: {integrity: sha512-u0mCV3YOBakdeiIt4Sd7buiTACkzHpPuUoSkLjtmJ5PsbrvtFhFNKE4AARqI8nDoX1yjs6pUKlIX3IZDmEeM5A==}
+  /@sveltejs/adapter-netlify/1.0.0-next.39:
+    resolution: {integrity: sha512-uBRscFmse2PkRZzIbRkG2sUNSIUveliiWFWUkIvxClfsT9x7JxVHgr1zsBwbIdrWs4EE7PvTAlUnv2wlEBEijQ==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.13.15
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.36:
-    resolution: {integrity: sha512-IpvxBb5n9k5l6nikwq8mCeBg0VtSqAt7AY/PSujwjGs5KqYx3CrVu/Cyj4b0dyCO2Yyt2dr2QjS/R2R42PRBeA==}
+  /@sveltejs/adapter-vercel/1.0.0-next.37:
+    resolution: {integrity: sha512-SfaaakXjk6sBmSGozdrUQIsB3cFdo47ZFFEHMlPOScvXuAY8VPc1jCbGEQPadKW9Txf9xDuu6trm41OYztC+RA==}
     dependencies:
       esbuild: 0.13.15
     dev: true
@@ -454,8 +454,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.51.3:
-    resolution: {integrity: sha512-d2CmC0abuZCU+jBEgwgoOiq/R3AqZftUyBiishujLV71W/2/C7SQzIIXJPY7kCVl1bydvGikrFPPgkUb70jL+w==}
+  /carbon-components-svelte/0.54.0:
+    resolution: {integrity: sha512-HN5BUb8/60IeKasUBIqkYeQ+MugQne3HVVIgh2vXkXq62aVEMzEStlYpnUmhhVfUs5ZZOqRS77eHkXxHvZKYOQ==}
     dependencies:
       flatpickr: 4.6.9
     dev: true
