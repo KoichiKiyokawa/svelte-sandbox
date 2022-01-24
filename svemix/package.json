@@ -12,12 +12,11 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"dependencies": {
-		"@prisma/client": "3.7.0",
-		"svemix": "0.5.7"
+		"@prisma/client": "3.7.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "1.0.0-next.240",
 		"@typescript-eslint/eslint-plugin": "4.33.0",
 		"@typescript-eslint/parser": "4.33.0",
 		"eslint": "7.32.0",
@@ -29,6 +28,7 @@
 		"svelte": "3.46.2",
 		"svelte-check": "2.3.0",
 		"svelte-preprocess": "4.10.2",
+		"svemix": "0.6.2",
 		"tslib": "2.3.1",
 		"typescript": "4.5.5"
 	},

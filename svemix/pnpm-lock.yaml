@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@prisma/client': 3.7.0
   '@sveltejs/adapter-auto': next
-  '@sveltejs/kit': next
+  '@sveltejs/kit': 1.0.0-next.240
   '@typescript-eslint/eslint-plugin': 4.33.0
   '@typescript-eslint/parser': 4.33.0
   eslint: 7.32.0
@@ -15,17 +15,16 @@ specifiers:
   svelte: 3.46.2
   svelte-check: 2.3.0
   svelte-preprocess: 4.10.2
-  svemix: 0.5.7
+  svemix: 0.6.2
   tslib: 2.3.1
   typescript: 4.5.5
 
 dependencies:
   '@prisma/client': 3.7.0_prisma@3.7.0
-  svemix: 0.5.7
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.14
-  '@sveltejs/kit': 1.0.0-next.236_svelte@3.46.2
+  '@sveltejs/kit': 1.0.0-next.240_svelte@3.46.2
   '@typescript-eslint/eslint-plugin': 4.33.0_959502c0ea240e86d4d2ba8b8c0fee45
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.5
   eslint: 7.32.0
@@ -37,6 +36,7 @@ devDependencies:
   svelte: 3.46.2
   svelte-check: 2.3.0_svelte@3.46.2
   svelte-preprocess: 4.10.2_svelte@3.46.2+typescript@4.5.5
+  svemix: 0.6.2
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -178,8 +178,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.236_svelte@3.46.2:
-    resolution: {integrity: sha512-V/K6KZwZlfM2jDiL7luisRkPujf/pAT2SUpgOEONk44WwUwYwd928qN2u0Z6SAfQFCDAxUI8pMHP2OC1bm352Q==}
+  /@sveltejs/kit/1.0.0-next.240_svelte@3.46.2:
+    resolution: {integrity: sha512-cHdxdSKAdCuty2lYlRHXE4rJZuKd4wur9U63JtPwysTaReMEJl+s9J/LVvyBzaLW/13x8vm/kKqx+DDcI0udlA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1617,9 +1617,9 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svemix/0.5.7:
-    resolution: {integrity: sha512-srLCXCQW5hv6YqI0uc1OmSOVkXkQVaXptj5ObQoyG8ClaQzEGH4QHLrfwg7NxY6fl9x380nsDKP81HDnrbwP+w==}
-    dev: false
+  /svemix/0.6.2:
+    resolution: {integrity: sha512-2VI6JbuQgHkv6+bVuBvQ/h6pgruIlmCeFDvt5n3QG+QApFB6BsT/E0Mw5S2ijXfRNzHaB3ciSssuFo+ZwDSRrA==}
+    dev: true
 
   /table/6.7.5:
     resolution: {integrity: sha512-LFNeryOqiQHqCVKzhkymKwt6ozeRhlm8IL1mE8rNUurkir4heF6PzMyRgaTa4tlyPTGGgXuvVOF/OLWiH09Lqw==}
