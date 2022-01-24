@@ -7,3 +7,4 @@ node_modules
 .env.*
 !.env.example
 *.db
+svemix/src/routes/$__svemix__

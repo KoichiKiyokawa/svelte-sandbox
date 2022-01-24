@@ -1,7 +1,8 @@
 <script lang="ts" context="module" ssr>
-	import { Action, Loader } from 'svemix';
-	import { Post } from '@prisma/client';
 	import { db } from '$lib/db.server';
+	import { parseRequest } from '$lib/request.server';
+	import { Post } from '@prisma/client';
+	import { Action, Loader } from 'svemix';
 
 	type Props = {
 		posts: Post[];
@@ -12,9 +13,10 @@
 		return { props: { posts } };
 	};
 
-	export const action: Action<Post, Post> = async ({ body }) => {
+	export const action: Action<Post, Post> = async ({ request }) => {
+		const { title, body } = await parseRequest<Post>(request);
 		const created = await db.post.create({
-			data: { title: body.get('title'), body: body.get('body') }
+			data: { title, body }
 		});
 		return { data: created, status: 201, redirect: '.' };
 	};
