@@ -34,7 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "3.5.0",
-		"felte": "0.8.5",
+		"felte": "0.9.0",
 		"ky": "0.28.7",
 		"ky-universal": "0.9.1",
 		"zod": "3.11.6"
