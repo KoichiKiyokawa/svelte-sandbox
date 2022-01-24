@@ -2257,10 +2257,10 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
-"@sveltejs/kit@1.0.0-next.232":
-  version "1.0.0-next.232"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.232.tgz#a8879e331d37259d99f72cbcffa00d177106b896"
-  integrity sha512-STQ0hnJozIop8k9I313nwVasBIQ45Z2K1pUOkDVjCSOGijgsj+De5q0prQBtL1ZlqqisfkYlOf8W9gvDSyTLEA==
+"@sveltejs/kit@1.0.0-next.240":
+  version "1.0.0-next.240"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.240.tgz#189d313b247908e781b6ea05c63b6ad22afb130b"
+  integrity sha512-cHdxdSKAdCuty2lYlRHXE4rJZuKd4wur9U63JtPwysTaReMEJl+s9J/LVvyBzaLW/13x8vm/kKqx+DDcI0udlA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     sade "^1.7.4"

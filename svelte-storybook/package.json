@@ -19,7 +19,7 @@
 		"@storybook/addon-links": "6.3.7",
 		"@storybook/addon-svelte-csf": "1.1.0",
 		"@storybook/svelte": "6.3.7",
-		"@sveltejs/kit": "1.0.0-next.232",
+		"@sveltejs/kit": "1.0.0-next.240",
 		"@typescript-eslint/eslint-plugin": "4.33.0",
 		"@typescript-eslint/parser": "4.33.0",
 		"babel-loader": "8.2.3",
