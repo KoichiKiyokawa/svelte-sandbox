@@ -32,7 +32,7 @@
   "volta": {
     "node": "16.13.2"
   },
-  "packageManager": "pnpm@6.27.1",
+  "packageManager": "pnpm@6.29.0",
   "dependencies": {
     "@prisma/client": "3.7.0"
   }
