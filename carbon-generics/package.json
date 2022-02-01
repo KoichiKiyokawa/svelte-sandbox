@@ -13,7 +13,7 @@
     "@rollup/plugin-node-resolve": "11.2.1",
     "@rollup/plugin-typescript": "8.3.0",
     "@tsconfig/svelte": "2.0.1",
-    "carbon-components-svelte": "0.54.0",
+    "carbon-components-svelte": "0.57.1",
     "rollup": "2.64.0",
     "rollup-plugin-css-only": "3.1.0",
     "rollup-plugin-livereload": "2.0.5",
