@@ -15,7 +15,7 @@
 <h1>edit</h1>
 <a href="./">back</a>
 
-<form use:form method="post">
+<form use:form method="post" action="?_method=PUT">
 	<label>name:<input name="name" /></label>
 	<label>email: <input type="email" name="email" /></label>
 

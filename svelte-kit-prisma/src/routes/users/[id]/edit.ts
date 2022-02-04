@@ -5,11 +5,16 @@ import type { RequestHandler } from '@sveltejs/kit';
 
 export const get: RequestHandler<{ user: User }> = async ({ params }) => {
 	const user = await db.user.findUnique({ where: { id: params.id } });
+	if (user === null) return { status: 404 };
+
 	return { body: { user } };
 };
 
-export const post: RequestHandler = async ({ request, params }) => {
+export const put: RequestHandler = async ({ request, params }) => {
+	console.log(request);
+
 	const data = await requestToJson<User>(request);
+
 	await db.user.update({ data, where: { id: params.id } });
 	return {
 		status: 302,
