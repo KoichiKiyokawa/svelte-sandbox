@@ -21,7 +21,7 @@
     "eslint-plugin-svelte3": "3.4.0",
     "prettier": "2.5.1",
     "prettier-plugin-svelte": "2.6.0",
-    "prisma": "3.7.0",
+    "prisma": "3.9.1",
     "svelte": "3.46.2",
     "svelte-check": "2.3.0",
     "svelte-preprocess": "4.10.2",
@@ -34,6 +34,6 @@
   },
   "packageManager": "pnpm@6.29.0",
   "dependencies": {
-    "@prisma/client": "3.7.0"
+    "@prisma/client": "3.9.1"
   }
 }
