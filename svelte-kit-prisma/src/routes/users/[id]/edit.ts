@@ -11,8 +11,6 @@ export const get: RequestHandler<{ user: User }> = async ({ params }) => {
 };
 
 export const put: RequestHandler = async ({ request, params }) => {
-	console.log(request);
-
 	const data = await requestToJson<User>(request);
 
 	await db.user.update({ data, where: { id: params.id } });

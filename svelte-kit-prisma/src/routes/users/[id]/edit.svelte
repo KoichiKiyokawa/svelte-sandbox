@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { User } from '@prisma/client';
 	import { createForm } from 'felte';
+	import Form from '$lib/components/Form.svelte';
 
 	export let user: User;
 
@@ -15,9 +16,9 @@
 <h1>edit</h1>
 <a href="./">back</a>
 
-<form use:form method="post" action="?_method=PUT">
+<Form use={form} method="PUT">
 	<label>name:<input name="name" /></label>
 	<label>email: <input type="email" name="email" /></label>
 
 	<button disabled={$isSubmitting || !$isValid}>submit</button>
-</form>
+</Form>
