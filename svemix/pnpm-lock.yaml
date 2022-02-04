@@ -15,7 +15,7 @@ specifiers:
   svelte: 3.46.2
   svelte-check: 2.3.0
   svelte-preprocess: 4.10.2
-  svemix: 0.6.2
+  svemix: 0.7.1
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -36,7 +36,7 @@ devDependencies:
   svelte: 3.46.2
   svelte-check: 2.3.0_svelte@3.46.2
   svelte-preprocess: 4.10.2_svelte@3.46.2+typescript@4.5.5
-  svemix: 0.6.2
+  svemix: 0.7.1
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -1617,8 +1617,10 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svemix/0.6.2:
-    resolution: {integrity: sha512-2VI6JbuQgHkv6+bVuBvQ/h6pgruIlmCeFDvt5n3QG+QApFB6BsT/E0Mw5S2ijXfRNzHaB3ciSssuFo+ZwDSRrA==}
+  /svemix/0.7.1:
+    resolution: {integrity: sha512-deb3he6H5F6JFX4fAXbZUrYolIUUPUBowJWmgAVUCHv+slLrjBx9eUQo7s6KDGvKgb5ofWUrhMl1AsX2jD3TsA==}
+    dependencies:
+      prettier: 2.5.1
     dev: true
 
   /table/6.7.5:
