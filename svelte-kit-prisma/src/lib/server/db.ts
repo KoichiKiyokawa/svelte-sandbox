@@ -1,6 +1,19 @@
-import Prisma, * as PrismaAll from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 
-// cf) https://github.com/mikenikles/sveltekit-prisma/blob/main/src/lib/prisma.ts
-const PrismaClient = Prisma?.PrismaClient || PrismaAll?.PrismaClient;
+declare global {
+	// eslint-disable-next-line no-var
+	var prisma: PrismaClient;
+}
 
-export const db = new PrismaClient();
+let prisma;
+
+if (process.env.NODE_ENV === 'production') {
+	prisma = new PrismaClient();
+} else {
+	if (!globalThis.prisma) {
+		globalThis.prisma = new PrismaClient();
+	}
+	prisma = globalThis.prisma;
+}
+
+export const db = prisma;
