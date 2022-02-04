@@ -9,4 +9,8 @@
 <p>{user.name}</p>
 <p>{user.email}</p>
 
+<p>
+	<a href="/users">back to index page</a>
+</p>
+
 <span>go to <a href="{$page.params.id}/edit">edit</a></span>
