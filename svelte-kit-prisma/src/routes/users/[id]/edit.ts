@@ -1,4 +1,5 @@
 import { db } from '$lib/server/db';
+import { arrayify } from '$lib/utils/array';
 import { requestToJson } from '$lib/utils/request';
 import type { Tag, User } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
@@ -18,10 +19,9 @@ export const get: RequestHandler<{ user: UserWithTag; allTags: Tag[] }> = async 
 
 export const put: RequestHandler = async ({ request, params }) => {
 	const { tagIds, ...data } = await requestToJson<User & { tagIds: string | string[] }>(request);
-	const tagIdsArray: string[] = ([] as string[]).concat(tagIds);
 
 	await db.user.update({
-		data: { ...data, tags: { set: tagIdsArray.map((id) => ({ id })) } },
+		data: { ...data, tags: { set: arrayify(tagIds).map((id) => ({ id })) } },
 		where: { id: params.id }
 	});
 	return {
