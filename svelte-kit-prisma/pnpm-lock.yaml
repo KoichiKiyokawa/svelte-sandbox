@@ -10,7 +10,7 @@ specifiers:
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.4.0
-  felte: 0.9.0
+  felte: 0.9.1
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
   prisma: 3.9.1
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   '@prisma/client': 3.9.1_prisma@3.9.1
-  felte: 0.9.0_svelte@3.46.4
+  felte: 0.9.1_svelte@3.46.4
   zod: 3.11.6
 
 devDependencies:
@@ -990,8 +990,8 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /felte/0.9.0_svelte@3.46.4:
-    resolution: {integrity: sha512-B7ML7Xopy9D/PI2Z28wFQZ+wcUtB6mqMbKVBneHPWsphCZPFY0dE2asPd9n0lhgx0bvSO4n8Aq0VNlqt2mGFfw==}
+  /felte/0.9.1_svelte@3.46.4:
+    resolution: {integrity: sha512-Oe5iA0t6CsP9Hqg8nBhvoVsBD4TilPFh8JlnK3h0yED+1CDGxC34iVw9V1ewuWnQf3t6P+YINqawfKvU0ePCKg==}
     peerDependencies:
       svelte: ^3.31.0
     dependencies:
