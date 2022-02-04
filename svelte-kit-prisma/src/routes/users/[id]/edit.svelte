@@ -1,9 +1,11 @@
 <script lang="ts">
-	import type { User } from '@prisma/client';
+	import type { Tag, User } from '@prisma/client';
 	import { createForm } from 'felte';
 	import Form from '$lib/components/Form.svelte';
+	import type { UserWithTag } from './edit';
 
-	export let user: User;
+	export let user: UserWithTag;
+	export let allTags: Tag[];
 
 	const { isSubmitting, isValid, form } = createForm<User>({
 		initialValues: user,
@@ -19,6 +21,19 @@
 <Form use={form} method="PUT">
 	<label>name:<input name="name" /></label>
 	<label>email: <input type="email" name="email" /></label>
+
+	<h2>tags</h2>
+	{#each allTags as tag}
+		<label>
+			<input
+				type="checkbox"
+				name="tagIds"
+				value={tag.id}
+				checked={user.tags.some((connectedTag) => connectedTag.id === tag.id)}
+			/>
+			{tag.name}
+		</label>
+	{/each}
 
 	<button disabled={$isSubmitting || !$isValid}>submit</button>
 </Form>

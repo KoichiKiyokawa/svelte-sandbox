@@ -4,11 +4,16 @@ const { PrismaClient } = pkg;
 const db = new PrismaClient();
 
 async function seed() {
-	await Promise.all(
-		Array.from(Array(10).keys()).map((i) =>
-			db.user.create({ data: { name: `user${i}`, email: `user${i}@example.com` } })
-		)
-	);
+	await db.user.deleteMany();
+	await db.tag.deleteMany();
+
+	for (let i = 1; i <= 10; i++) {
+		await db.user.create({ data: { name: `user${i}`, email: `user${i}@example.com` } });
+	}
+
+	for (let i = 1; i <= 10; i++) {
+		await db.tag.create({ data: { name: `tag${i}` } });
+	}
 }
 
 seed();

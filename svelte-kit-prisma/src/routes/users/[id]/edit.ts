@@ -1,19 +1,29 @@
 import { db } from '$lib/server/db';
 import { requestToJson } from '$lib/utils/request';
-import type { User } from '@prisma/client';
+import type { Tag, User } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
 
-export const get: RequestHandler<{ user: User }> = async ({ params }) => {
-	const user = await db.user.findUnique({ where: { id: params.id } });
+export type UserWithTag = User & { tags: Tag[] };
+
+export const get: RequestHandler<{ user: UserWithTag; allTags: Tag[] }> = async ({ params }) => {
+	const [user, allTags] = await Promise.all([
+		db.user.findUnique({ where: { id: params.id }, include: { tags: true } }),
+		db.tag.findMany()
+	]);
+
 	if (user === null) return { status: 404 };
 
-	return { body: { user } };
+	return { body: { user, allTags } };
 };
 
 export const put: RequestHandler = async ({ request, params }) => {
-	const data = await requestToJson<User>(request);
+	const { tagIds, ...data } = await requestToJson<User & { tagIds: string | string[] }>(request);
+	const tagIdsArray: string[] = ([] as string[]).concat(tagIds);
 
-	await db.user.update({ data, where: { id: params.id } });
+	await db.user.update({
+		data: { ...data, tags: { set: tagIdsArray.map((id) => ({ id })) } },
+		where: { id: params.id }
+	});
 	return {
 		status: 302,
 		headers: {

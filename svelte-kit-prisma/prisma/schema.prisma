@@ -14,4 +14,11 @@ model User {
   id    String @id @default(uuid())
   email String @unique
   name  String
+  tags  Tag[]
+}
+
+model Tag {
+  id    String @id @default(uuid())
+  name  String
+  users User[]
 }
