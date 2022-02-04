@@ -1,15 +1,16 @@
 <script lang="ts">
-	import type {} from 'svelte';
-	export let use: any = undefined;
+	export let use: any = () => {};
 	export let action: string | undefined = undefined;
 	export let method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH' = 'POST';
-	export let ref: HTMLFormElement | undefined = undefined;
+	export let ref: HTMLFormElement | null = null;
 </script>
 
 <form
 	use:use
-	method={method === 'GET' ? 'GET' : 'POST'}
-	action={(action || '') + ['PUT', 'PATCH', 'DELETE'].includes(method) ? `?_method=${method}` : ''}
+	method={method === 'GET' ? 'get' : 'post'}
+	action={['PUT', 'PATCH', 'DELETE'].includes(method)
+		? `${action || ''}?_method=${method}`
+		: action}
 	bind:this={ref}
 >
 	<slot />

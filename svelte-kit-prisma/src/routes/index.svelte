@@ -1,3 +1,6 @@
 <h1>index</h1>
 
-<a href="/users">users</a>
+<ul>
+	<li><a href="/users">users</a></li>
+	<li><a href="/todos">todos</a></li>
+</ul>

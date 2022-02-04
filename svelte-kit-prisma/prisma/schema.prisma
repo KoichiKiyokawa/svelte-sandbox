@@ -22,3 +22,9 @@ model Tag {
   name  String
   users User[]
 }
+
+model Todo {
+  id     String    @id @default(uuid())
+  title  String
+  doneAt DateTime?
+}
