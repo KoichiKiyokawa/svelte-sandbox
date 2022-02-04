@@ -4,7 +4,7 @@ specifiers:
   '@prisma/client': 3.9.1
   '@sveltejs/adapter-auto': 1.0.0-next.18
   '@sveltejs/kit': 1.0.0-next.260
-  '@types/node': 16.11.21
+  '@types/node': 16.11.22
   '@typescript-eslint/eslint-plugin': 4.33.0
   '@typescript-eslint/parser': 4.33.0
   eslint: 7.32.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.18
   '@sveltejs/kit': 1.0.0-next.260_svelte@3.46.4
-  '@types/node': 16.11.21
+  '@types/node': 16.11.22
   '@typescript-eslint/eslint-plugin': 4.33.0_959502c0ea240e86d4d2ba8b8c0fee45
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.5
   eslint: 7.32.0
@@ -42,7 +42,7 @@ devDependencies:
   svelte: 3.46.4
   svelte-check: 2.3.0_svelte@3.46.4
   svelte-preprocess: 4.10.2_svelte@3.46.4+typescript@4.5.5
-  ts-node: 10.4.0_06de4b00c69b73d094e2c5b522a6ad57
+  ts-node: 10.4.0_247b6ed5e900a7cb1f087e65be0c3da9
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -267,8 +267,8 @@ packages:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
     dev: true
 
-  /@types/node/16.11.21:
-    resolution: {integrity: sha512-Pf8M1XD9i1ksZEcCP8vuSNwooJ/bZapNmIzpmsMaL+jMI+8mEYU3PKvs+xDNuQcJWF/x24WzY4qxLtB0zNow9A==}
+  /@types/node/16.11.22:
+    resolution: {integrity: sha512-DYNtJWauMQ9RNpesl4aVothr97/tIJM8HbyOXJ0AYT1Z2bEjLHyfjOBPAQQVMLf8h3kSShYfNk8Wnto8B2zHUA==}
     dev: true
 
   /@types/pug/2.0.6:
@@ -278,7 +278,7 @@ packages:
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
     dev: true
 
   /@typescript-eslint/eslint-plugin/4.33.0_959502c0ea240e86d4d2ba8b8c0fee45:
@@ -1722,7 +1722,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-node/10.4.0_06de4b00c69b73d094e2c5b522a6ad57:
+  /ts-node/10.4.0_247b6ed5e900a7cb1f087e65be0c3da9:
     resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
@@ -1741,7 +1741,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.11.21
+      '@types/node': 16.11.22
       acorn: 8.7.0
       acorn-walk: 8.2.0
       arg: 4.1.3
