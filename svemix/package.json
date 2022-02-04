@@ -28,7 +28,7 @@
 		"svelte": "3.46.2",
 		"svelte-check": "2.3.0",
 		"svelte-preprocess": "4.10.2",
-		"svemix": "0.6.2",
+		"svemix": "0.7.1",
 		"tslib": "2.3.1",
 		"typescript": "4.5.5"
 	},
