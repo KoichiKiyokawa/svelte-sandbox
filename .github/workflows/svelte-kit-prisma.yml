@@ -15,6 +15,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: svelte-kit-prisma
     strategy:
       matrix:
         node-version:
