@@ -4,7 +4,7 @@ import { db } from '$lib/server/db';
 
 export const get: RequestHandler<{
 	users: User[];
-	errors: { [K in keyof User]?: string };
+	errors?: { [K in keyof User]?: string };
 }> = async () => {
 	const users = await db.user.findMany();
 

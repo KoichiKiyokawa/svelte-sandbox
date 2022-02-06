@@ -17,11 +17,17 @@ export const get: RequestHandler<{ user: UserWithTag; allTags: Tag[] }> = async 
 	return { body: { user, allTags } };
 };
 
-export const put: RequestHandler = async ({ request, params }) => {
+export const put: RequestHandler<{
+	errors?: { [K in keyof User]: string };
+	errorMessage: string;
+}> = async ({ request, params }) => {
 	const { tagIds, ...data } = await requestToJson<User & { tagIds: string | string[] }>(request);
 
 	await db.user.update({
-		data: { ...data, tags: { set: arrayify(tagIds).map((id) => ({ id })) } },
+		data: {
+			...data,
+			...(tagIds?.length && { tags: { set: arrayify(tagIds).map((id) => ({ id })) } })
+		},
 		where: { id: params.id }
 	});
 	return {
