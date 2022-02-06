@@ -1,4 +1,5 @@
 <script lang="ts">
+	// eslint-disable-next-line @typescript-eslint/no-empty-function
 	export let use: any = () => {};
 	export let action: string | undefined = undefined;
 	export let method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH' = 'POST';
