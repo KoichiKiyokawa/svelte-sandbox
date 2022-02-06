@@ -41,5 +41,5 @@
 	"prisma": {
 		"seed": "esmo prisma/seed.ts"
 	},
-	"packageManager": "pnpm@6.29.1"
+	"packageManager": "pnpm@6.29.2"
 }
