@@ -3,11 +3,13 @@ on:
   push:
     paths:
       - svelte-kit-prisma/**
+      - .github/workflows/svelte-kit-prisma.yml
     branches:
       - main
   pull_request:
     paths:
       - svelte-kit-prisma/**
+      - .github/workflows/svelte-kit-prisma.yml
     branches:
       - main
 jobs:
