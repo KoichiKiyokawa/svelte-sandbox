@@ -1,5 +1,5 @@
 import { db } from '$lib/server/db';
-import { arrayify } from '$lib/utils/array';
+import { arraify } from '$lib/utils/array';
 import { requestToJson } from '$lib/utils/request';
 import type { Tag, User } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
@@ -26,7 +26,7 @@ export const put: RequestHandler<{
 	await db.user.update({
 		data: {
 			...data,
-			...(tagIds?.length && { tags: { set: arrayify(tagIds).map((id) => ({ id })) } })
+			...(tagIds?.length && { tags: { set: arraify(tagIds).map((id) => ({ id })) } })
 		},
 		where: { id: params.id }
 	});
