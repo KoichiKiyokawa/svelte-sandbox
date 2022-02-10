@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@prisma/client': 3.9.1
+  '@prisma/client': 3.9.2
   '@sveltejs/adapter-auto': 1.0.0-next.19
   '@sveltejs/kit': 1.0.0-next.263
   '@types/node': 16.11.24
@@ -14,7 +14,7 @@ specifiers:
   felte: 0.9.1
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
-  prisma: 3.9.1
+  prisma: 3.9.2
   svelte: 3.46.4
   svelte-check: 2.4.3
   svelte-preprocess: 4.10.3
@@ -23,7 +23,7 @@ specifiers:
   zod: 3.11.6
 
 dependencies:
-  '@prisma/client': 3.9.1_prisma@3.9.1
+  '@prisma/client': 3.9.2_prisma@3.9.2
   felte: 0.9.1_svelte@3.46.4
   zod: 3.11.6
 
@@ -39,7 +39,7 @@ devDependencies:
   esno: 0.14.1
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
-  prisma: 3.9.1
+  prisma: 3.9.2
   svelte: 3.46.4
   svelte-check: 2.4.3_svelte@3.46.4
   svelte-preprocess: 4.10.3_svelte@3.46.4+typescript@4.5.5
@@ -115,8 +115,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@prisma/client/3.9.1_prisma@3.9.1:
-    resolution: {integrity: sha512-aLwfXKLvL+loQ0IuPPCXkcq8cXBg1IeoHHa5lqQu3dJHdj45wnislA/Ny4UxRQjD5FXqrfAb8sWtF+jhdmjFTg==}
+  /@prisma/client/3.9.2_prisma@3.9.2:
+    resolution: {integrity: sha512-VlEIYVMyfFZHbVBOlunPl47gmP/Z0zzPjPj8I7uKEIaABqrUy50ru3XS0aZd8GFvevVwt7p91xxkUjNjrWhKAQ==}
     engines: {node: '>=12.6'}
     requiresBuild: true
     peerDependencies:
@@ -126,7 +126,7 @@ packages:
         optional: true
     dependencies:
       '@prisma/engines-version': 3.9.0-58.bcc2ff906db47790ee902e7bbc76d7ffb1893009
-      prisma: 3.9.1
+      prisma: 3.9.2
     dev: false
 
   /@prisma/engines-version/3.9.0-58.bcc2ff906db47790ee902e7bbc76d7ffb1893009:
@@ -1506,8 +1506,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prisma/3.9.1:
-    resolution: {integrity: sha512-IGcJAu5LzlFv+i+NNhOEh1J1xVVttsVdRBxmrMN7eIH+7mRN6L89Hz1npUAiz4jOpNlHC7n9QwaOYZGxTqlwQw==}
+  /prisma/3.9.2:
+    resolution: {integrity: sha512-i9eK6cexV74OgeWaH3+e6S07kvC9jEZTl6BqtBH398nlCU0tck7mE9dicY6YQd+euvMjjCtY89q4NgmaPnUsSg==}
     engines: {node: '>=12.6'}
     hasBin: true
     requiresBuild: true
