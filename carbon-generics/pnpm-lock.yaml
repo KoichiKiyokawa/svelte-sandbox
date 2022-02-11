@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.1.3
   '@rollup/plugin-typescript': 8.3.0
   '@tsconfig/svelte': 3.0.0
-  carbon-components-svelte: 0.57.1
+  carbon-components-svelte: 0.58.0
   rollup: 2.67.2
   rollup-plugin-css-only: 3.1.0
   rollup-plugin-livereload: 2.0.5
@@ -26,7 +26,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.67.2
   '@rollup/plugin-typescript': 8.3.0_0013780227dc696d322520825eac6c82
   '@tsconfig/svelte': 3.0.0
-  carbon-components-svelte: 0.57.1
+  carbon-components-svelte: 0.58.0
   rollup: 2.67.2
   rollup-plugin-css-only: 3.1.0_rollup@2.67.2
   rollup-plugin-livereload: 2.0.5
@@ -240,8 +240,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.57.1:
-    resolution: {integrity: sha512-R1KWCMlkpfykKsaaMqBAjI3gCUpjtYKaq5ZmXlwOIR/9Tr/NeNMEDisUewfexUlm6VxlKLN0Nkf0EFCqBg+myg==}
+  /carbon-components-svelte/0.58.0:
+    resolution: {integrity: sha512-I2OA9kn7FzidynFFLSvfmixQRqkLqa+qjnKMgCdonSD59zNVUB4bBOgSxaEujeAUJphrL6Hjm9kpm9EQRjX96A==}
     dependencies:
       flatpickr: 4.6.9
     dev: true
