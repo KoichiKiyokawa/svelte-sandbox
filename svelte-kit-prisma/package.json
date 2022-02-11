@@ -14,7 +14,7 @@
 		"seed": "prisma db seed"
 	},
 	"dependencies": {
-		"@prisma/client": "3.9.1",
+		"@prisma/client": "3.9.2",
 		"felte": "0.9.1",
 		"zod": "3.11.6"
 	},
@@ -30,7 +30,7 @@
 		"esno": "0.14.1",
 		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.6.0",
-		"prisma": "3.9.1",
+		"prisma": "3.9.2",
 		"svelte": "3.46.4",
 		"svelte-check": "2.4.3",
 		"svelte-preprocess": "4.10.3",
