@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.11.0
   '@typescript-eslint/parser': 5.11.0
-  carbon-components-svelte: 0.58.0
+  carbon-components-svelte: 0.58.1
   eslint: 8.9.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.4.0
@@ -30,7 +30,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.266_svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
   '@typescript-eslint/parser': 5.11.0_eslint@8.9.0+typescript@4.5.5
-  carbon-components-svelte: 0.58.0
+  carbon-components-svelte: 0.58.1
   eslint: 8.9.0
   eslint-config-prettier: 8.3.0_eslint@8.9.0
   eslint-plugin-svelte3: 3.4.0_eslint@8.9.0+svelte@3.46.4
@@ -426,8 +426,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.58.0:
-    resolution: {integrity: sha512-I2OA9kn7FzidynFFLSvfmixQRqkLqa+qjnKMgCdonSD59zNVUB4bBOgSxaEujeAUJphrL6Hjm9kpm9EQRjX96A==}
+  /carbon-components-svelte/0.58.1:
+    resolution: {integrity: sha512-ZzP317SCwyUYNoYQzPZWW33dD87ieiIlt0mfSZcxqwPu1hhWepcgnRC1Aql19TFg8dexyhiQSCocZiqQo6q3jg==}
     dependencies:
       flatpickr: 4.6.9
     dev: true
