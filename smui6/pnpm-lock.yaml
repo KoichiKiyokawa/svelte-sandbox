@@ -11,7 +11,7 @@ specifiers:
   eslint-plugin-svelte3: 3.4.0
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
-  smui-theme: 6.0.0-beta.13
+  smui-theme: 6.0.0-beta.14
   svelte: 3.46.4
   svelte-check: 2.4.3
   svelte-preprocess: 4.10.3
@@ -21,7 +21,7 @@ specifiers:
 devDependencies:
   '@smui/button': 6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5
   '@sveltejs/adapter-auto': 1.0.0-next.17
-  '@sveltejs/kit': 1.0.0-next.266_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.267_svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
   '@typescript-eslint/parser': 5.11.0_eslint@8.9.0+typescript@4.5.5
   eslint: 8.9.0
@@ -29,7 +29,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.4.0_eslint@8.9.0+svelte@3.46.4
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
-  smui-theme: 6.0.0-beta.13
+  smui-theme: 6.0.0-beta.14
   svelte: 3.46.4
   svelte-check: 2.4.3_svelte@3.46.4
   svelte-preprocess: 4.10.3_svelte@3.46.4+typescript@4.5.5
@@ -287,8 +287,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.266_svelte@3.46.4:
-    resolution: {integrity: sha512-nlc+ECltLIadY12K+DerDLtgKRBe/ri+R5e2iWFIovetk31heU92nd1k24DL+FMcNo7B0Ik4XxurHCV2eoft3g==}
+  /@sveltejs/kit/1.0.0-next.267_svelte@3.46.4:
+    resolution: {integrity: sha512-zwtSuhgQV4qCXggmSU6hduFLuEE/7HMBNgRDHNjFPlXTn6VZT6whKPIfLGVRpHVveOyYzCxH6Dcy7nl0wfZ9kw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1710,9 +1710,9 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sass/1.48.0:
-    resolution: {integrity: sha512-hQi5g4DcfjcipotoHZ80l7GNJHGqQS5LwMBjVYB/TaT0vcSSpbgM8Ad7cgfsB2M0MinbkEQQPO9+sjjSiwxqmw==}
-    engines: {node: '>=8.9.0'}
+  /sass/1.49.7:
+    resolution: {integrity: sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.2
@@ -1745,13 +1745,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /smui-theme/6.0.0-beta.13:
-    resolution: {integrity: sha512-RMXTdqW+aCCOlx4t3i9b9iKTZDOrlrM6DnQ7ZXDnH3otp9fsndf0TMZkdr0Bk3RhkigeA0NdEi4aHmF10jU2Bg==}
+  /smui-theme/6.0.0-beta.14:
+    resolution: {integrity: sha512-C5ZPVFNT/Pf4uRLC7c8LVuYMt2VC9eZ8bupp1qYnpoLA/i/AKEdWngF7Crbc9LkgLgdFNj/VJ/tuDnZ3jcxBQg==}
     hasBin: true
     dependencies:
       node-fetch: 2.6.7
-      sass: 1.48.0
-      yargs: 16.2.0
+      sass: 1.49.7
+      yargs: 17.3.1
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -2063,14 +2063,14 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
-  /yargs-parser/20.2.9:
-    resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
-    engines: {node: '>=10'}
+  /yargs-parser/21.0.0:
+    resolution: {integrity: sha512-z9kApYUOCwoeZ78rfRYYWdiU/iNL6mwwYlkkZfJoyMR1xps+NEBX5X7XmRpxkZHhXJ6+Ey00IwKxBBSW9FIjyA==}
+    engines: {node: '>=12'}
     dev: true
 
-  /yargs/16.2.0:
-    resolution: {integrity: sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==}
-    engines: {node: '>=10'}
+  /yargs/17.3.1:
+    resolution: {integrity: sha512-WUANQeVgjLbNsEmGk20f+nlHgOqzRFpiGWVaBrYGYIGANIIu3lWjoyi0fNlFmJkvfhCZ6BXINe7/W2O2bV4iaA==}
+    engines: {node: '>=12'}
     dependencies:
       cliui: 7.0.4
       escalade: 3.1.1
@@ -2078,5 +2078,5 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.3
       y18n: 5.0.8
-      yargs-parser: 20.2.9
+      yargs-parser: 21.0.0
     dev: true
