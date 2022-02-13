@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@smui/button': 6.0.0-beta.13
+  '@smui/button': 6.0.0-beta.14
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.11.0
@@ -19,9 +19,9 @@ specifiers:
   typescript: 4.5.5
 
 devDependencies:
-  '@smui/button': 6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5
+  '@smui/button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
   '@sveltejs/adapter-auto': 1.0.0-next.17
-  '@sveltejs/kit': 1.0.0-next.266_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.267_svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
   '@typescript-eslint/parser': 5.11.0_eslint@8.9.0+typescript@4.5.5
   eslint: 8.9.0
@@ -220,39 +220,39 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@smui/button/6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5:
-    resolution: {integrity: sha512-wk+rQ7/7JWPUtJ/KZCivMyNurqb/Y9GBRXQ4uPriomyLT9z/rL7RCIszKcHBd0XiheCSmoCQyJHtX3tnNu3JQQ==}
+  /@smui/button/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-LkgE05tRG3TC7o8e3QdgJYi02xe4QMRH8xTQ/rfFh7zjRmtLmk5KATihIzdMCVprslbUt4Qioekd+4PoLUETHw==}
     dependencies:
       '@material/button': 13.0.0
       '@material/elevation': 13.0.0
       '@material/feature-targeting': 13.0.0
       '@material/ripple': 13.0.0
       '@material/theme': 13.0.0
-      '@smui/common': 6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5
-      '@smui/ripple': 6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5
+      '@smui/common': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/common/6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5:
-    resolution: {integrity: sha512-cG7AL8iOuikryVSQlaNitJq1IrtjM/+Wlw9BaqzgPKNpvSH0wPDNk+znLx/KH87YUyYLaJpQ1vaF7EHpnTXJ3Q==}
+  /@smui/common/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-vKnOS8cT5TGS+kuVKIv/8IyA78+njhk/H8lL0HAqEK0dPLzQpqRjorRTR28i380d2ip7u6SlUPkEyUJJnQZavw==}
     dependencies:
       '@material/dom': 13.0.0
-      '@tsconfig/svelte': 2.0.1
+      '@tsconfig/svelte': 3.0.0
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/ripple/6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5:
-    resolution: {integrity: sha512-/TtXE7s/w1QBpNOLtZWxKODdhXzCTws8ZgFXLDqFEWuVa9XGEEC1zm/dZ82jyjC8YyJJ0kJgzfdenIUbBWHmGA==}
+  /@smui/ripple/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-5kmisE0uY2tUklCGqUd1SUBSc2wlaqSVSXYp/b674YcqD7RSH8iatfodEAg0z2Qz5n1sLH4DT/FqZDwX0z/fBQ==}
     dependencies:
       '@material/dom': 13.0.0
       '@material/ripple': 13.0.0
-      '@smui/common': 6.0.0-beta.13_svelte@3.46.4+typescript@4.5.5
+      '@smui/common': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
@@ -287,8 +287,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.266_svelte@3.46.4:
-    resolution: {integrity: sha512-nlc+ECltLIadY12K+DerDLtgKRBe/ri+R5e2iWFIovetk31heU92nd1k24DL+FMcNo7B0Ik4XxurHCV2eoft3g==}
+  /@sveltejs/kit/1.0.0-next.267_svelte@3.46.4:
+    resolution: {integrity: sha512-zwtSuhgQV4qCXggmSU6hduFLuEE/7HMBNgRDHNjFPlXTn6VZT6whKPIfLGVRpHVveOyYzCxH6Dcy7nl0wfZ9kw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -329,8 +329,8 @@ packages:
       - supports-color
     dev: true
 
-  /@tsconfig/svelte/2.0.1:
-    resolution: {integrity: sha512-aqkICXbM1oX5FfgZd2qSSAGdyo/NRxjWCamxoyi3T8iVQnzGge19HhDYzZ6NrVOW7bhcWNSq9XexWFtMzbB24A==}
+  /@tsconfig/svelte/3.0.0:
+    resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
     dev: true
 
   /@types/json-schema/7.0.9:
