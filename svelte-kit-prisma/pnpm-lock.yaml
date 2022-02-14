@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@prisma/client': 3.9.2
-  '@sveltejs/adapter-auto': 1.0.0-next.22
+  '@sveltejs/adapter-auto': 1.0.0-next.23
   '@sveltejs/kit': 1.0.0-next.267
   '@types/node': 16.11.24
   '@typescript-eslint/eslint-plugin': 5.11.0
@@ -28,7 +28,7 @@ dependencies:
   zod: 3.11.6
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.22
+  '@sveltejs/adapter-auto': 1.0.0-next.23
   '@sveltejs/kit': 1.0.0-next.267_svelte@3.46.4
   '@types/node': 16.11.24
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
@@ -148,16 +148,16 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.22:
-    resolution: {integrity: sha512-aVtFWNUGlOf5VSbeQ93Lk7QHkASJKTYOiHBrJobB4cbvHswlDdDekfcgGfWNmJMU1bCMRBi1rmKaIpD6nDjAGg==}
+  /@sveltejs/adapter-auto/1.0.0-next.23:
+    resolution: {integrity: sha512-bdn7Wl5raXjygc6mW1voMh9VF1wngJrY9Z00V1d+4DIJrxZgtqwRW6asIx9CtKUBhEtgNbE85igJkUhj8Fi6Bg==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.10
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.11
       '@sveltejs/adapter-netlify': 1.0.0-next.45
       '@sveltejs/adapter-vercel': 1.0.0-next.43
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.10:
-    resolution: {integrity: sha512-uuseWkF8vUAFjZgYLap+vVApnqNTSFU7k4j1qKl/2gnsGNc5mZ5r4YFY/YRcMz48Fx+u7R5iPJAAx1hEWKz6ew==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.11:
+    resolution: {integrity: sha512-3nf1oy3q1jgx9cze1c2/xTHgRoSfu4PuJ5G7cluU9VXiT9i6bFWHu5GZKn9apQ2FM6Fa6li5+fPRPXpqdm2CFw==}
     dependencies:
       esbuild: 0.14.21
     dev: true
