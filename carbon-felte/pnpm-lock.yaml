@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@felte/validator-zod': 0.3.8
+  '@felte/validator-zod': 1.0.0
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.11.0
@@ -21,7 +21,7 @@ specifiers:
   zod: 3.11.6
 
 dependencies:
-  '@felte/validator-zod': 0.3.8_zod@3.11.6
+  '@felte/validator-zod': 1.0.0_zod@3.11.6
   felte: 0.9.1_svelte@3.46.4
   zod: 3.11.6
 
@@ -65,18 +65,24 @@ packages:
     resolution: {integrity: sha512-dLh+heGTGKQzIeUbLcJMEvDks3YTy99FFdUHg8/fxeIFSprUM/b4olK+tIMBrTE30AV2BFYeQHxB8hFpzUafAQ==}
     dev: false
 
+  /@felte/common/1.0.0:
+    resolution: {integrity: sha512-KfoDwcLVGTSbRHT0B4DovpMIFoeU+HxmjWwg4HYFTLNyDFNvYAgp9/KOkyNwPzMI+K2EX6Ermam6MhCGhu+bvQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: false
+
   /@felte/core/0.3.0:
     resolution: {integrity: sha512-v3rOg8wdchnQoMYJCPLelaJmgyG3doibYFqKmoOj7iQlnI738fczEEjDToJfa9UUbYBRDdgfYHXrEtEK7kYIGg==}
     dependencies:
       '@felte/common': 0.6.0
     dev: false
 
-  /@felte/validator-zod/0.3.8_zod@3.11.6:
-    resolution: {integrity: sha512-jfRIrgCCheuo6yPjZ3nzSAZjoFveAr4L9NPiFcizt66FNa8P7Y5oqmbHOjHlpe4d6Z2JCTtmJxcTcwgMBGa64A==}
+  /@felte/validator-zod/1.0.0_zod@3.11.6:
+    resolution: {integrity: sha512-HlXBHz+v6v+n0uC81UyAWcgFMgycDDYcwIcXo2AvelDj1qtXB+AtaoHz3b/k3rd1m+TgQuUYC67LQ5Uv2ZSNQw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       zod: ^3.2.0
     dependencies:
-      '@felte/common': 0.6.0
+      '@felte/common': 1.0.0
       zod: 3.11.6
     dev: false
 
