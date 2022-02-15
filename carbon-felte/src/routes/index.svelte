@@ -7,7 +7,7 @@
 
 	const schema = z.object({ drop: z.string().nonempty() });
 
-	const { data, setFields, form, validate, isValid } = createForm<z.infer<typeof schema>>({
+	const { setFields, form, validate, isValid } = createForm<z.infer<typeof schema>>({
 		onSubmit: async (values) => {
 			await validate();
 			alert(values.drop);
