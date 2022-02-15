@@ -20,7 +20,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "1.0.0-next.23",
-		"@sveltejs/kit": "1.0.0-next.269",
+		"@sveltejs/kit": "1.0.0-next.270",
 		"@types/node": "16.11.25",
 		"@typescript-eslint/eslint-plugin": "5.12.0",
 		"@typescript-eslint/parser": "5.12.0",
