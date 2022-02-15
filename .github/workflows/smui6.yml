@@ -1,15 +1,15 @@
-name: svelte-kit-prisma
+name: smui6
 on:
   push:
     paths:
-      - svelte-kit-prisma/**
-      - .github/workflows/svelte-kit-prisma.yml
+      - smui6/**
+      - .github/workflows/smui6.yml
     branches:
       - main
   pull_request:
     paths:
-      - svelte-kit-prisma/**
-      - .github/workflows/svelte-kit-prisma.yml
+      - smui6/**
+      - .github/workflows/smui6.yml
     branches:
       - main
 jobs:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: svelte-kit-prisma
+        working-directory: smui6
     strategy:
       matrix:
         node-version:
@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
-          cache-dependency-path: svelte-kit-prisma/pnpm-lock.yaml
+          cache-dependency-path: smui6/pnpm-lock.yaml
       - run: pnpm i
       - run: pnpm lint
       - run: pnpm tsc --noEmit

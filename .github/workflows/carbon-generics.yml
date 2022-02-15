@@ -1,15 +1,15 @@
-name: svelte-kit-prisma
+name: carbon-generics
 on:
   push:
     paths:
-      - svelte-kit-prisma/**
-      - .github/workflows/svelte-kit-prisma.yml
+      - carbon-generics/**
+      - .github/workflows/carbon-generics.yml
     branches:
       - main
   pull_request:
     paths:
-      - svelte-kit-prisma/**
-      - .github/workflows/svelte-kit-prisma.yml
+      - carbon-generics/**
+      - .github/workflows/carbon-generics.yml
     branches:
       - main
 jobs:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: svelte-kit-prisma
+        working-directory: carbon-generics
     strategy:
       matrix:
         node-version:
@@ -32,8 +32,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
-          cache-dependency-path: svelte-kit-prisma/pnpm-lock.yaml
+          cache-dependency-path: carbon-generics/pnpm-lock.yaml
       - run: pnpm i
-      - run: pnpm lint
+      # - run: pnpm lint
       - run: pnpm tsc --noEmit
       - run: pnpm build
