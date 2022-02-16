@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@graphql-codegen/cli': 2.6.1
+  '@graphql-codegen/cli': 2.6.2
   '@graphql-codegen/introspection': 2.1.1
   '@graphql-codegen/typescript': 2.4.3
   '@graphql-codegen/typescript-document-nodes': 2.2.3
@@ -23,7 +23,7 @@ dependencies:
   '@urql/core': 2.4.1_graphql@16.3.0
 
 devDependencies:
-  '@graphql-codegen/cli': 2.6.1_graphql@16.3.0+typescript@4.5.5
+  '@graphql-codegen/cli': 2.6.2_graphql@16.3.0+typescript@4.5.5
   '@graphql-codegen/introspection': 2.1.1_graphql@16.3.0
   '@graphql-codegen/typescript': 2.4.3_graphql@16.3.0
   '@graphql-codegen/typescript-document-nodes': 2.2.3_graphql@16.3.0
@@ -621,8 +621,8 @@ packages:
       - typescript
     dev: true
 
-  /@graphql-codegen/cli/2.6.1_graphql@16.3.0+typescript@4.5.5:
-    resolution: {integrity: sha512-bIpnujBEg/WRv0wl4W309hNUDK+glnSOkKQiuT2LpSN0nvJNsJsi1k4NCA4SGWs5ZbyLkWflfOXxEVkv5fVWZA==}
+  /@graphql-codegen/cli/2.6.2_graphql@16.3.0+typescript@4.5.5:
+    resolution: {integrity: sha512-UO75msoVgvLEvfjCezM09cQQqp32+mR8Ma1ACsBpr7nroFvHbgcu2ulx1cMovg4sxDBCsvd9Eq/xOOMpARUxtw==}
     hasBin: true
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -659,7 +659,7 @@ packages:
       listr: 0.14.3
       listr-update-renderer: 0.5.0_listr@0.14.3
       log-symbols: 4.1.0
-      minimatch: 3.0.4
+      minimatch: 4.2.1
       mkdirp: 1.0.4
       string-env-interpolation: 1.0.1
       ts-log: 2.2.4
@@ -3056,6 +3056,13 @@ packages:
 
   /minimatch/3.0.4:
     resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
+    dependencies:
+      brace-expansion: 1.1.11
+    dev: true
+
+  /minimatch/4.2.1:
+    resolution: {integrity: sha512-9Uq1ChtSZO+Mxa/CL1eGizn2vRn3MlLgzhT0Iz8zaY8NdvxvB0d5QdPFmCKf7JKA9Lerx5vRrnwO03jsSfGG9g==}
+    engines: {node: '>=10'}
     dependencies:
       brace-expansion: 1.1.11
     dev: true
