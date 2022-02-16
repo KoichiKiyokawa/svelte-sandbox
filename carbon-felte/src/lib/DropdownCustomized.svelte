@@ -4,7 +4,7 @@
 
 	export let selectedId: string | undefined = undefined;
 	export let items: DropdownItem[] = [];
-	export let name: string = '';
+	export let name = '';
 
 	let inputEl: HTMLInputElement;
 </script>
