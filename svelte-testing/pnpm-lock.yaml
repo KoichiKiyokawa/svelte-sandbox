@@ -8,7 +8,7 @@ specifiers:
   jest: 27.5.1
   svelte: 3.46.4
   svelte-check: 2.4.4
-  svelte-jester: 2.3.1
+  svelte-jester: 2.3.2
   svelte-preprocess: 4.10.3
   ts-jest: 27.1.3
   tslib: 2.3.1
@@ -23,7 +23,7 @@ devDependencies:
   jest: 27.5.1
   svelte: 3.46.4
   svelte-check: 2.4.4_svelte@3.46.4
-  svelte-jester: 2.3.1_jest@27.5.1+svelte@3.46.4
+  svelte-jester: 2.3.2_jest@27.5.1+svelte@3.46.4
   svelte-preprocess: 4.10.3_svelte@3.46.4+typescript@4.5.5
   ts-jest: 27.1.3_jest@27.5.1+typescript@4.5.5
   tslib: 2.3.1
@@ -3162,8 +3162,8 @@ packages:
       svelte: 3.46.4
     dev: true
 
-  /svelte-jester/2.3.1_jest@27.5.1+svelte@3.46.4:
-    resolution: {integrity: sha512-Iss/w6EhWRqQ8e3I+UwT4JQCexwnA22jhr+1PcOD8+P99yQh3SsHHK2r2Fvr4bHHjBtvOTgzxhkOyRXP45lj4Q==}
+  /svelte-jester/2.3.2_jest@27.5.1+svelte@3.46.4:
+    resolution: {integrity: sha512-JtxSz4FWAaCRBXbPsh4LcDs4Ua7zdXgLC0TZvT1R56hRV0dymmNP+abw67DTPF7sQPyNxWsOKd0Sl7Q8SnP8kg==}
     engines: {node: '>=14'}
     peerDependencies:
       jest: '>= 27'
