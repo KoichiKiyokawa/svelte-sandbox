@@ -6,7 +6,9 @@ import type { RequestHandler } from '@sveltejs/kit';
 
 export type UserWithTag = User & { tags: Tag[] };
 
-export const get: RequestHandler<{ user: UserWithTag; allTags: Tag[] }> = async ({ params }) => {
+export const get: RequestHandler<{ id: string }, { user: UserWithTag; allTags: Tag[] }> = async ({
+	params
+}) => {
 	const [user, allTags] = await Promise.all([
 		db.user.findUnique({ where: { id: params.id }, include: { tags: true } }),
 		db.tag.findMany()
@@ -17,10 +19,13 @@ export const get: RequestHandler<{ user: UserWithTag; allTags: Tag[] }> = async 
 	return { body: { user, allTags } };
 };
 
-export const put: RequestHandler<{
-	errors?: { [K in keyof User]: string };
-	errorMessage: string;
-}> = async ({ request, params }) => {
+export const put: RequestHandler<
+	{ id: string },
+	{
+		errors?: { [K in keyof User]: string };
+		errorMessage: string;
+	}
+> = async ({ request, params }) => {
 	const { tagIds, ...data } = await requestToJson<User & { tagIds: string | string[] }>(request);
 
 	await db.user.update({
