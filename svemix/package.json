@@ -12,7 +12,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"dependencies": {
-		"@prisma/client": "3.9.2"
+		"@prisma/client": "3.10.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
@@ -24,7 +24,7 @@
 		"eslint-plugin-svelte3": "3.4.0",
 		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.6.0",
-		"prisma": "3.9.2",
+		"prisma": "3.10.0",
 		"svelte": "3.46.4",
 		"svelte-check": "2.4.5",
 		"svelte-preprocess": "4.10.3",
