@@ -1,0 +1,42 @@
+name: svelte-hasura-uqrl
+on:
+  push:
+    paths:
+      - svelte-hasura-uqrl/**
+      - .github/workflows/svelte-hasura-uqrl.yml
+    branches:
+      - main
+  pull_request:
+    paths:
+      - svelte-hasura-uqrl/**
+      - .github/workflows/svelte-hasura-uqrl.yml
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: svelte-hasura-uqrl/web
+    strategy:
+      matrix:
+        node-version:
+          - 14.x
+          - 16.x
+          - 17.x
+    steps:
+      - uses: actions/checkout@v2
+      - run: corepack enable pnpm
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: svelte-hasura-uqrl/web/pnpm-lock.yaml
+      - run: pnpm i
+      - run: pnpm codegen
+        env:
+          AUTH_TOKEN: ${{secrets.SVELTE_URQL_HASURA_AUTH_TOKEN}}
+      - run: pnpm check
+      - run: pnpm tsc --noEmit
+      - run: pnpm build
