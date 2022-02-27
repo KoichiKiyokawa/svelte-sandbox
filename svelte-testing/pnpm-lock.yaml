@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.37
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.38
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3
   '@tsconfig/svelte': 3.0.0
@@ -16,7 +16,7 @@ specifiers:
   vite: 2.8.4
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.37_svelte@3.46.4+vite@2.8.4
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.38_svelte@3.46.4+vite@2.8.4
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3_svelte@3.46.4
   '@tsconfig/svelte': 3.0.0
@@ -660,8 +660,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.37_svelte@3.46.4+vite@2.8.4:
-    resolution: {integrity: sha512-EdSXw2rXeOahNrQfMJVZxa/NxZxW1a0TiBI3s+pVxnxU14hEQtnkLtdbTFhnceu22gJpNPFSIJRcIwRBBDQIeA==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.38_svelte@3.46.4+vite@2.8.4:
+    resolution: {integrity: sha512-epYAVZvfpiDZwB4Whe5AALk3zF5odKFf8Vx4q2tth+QuXmr0GLZ13ri02zINS6pHRCx+GjtOqCEEwMaPAfPcgQ==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5

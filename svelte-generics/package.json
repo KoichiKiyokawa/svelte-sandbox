@@ -9,7 +9,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.37",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.38",
     "@tsconfig/svelte": "3.0.0",
     "svelte": "3.46.4",
     "svelte-check": "2.4.5",
