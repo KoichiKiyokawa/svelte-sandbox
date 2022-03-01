@@ -12,7 +12,7 @@ specifiers:
   svelte-preprocess: 4.10.4
   ts-jest: 27.1.3
   tslib: 2.3.1
-  typescript: 4.5.5
+  typescript: 4.6.2
   vite: 2.8.5
 
 devDependencies:
@@ -24,10 +24,10 @@ devDependencies:
   svelte: 3.46.4
   svelte-check: 2.4.5_svelte@3.46.4
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.46.4
-  svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.5.5
-  ts-jest: 27.1.3_jest@27.5.1+typescript@4.5.5
+  svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.2
+  ts-jest: 27.1.3_jest@27.5.1+typescript@4.6.2
   tslib: 2.3.1
-  typescript: 4.5.5
+  typescript: 4.6.2
   vite: 2.8.5
 
 packages:
@@ -3139,8 +3139,8 @@ packages:
       sade: 1.8.1
       source-map: 0.7.3
       svelte: 3.46.4
-      svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.5.5
-      typescript: 4.5.5
+      svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.2
+      typescript: 4.6.2
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -3173,7 +3173,7 @@ packages:
       svelte: 3.46.4
     dev: true
 
-  /svelte-preprocess/4.10.4_svelte@3.46.4+typescript@4.5.5:
+  /svelte-preprocess/4.10.4_svelte@3.46.4+typescript@4.6.2:
     resolution: {integrity: sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -3221,7 +3221,7 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.46.4
-      typescript: 4.5.5
+      typescript: 4.6.2
     dev: true
 
   /svelte/3.46.4:
@@ -3286,7 +3286,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /ts-jest/27.1.3_jest@27.5.1+typescript@4.5.5:
+  /ts-jest/27.1.3_jest@27.5.1+typescript@4.6.2:
     resolution: {integrity: sha512-6Nlura7s6uM9BVUAoqLH7JHyMXjz8gluryjpPXxr3IxZdAXnU6FhjvVLHFtfd1vsE1p8zD1OJfskkc0jhTSnkA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -3315,7 +3315,7 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.5
-      typescript: 4.5.5
+      typescript: 4.6.2
       yargs-parser: 20.2.9
     dev: true
 
@@ -3346,8 +3346,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.5.5:
-    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
