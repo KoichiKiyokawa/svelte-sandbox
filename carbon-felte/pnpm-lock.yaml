@@ -18,12 +18,12 @@ specifiers:
   svelte-preprocess: 4.10.4
   tslib: 2.3.1
   typescript: 4.6.2
-  zod: 3.12.1
+  zod: 3.13.2
 
 dependencies:
-  '@felte/validator-zod': 1.0.2_zod@3.12.1
+  '@felte/validator-zod': 1.0.2_zod@3.13.2
   felte: 1.0.1_svelte@3.46.4
-  zod: 3.12.1
+  zod: 3.13.2
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.30
@@ -73,14 +73,14 @@ packages:
       '@felte/common': 1.0.1
     dev: false
 
-  /@felte/validator-zod/1.0.2_zod@3.12.1:
+  /@felte/validator-zod/1.0.2_zod@3.13.2:
     resolution: {integrity: sha512-WAWPGYWuRU2eTOtQ0QwYxSMgtvExaBZ8t6LovuB/5n6L/T2p0bSnZIxlqWNRbMghLhtJQr6G+qmeaFm5w4pn0Q==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       zod: ^3.2.0
     dependencies:
       '@felte/common': 1.0.1
-      zod: 3.12.1
+      zod: 3.13.2
     dev: false
 
   /@humanwhocodes/config-array/0.9.3:
@@ -1648,6 +1648,6 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
-  /zod/3.12.1:
-    resolution: {integrity: sha512-wm4Gm6ACayAagHRDIGyDS0H4dRI4gGVqOJ9M4X2UjwgN/rv+QPRUjcvGqZRHiVYVuvQTOszRSkZ074I1dzEy9A==}
+  /zod/3.13.2:
+    resolution: {integrity: sha512-xN+PKyFQEs4t/j4V6pAwYwglR2aXNcGc6T825dpVfVdlSZg58Bb3i90YAl5V6ItZIxO5HzceJ6bmvmmlPcclVw==}
     dev: false
