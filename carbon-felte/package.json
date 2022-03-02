@@ -32,6 +32,6 @@
 	"dependencies": {
 		"@felte/validator-zod": "1.0.2",
 		"felte": "1.0.1",
-		"zod": "3.12.1"
+		"zod": "3.13.2"
 	}
 }
