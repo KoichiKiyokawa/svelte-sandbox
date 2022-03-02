@@ -13,9 +13,5 @@ declare namespace App {
 		cookies: Record<string, string>; // all parsed cookies are automatically set from handleSession to avoid overhead
 	}
 
-	interface Platform {}
-
-	interface Session extends SessionData {}
-
-	interface Stuff {}
+	type Session = SessionData;
 }
