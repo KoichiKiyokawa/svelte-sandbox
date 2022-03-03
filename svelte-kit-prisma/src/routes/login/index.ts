@@ -1,10 +1,10 @@
 import { db } from '$lib/server/db';
-import { requestToJson } from '$lib/utils/request';
+import { jsonifyRequest } from '$lib/utils/request';
 import { RequestHandler } from '@sveltejs/kit';
 import bcrypt from 'bcryptjs';
 
 export const post: RequestHandler = async ({ request, locals }) => {
-	const { email, password } = await requestToJson<{ email: string; password: string }>(request);
+	const { email, password } = await jsonifyRequest<{ email: string; password: string }>(request);
 	const targetUser = await db.user.findUnique({ where: { email } });
 	if (targetUser === null) return { status: 404 };
 

@@ -1,5 +1,5 @@
 import { db } from '$lib/server/db';
-import { requestToJson } from '$lib/utils/request';
+import { jsonifyRequest } from '$lib/utils/request';
 import { Todo } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
 
@@ -12,7 +12,7 @@ export const get: RequestHandler<{ todos: Todo[] }> = async () => {
 };
 
 export const post: RequestHandler = async ({ request }) => {
-	const data = await requestToJson<Todo>(request);
+	const data = await jsonifyRequest<Todo>(request);
 	await db.todo.create({ data });
 	return { status: 200 };
 	// return {

@@ -1,4 +1,4 @@
-export async function requestToJson<T extends Record<string, unknown>>(
+export async function jsonifyRequest<T extends Record<string, unknown>>(
 	request: Request
 ): Promise<T> {
 	const form = await request.formData();
