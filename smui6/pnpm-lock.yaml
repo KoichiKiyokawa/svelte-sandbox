@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@smui/button': 6.0.0-beta.14
+  '@smui/button': 6.0.0-beta.15
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.13.0
@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.6.2
 
 devDependencies:
-  '@smui/button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+  '@smui/button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.289_svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
@@ -220,24 +220,24 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@smui/button/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-LkgE05tRG3TC7o8e3QdgJYi02xe4QMRH8xTQ/rfFh7zjRmtLmk5KATihIzdMCVprslbUt4Qioekd+4PoLUETHw==}
+  /@smui/button/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-0byc0VyBh5xXLHX8nR9R9/16uaMiNxCkHhm9fcz7Mq761qjxIt34AK8jlDOQQfLCP3/0PLNJjGk2+r+WtTaazA==}
     dependencies:
       '@material/button': 13.0.0
       '@material/elevation': 13.0.0
       '@material/feature-targeting': 13.0.0
       '@material/ripple': 13.0.0
       '@material/theme': 13.0.0
-      '@smui/common': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
-      '@smui/ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.6.2
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/common/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-vKnOS8cT5TGS+kuVKIv/8IyA78+njhk/H8lL0HAqEK0dPLzQpqRjorRTR28i380d2ip7u6SlUPkEyUJJnQZavw==}
+  /@smui/common/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-FzSKNFxC6IPhyu8YVh1GKHUddPchuvW3spYV59cEZfJHiQwG9NMEjfcCN546QMNXC9qdkrkL8XjOnW7uYZVdnQ==}
     dependencies:
       '@material/dom': 13.0.0
       '@tsconfig/svelte': 3.0.0
@@ -247,12 +247,12 @@ packages:
       - typescript
     dev: true
 
-  /@smui/ripple/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-5kmisE0uY2tUklCGqUd1SUBSc2wlaqSVSXYp/b674YcqD7RSH8iatfodEAg0z2Qz5n1sLH4DT/FqZDwX0z/fBQ==}
+  /@smui/ripple/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-f8SUeI8M7vrSGP9wLWq5KP6HsPBElqWoI5jDm6hcIQr0Q9xFRkPn64J4Cfph3EcSNbLGFGO5BLBbaw2lr89plw==}
     dependencies:
       '@material/dom': 13.0.0
       '@material/ripple': 13.0.0
-      '@smui/common': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.6.2
     transitivePeerDependencies:
       - svelte
