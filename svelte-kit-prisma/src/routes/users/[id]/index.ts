@@ -1,4 +1,4 @@
-import { db } from '$lib/server/db';
+import { db } from '$lib/utils/db.server';
 import type { User } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
 

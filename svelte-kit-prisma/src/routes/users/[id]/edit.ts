@@ -1,4 +1,4 @@
-import { db } from '$lib/server/db';
+import { db } from '$lib/utils/db.server';
 import { arraify } from '$lib/utils/array';
 import { jsonifyRequest } from '$lib/utils/request';
 import type { Tag, User } from '@prisma/client';

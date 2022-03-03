@@ -1,6 +1,6 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import type { User } from '@prisma/client';
-import { db } from '$lib/server/db';
+import { db } from '$lib/utils/db.server';
 
 export const get: RequestHandler<{
 	users: User[];

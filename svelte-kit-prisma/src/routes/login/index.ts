@@ -1,5 +1,5 @@
-import { db } from '$lib/server/db';
 import { jsonifyRequest } from '$lib/utils/request';
+import { db } from '$lib/utils/db.server';
 import { RequestHandler } from '@sveltejs/kit';
 import bcrypt from 'bcryptjs';
 

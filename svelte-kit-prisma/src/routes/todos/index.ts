@@ -1,5 +1,5 @@
-import { db } from '$lib/server/db';
 import { jsonifyRequest } from '$lib/utils/request';
+import { db } from '$lib/utils/db.server';
 import { Todo } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
 
