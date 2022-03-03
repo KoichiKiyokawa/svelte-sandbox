@@ -1,6 +1,6 @@
 import { db } from '$lib/utils/db.server';
 import { arraify } from '$lib/utils/array';
-import { jsonifyRequest } from '$lib/utils/request';
+import { jsonifyRequest } from '$lib/utils/request.server';
 import type { Tag, User } from '@prisma/client';
 import type { RequestHandler } from '@sveltejs/kit';
 

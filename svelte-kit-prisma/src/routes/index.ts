@@ -1,12 +1,6 @@
-import { assertIfNotLoggedIn } from '$lib/server/auth';
+import { useAuthorizedHandler } from '$lib/utils/request.server';
 import { RequestHandler } from '@sveltejs/kit';
 
-export const get: RequestHandler = ({ locals }) => {
-	try {
-		assertIfNotLoggedIn(locals);
-	} catch (e) {
-		return e as Body;
-	}
-
+export const get: RequestHandler = useAuthorizedHandler(() => {
 	return {};
-};
+});
