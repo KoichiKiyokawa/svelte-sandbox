@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@prisma/client': 3.10.0
   '@sveltejs/adapter-auto': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.290
+  '@sveltejs/kit': 1.0.0-next.291
   '@types/bcryptjs': ^2.4.2
   '@types/node': 16.11.26
   '@typescript-eslint/eslint-plugin': 5.13.0
@@ -33,7 +33,7 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.290_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.291_svelte@3.46.4
   '@types/bcryptjs': 2.4.2
   '@types/node': 16.11.26
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
@@ -182,8 +182,8 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.290_svelte@3.46.4:
-    resolution: {integrity: sha512-3Q0uX/auFYsoj3o7+vQtZ+ZsuRLAmVsra5hvkvml18EjfX1wGRNdLlPcl6VE95eAvViWe/65vGaNNC+02h1crA==}
+  /@sveltejs/kit/1.0.0-next.291_svelte@3.46.4:
+    resolution: {integrity: sha512-mFd1EJbxoyPGiomYwYhZnjNLPYahCC2gHfKvPetguL/7BCHcyUjjYQbwTTmjVxtgBs0oLzKVA9bt45gpr9JqBQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
