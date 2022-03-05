@@ -9,6 +9,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.13.0
   '@typescript-eslint/parser': 5.13.0
   bcryptjs: ^2.4.3
+  dayjs: 1.10.8
   eslint: 8.10.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
@@ -29,6 +30,7 @@ specifiers:
 
 dependencies:
   '@prisma/client': 3.10.0_prisma@3.10.0
+  dayjs: 1.10.8
   felte: 1.0.1_svelte@3.46.4
   svelte-kit-cookie-session: 2.1.2
   zod: 3.13.4
@@ -537,6 +539,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /dayjs/1.10.8:
+    resolution: {integrity: sha512-wbNwDfBHHur9UOzNUjeKUOJ0fCb0a52Wx0xInmQ7Y8FstyajiV1NmK1e00cxsr9YrE9r7yAChE0VvpuY5Rnlow==}
+    dev: false
 
   /debug/4.3.3:
     resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
