@@ -13,5 +13,6 @@ declare namespace App {
 		cookies: Record<string, string>; // all parsed cookies are automatically set from handleSession to avoid overhead
 	}
 
-	type Session = SessionData;
+	// eslint-disable-next-line @typescript-eslint/no-empty-interface
+	interface Session extends SessionData {}
 }

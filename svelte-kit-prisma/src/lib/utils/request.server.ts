@@ -1,5 +1,5 @@
-import { RequestHandler } from '@sveltejs/kit';
-import { Body } from '@sveltejs/kit/types/internal';
+import type { RequestHandler } from '@sveltejs/kit';
+import type { Body } from '@sveltejs/kit/types/internal';
 
 export const useAuthorizedHandler =
 	<Params = Record<string, string>, Output extends Body = Body>(

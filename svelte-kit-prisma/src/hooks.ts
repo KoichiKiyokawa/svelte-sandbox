@@ -1,4 +1,4 @@
-import { GetSession } from '@sveltejs/kit';
+import type { GetSession } from '@sveltejs/kit';
 import { handleSession } from 'svelte-kit-cookie-session';
 
 export const getSession: GetSession = async ({ locals }) => {
