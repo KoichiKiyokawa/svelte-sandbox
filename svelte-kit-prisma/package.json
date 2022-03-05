@@ -11,7 +11,7 @@
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"seed": "prisma db seed"
+		"seed": "tsm prisma/seed.ts"
 	},
 	"dependencies": {
 		"@prisma/client": "3.10.0",
@@ -44,8 +44,5 @@
 		"windicss": "3.5.1"
 	},
 	"type": "module",
-	"prisma": {
-		"seed": "tsm prisma/seed.ts"
-	},
 	"packageManager": "pnpm@6.32.2"
 }
