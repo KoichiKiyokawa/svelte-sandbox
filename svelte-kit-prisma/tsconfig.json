@@ -5,6 +5,7 @@
 		"lib": ["es2020", "DOM"],
 		"target": "es2020",
 		"isolatedModules": true,
+		"importsNotUsedAsValues": "error",
 		"resolveJsonModule": true,
 		/**
 			To have warnings/errors of the Svelte compiler at the correct position,
