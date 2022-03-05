@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { session } from '$app/stores';
 	import ArticleCard from '$lib/components/domain/articles/ArticleCard.svelte';
 	import type { ArticleWithAuthorAndTag } from './index';
 

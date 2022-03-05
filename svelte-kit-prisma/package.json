@@ -7,8 +7,8 @@
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"check": "svelte-check --tsconfig ./tsconfig.json --fail-on-warnings --fail-on-hints",
+		"check:watch": "pnpm run check -- --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"seed": "tsm prisma/seed.ts"
