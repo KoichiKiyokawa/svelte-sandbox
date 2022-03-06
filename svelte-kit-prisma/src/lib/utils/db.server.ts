@@ -1,14 +1,8 @@
-/**
- * [SyntaxError: Named export 'PrismaClient' not found. The requested module '@prisma/client' is a CommonJS module, which may not support all module.exports as named exports.
- * CommonJS modules can always be imported via the default export, for example using:
- */
-import pkg from '@prisma/client';
-import type { PrismaClient as TPrismaClient } from '@prisma/client';
-const { PrismaClient } = pkg;
+import { PrismaClient } from '@prisma/client';
 
 declare global {
 	// eslint-disable-next-line no-var
-	var prisma: TPrismaClient;
+	var prisma: PrismaClient;
 }
 
 let prisma;

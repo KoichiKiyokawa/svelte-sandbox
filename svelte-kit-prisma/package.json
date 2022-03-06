@@ -11,7 +11,7 @@
 		"check:watch": "pnpm run check -- --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"seed": "tsm prisma/seed.ts"
+		"seed": "esno prisma/seed.ts"
 	},
 	"dependencies": {
 		"@prisma/client": "3.10.0",
@@ -32,6 +32,7 @@
 		"eslint": "8.10.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "3.4.1",
+		"esno": "0.14.1",
 		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.6.0",
 		"prisma": "3.10.0",
@@ -39,7 +40,6 @@
 		"svelte-check": "2.4.5",
 		"svelte-preprocess": "4.10.4",
 		"tslib": "2.3.1",
-		"tsm": "^2.2.1",
 		"typescript": "4.6.2",
 		"vite-plugin-windicss": "1.8.3",
 		"windicss": "3.5.1"

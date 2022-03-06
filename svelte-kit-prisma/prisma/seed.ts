@@ -1,7 +1,6 @@
 import bcrypt from 'bcryptjs';
-import pkg from '@prisma/client';
 import dayjs from 'dayjs';
-const { PrismaClient } = pkg;
+import { PrismaClient } from '@prisma/client';
 
 const db = new PrismaClient();
 
