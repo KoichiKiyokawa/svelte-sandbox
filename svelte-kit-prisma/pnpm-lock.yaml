@@ -9,7 +9,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.14.0
   '@typescript-eslint/parser': 5.14.0
   bcryptjs: ^2.4.3
-  carbon-icons-svelte: 10.44.4
+  carbon-icons-svelte: 10.45.0
   dayjs: 1.10.8
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0
@@ -44,7 +44,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
   '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
   bcryptjs: 2.4.3
-  carbon-icons-svelte: 10.44.4
+  carbon-icons-svelte: 10.45.0
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0_eslint@8.11.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.11.0+svelte@3.46.4
@@ -501,8 +501,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-icons-svelte/10.44.4:
-    resolution: {integrity: sha512-KsqXj0tYFF4S9b4mDSyt3Ovo0TA6QQ6nW0XRoY7D7EahM6hGluz0CdMw3wp/lbAUItTlTfYk+aPpiCKvpbTIyA==}
+  /carbon-icons-svelte/10.45.0:
+    resolution: {integrity: sha512-49PUJh1AU7D0Llu4ddP3oJvSck1+PoYf6iyrBw3E41b9no0D5plN0+yu9ffcBEfYa2roUtOqy7lMkzhClksvYg==}
     dev: true
 
   /chalk/4.1.2:
