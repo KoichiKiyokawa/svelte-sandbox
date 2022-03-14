@@ -16,7 +16,7 @@
 		"@sveltejs/kit": "1.0.0-next.295",
 		"@typescript-eslint/eslint-plugin": "5.14.0",
 		"@typescript-eslint/parser": "5.14.0",
-		"carbon-components-svelte": "0.60.0",
+		"carbon-components-svelte": "0.61.1",
 		"eslint": "8.11.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "3.4.1",
