@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"@prisma/client": "3.10.0",
-		"dayjs": "1.10.8",
+		"dayjs": "1.11.0",
 		"felte": "1.1.1",
 		"svelte-kit-cookie-session": "^2.1.2",
 		"zod": "3.13.4"

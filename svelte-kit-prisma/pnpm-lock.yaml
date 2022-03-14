@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/parser': 5.14.0
   bcryptjs: ^2.4.3
   carbon-icons-svelte: 10.45.0
-  dayjs: 1.10.8
+  dayjs: 1.11.0
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
@@ -31,7 +31,7 @@ specifiers:
 
 dependencies:
   '@prisma/client': 3.10.0_prisma@3.10.0
-  dayjs: 1.10.8
+  dayjs: 1.11.0
   felte: 1.1.1_svelte@3.46.4
   svelte-kit-cookie-session: 2.1.2
   zod: 3.13.4
@@ -552,8 +552,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /dayjs/1.10.8:
-    resolution: {integrity: sha512-wbNwDfBHHur9UOzNUjeKUOJ0fCb0a52Wx0xInmQ7Y8FstyajiV1NmK1e00cxsr9YrE9r7yAChE0VvpuY5Rnlow==}
+  /dayjs/1.11.0:
+    resolution: {integrity: sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==}
     dev: false
 
   /debug/4.3.3:
