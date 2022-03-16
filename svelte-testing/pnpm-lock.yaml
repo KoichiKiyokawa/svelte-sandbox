@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.39
   '@testing-library/jest-dom': 5.16.2
-  '@testing-library/svelte': 3.0.3
+  '@testing-library/svelte': 3.1.0
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
   svelte: 3.46.4
@@ -18,7 +18,7 @@ specifiers:
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.39_svelte@3.46.4+vite@2.8.6
   '@testing-library/jest-dom': 5.16.2
-  '@testing-library/svelte': 3.0.3_svelte@3.46.4
+  '@testing-library/svelte': 3.1.0_svelte@3.46.4
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
   svelte: 3.46.4
@@ -711,8 +711,8 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/svelte/3.0.3_svelte@3.46.4:
-    resolution: {integrity: sha512-GxafAllShGM2nkntFGURZ7fYVlUYwv7K62lqv1aFqtTYzzeZ2Cu8zTVhtE/Qt3bk2zMl6+FPKP03wjLip/G8mA==}
+  /@testing-library/svelte/3.1.0_svelte@3.46.4:
+    resolution: {integrity: sha512-xTN6v4xRLQb75GTJn2mrjSUJN4PkhpNZFjwvtdzbOTS6OvxMrkRdm6hFRGauwiFd0LPV7/SqdWbbtMAOC7a+Dg==}
     engines: {node: '>= 8'}
     peerDependencies:
       svelte: 3.x
