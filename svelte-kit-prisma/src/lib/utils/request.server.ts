@@ -1,8 +1,10 @@
-import type { RequestHandler } from '@sveltejs/kit';
-import type { Body } from '@sveltejs/kit/types/internal';
+import type { RequestHandler, ResponseBody } from '@sveltejs/kit';
 
 export const useAuthorizedHandler =
-	<Params = Record<string, string>, Output extends Body = Body>(
+	<
+		Params extends Record<string, string> = Record<string, string>,
+		Output extends ResponseBody = ResponseBody
+	>(
 		handler: RequestHandler<Params, Output>,
 		option?: { redirectTo?: string }
 	): RequestHandler<Params, Output> =>

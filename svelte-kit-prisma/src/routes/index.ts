@@ -10,7 +10,8 @@ export type ArticleWithAuthorAndTag = Article & {
 	hasLiked: boolean;
 };
 
-export const get: RequestHandler<unknown, { articles: ArticleWithAuthorAndTag[] }> =
+// eslint-disable-next-line @typescript-eslint/ban-types
+export const get: RequestHandler<{}, { articles: ArticleWithAuthorAndTag[] }> =
 	useAuthorizedHandler(async ({ locals }) => {
 		const currentUserId = locals.session.data.userId;
 
