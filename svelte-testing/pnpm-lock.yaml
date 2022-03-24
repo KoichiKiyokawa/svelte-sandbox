@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.40
-  '@testing-library/jest-dom': 5.16.2
+  '@testing-library/jest-dom': 5.16.3
   '@testing-library/svelte': 3.1.0
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
@@ -17,7 +17,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.40_svelte@3.46.4+vite@2.8.6
-  '@testing-library/jest-dom': 5.16.2
+  '@testing-library/jest-dom': 5.16.3
   '@testing-library/svelte': 3.1.0_svelte@3.46.4
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
@@ -696,8 +696,8 @@ packages:
       pretty-format: 26.6.2
     dev: true
 
-  /@testing-library/jest-dom/5.16.2:
-    resolution: {integrity: sha512-6ewxs1MXWwsBFZXIk4nKKskWANelkdUehchEOokHsN8X7c2eKXGw+77aRV63UU8f/DTSVUPLaGxdrj4lN7D/ug==}
+  /@testing-library/jest-dom/5.16.3:
+    resolution: {integrity: sha512-u5DfKj4wfSt6akfndfu1eG06jsdyA/IUrlX2n3pyq5UXgXMhXY+NJb8eNK/7pqPWAhCKsCGWDdDO0zKMKAYkEA==}
     engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
     dependencies:
       '@babel/runtime': 7.17.0
