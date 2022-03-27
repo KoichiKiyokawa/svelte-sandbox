@@ -27,14 +27,14 @@ specifiers:
   typescript: 4.6.2
   vite-plugin-windicss: 1.8.3
   windicss: 3.5.1
-  zod: 3.13.4
+  zod: 3.14.3
 
 dependencies:
   '@prisma/client': 3.11.0_prisma@3.11.0
   dayjs: 1.11.0
   felte: 1.1.3_svelte@3.46.4
   svelte-kit-cookie-session: 2.1.2
-  zod: 3.13.4
+  zod: 3.14.3
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.33
@@ -1781,6 +1781,6 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
-  /zod/3.13.4:
-    resolution: {integrity: sha512-LZRucWt4j/ru5azOkJxCfpR87IyFDn8h2UODdqvXzZLb3K7bb9chUrUIGTy3BPsr8XnbQYfQ5Md5Hu2OYIo1mg==}
+  /zod/3.14.3:
+    resolution: {integrity: sha512-OzwRCSXB1+/8F6w6HkYHdbuWysYWnAF4fkRgKDcSFc54CE+Sv0rHXKfeNUReGCrHukm1LNpi6AYeXotznhYJbQ==}
     dev: false
