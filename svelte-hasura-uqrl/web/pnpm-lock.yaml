@@ -12,7 +12,7 @@ specifiers:
   '@urql/core': ^2.3.3
   '@urql/svelte': 1.3.3
   graphql: 16.3.0
-  svelte: 3.46.4
+  svelte: 3.46.6
   svelte-check: 2.4.6
   svelte-preprocess: 4.10.4
   tslib: 2.3.1
@@ -29,13 +29,13 @@ devDependencies:
   '@graphql-codegen/typescript-document-nodes': 2.2.8_graphql@16.3.0
   '@graphql-codegen/typescript-operations': 2.3.5_graphql@16.3.0
   '@graphql-codegen/urql-svelte-operations-store': 1.1.15_graphql@16.3.0
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.40_svelte@3.46.4+vite@2.9.1
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.40_svelte@3.46.6+vite@2.9.1
   '@tsconfig/svelte': 3.0.0
-  '@urql/svelte': 1.3.3_graphql@16.3.0+svelte@3.46.4
+  '@urql/svelte': 1.3.3_graphql@16.3.0+svelte@3.46.6
   graphql: 16.3.0
-  svelte: 3.46.4
-  svelte-check: 2.4.6_svelte@3.46.4
-  svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.3
+  svelte: 3.46.6
+  svelte-check: 2.4.6_svelte@3.46.6
+  svelte-preprocess: 4.10.4_svelte@3.46.6+typescript@4.6.3
   tslib: 2.3.1
   typescript: 4.6.3
   vite: 2.9.1
@@ -1189,7 +1189,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.40_svelte@3.46.4+vite@2.9.1:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.40_svelte@3.46.6+vite@2.9.1:
     resolution: {integrity: sha512-DtXF01fYGEJkbC7GntU/7jaq9M1SwyyNCkbDA+cfQSXRpm3H7zbu0M80wSQBSpntdd+hgSdxKCxv4GgX6/zI6w==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -1204,8 +1204,8 @@ packages:
       debug: 4.3.3
       kleur: 4.1.4
       magic-string: 0.26.1
-      svelte: 3.46.4
-      svelte-hmr: 0.14.11_svelte@3.46.4
+      svelte: 3.46.6
+      svelte-hmr: 0.14.11_svelte@3.46.6
       vite: 2.9.1
     transitivePeerDependencies:
       - supports-color
@@ -1280,7 +1280,7 @@ packages:
       graphql: 16.3.0
       wonka: 4.0.15
 
-  /@urql/svelte/1.3.3_graphql@16.3.0+svelte@3.46.4:
+  /@urql/svelte/1.3.3_graphql@16.3.0+svelte@3.46.6:
     resolution: {integrity: sha512-5XbKcEfvMBYrQfuKjCzLgcT46XW4RoVTeOM5VPmAwk7mD709kgL8LXOSF/9A+fTLOByncMxKTp/9lkI8HKCBkA==}
     peerDependencies:
       graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -1288,7 +1288,7 @@ packages:
     dependencies:
       '@urql/core': 2.4.1_graphql@16.3.0
       graphql: 16.3.0
-      svelte: 3.46.4
+      svelte: 3.46.6
       wonka: 4.0.15
     dev: true
 
@@ -3839,7 +3839,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.4.6_svelte@3.46.4:
+  /svelte-check/2.4.6_svelte@3.46.6:
     resolution: {integrity: sha512-luzdly7RJhyXucQe8ID/7CqDgXdMrPYXmyZBjCbp+cixzTopZotuWevrB5hWDOnOU19m2cyetigIIa7WDHnCmQ==}
     hasBin: true
     peerDependencies:
@@ -3852,8 +3852,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       source-map: 0.7.3
-      svelte: 3.46.4
-      svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.3
+      svelte: 3.46.6
+      svelte-preprocess: 4.10.4_svelte@3.46.6+typescript@4.6.3
       typescript: 4.6.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -3868,16 +3868,16 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-hmr/0.14.11_svelte@3.46.4:
+  /svelte-hmr/0.14.11_svelte@3.46.6:
     resolution: {integrity: sha512-R9CVfX6DXxW1Kn45Jtmx+yUe+sPhrbYSUp7TkzbW0jI5fVPn6lsNG9NEs5dFg5qRhFNAoVdRw5qQDLALNKhwbQ==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.46.4
+      svelte: 3.46.6
     dev: true
 
-  /svelte-preprocess/4.10.4_svelte@3.46.4+typescript@4.6.3:
+  /svelte-preprocess/4.10.4_svelte@3.46.6+typescript@4.6.3:
     resolution: {integrity: sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -3924,12 +3924,12 @@ packages:
       magic-string: 0.25.7
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.46.4
+      svelte: 3.46.6
       typescript: 4.6.3
     dev: true
 
-  /svelte/3.46.4:
-    resolution: {integrity: sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==}
+  /svelte/3.46.6:
+    resolution: {integrity: sha512-o9nNft/OzCz/9kJpmWa1S52GAM+huCjPIsNWydYmgei74ZWlOA9/hN9+Z12INdklghu31seEXZMRHhS1+8DETw==}
     engines: {node: '>= 8'}
     dev: true
 
