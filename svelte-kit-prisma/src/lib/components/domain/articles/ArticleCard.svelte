@@ -3,7 +3,7 @@
 
 	import type { Article, Tag, User } from '@prisma/client';
 	import dayjs from 'dayjs';
-	import LocationHeartFilled24 from 'carbon-icons-svelte/lib/LocationHeartFilled24';
+	import { LocationHeartFilled } from 'carbon-icons-svelte';
 
 	type ArticleWithAuthorAndTag = Article & {
 		author: Pick<User, 'id' | 'name'>;
@@ -34,7 +34,7 @@
 					? 'bg-primary text-white'
 					: 'bg-white text-primary'}"
 			>
-				<LocationHeartFilled24 />
+				<LocationHeartFilled size={24} />
 				<span class="text-sm">{data.likeCount}</span>
 			</button>
 		</Form>
