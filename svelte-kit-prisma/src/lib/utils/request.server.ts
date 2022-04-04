@@ -9,7 +9,7 @@ export const useAuthorizedHandler =
 		option?: { redirectTo?: string }
 	): RequestHandler<Params, Output> =>
 	(args) => {
-		if (args.locals.session.data.userId === undefined)
+		if (args.locals.session.data?.userId === undefined)
 			return {
 				status: 302,
 				headers: {
