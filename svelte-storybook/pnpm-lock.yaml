@@ -17,7 +17,7 @@ specifiers:
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.6
-  svelte-check: 2.4.6
+  svelte-check: 2.5.0
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.5
   tslib: 2.3.1
@@ -40,7 +40,7 @@ devDependencies:
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
   svelte: 3.46.6
-  svelte-check: 2.4.6_@babel+core@7.17.8+svelte@3.46.6
+  svelte-check: 2.5.0_@babel+core@7.17.8+svelte@3.46.6
   svelte-loader: 3.1.2_svelte@3.46.6
   svelte-preprocess: 4.10.5_f9489949a8ed183cdd5f4dac3fdf54a9
   tslib: 2.3.1
@@ -10562,8 +10562,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.4.6_@babel+core@7.17.8+svelte@3.46.6:
-    resolution: {integrity: sha512-luzdly7RJhyXucQe8ID/7CqDgXdMrPYXmyZBjCbp+cixzTopZotuWevrB5hWDOnOU19m2cyetigIIa7WDHnCmQ==}
+  /svelte-check/2.5.0_@babel+core@7.17.8+svelte@3.46.6:
+    resolution: {integrity: sha512-/laO032JQ1TpmYHgaaLndHNPeWW3VSL3liMB97sA9fYTEzlIy3jIo4Rgr7EzjNvieiNWG73C5voOAeNHlrwbpg==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -10571,7 +10571,6 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
-      minimist: 1.2.5
       picocolors: 1.0.0
       sade: 1.8.1
       source-map: 0.7.3
