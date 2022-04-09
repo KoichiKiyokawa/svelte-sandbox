@@ -20,7 +20,7 @@ specifiers:
   prettier-plugin-svelte: 2.6.0
   prisma: 3.12.0
   svelte: 3.46.6
-  svelte-check: 2.5.0
+  svelte-check: 2.6.0
   svelte-kit-cookie-session: ^2.1.2
   svelte-preprocess: 4.10.5
   tslib: 2.3.1
@@ -53,7 +53,7 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
   prisma: 3.12.0
   svelte: 3.46.6
-  svelte-check: 2.5.0_svelte@3.46.6
+  svelte-check: 2.6.0_svelte@3.46.6
   svelte-preprocess: 4.10.5_svelte@3.46.6+typescript@4.6.3
   tslib: 2.3.1
   typescript: 4.6.3
@@ -1775,8 +1775,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.5.0_svelte@3.46.6:
-    resolution: {integrity: sha512-/laO032JQ1TpmYHgaaLndHNPeWW3VSL3liMB97sA9fYTEzlIy3jIo4Rgr7EzjNvieiNWG73C5voOAeNHlrwbpg==}
+  /svelte-check/2.6.0_svelte@3.46.6:
+    resolution: {integrity: sha512-POL3IqLUuGqb9DdvuXQaSTNXYnw/odK4hqW86+2LwGcZTdbUPKBBln7pq74wXmcnRE+12bXMY1CvbcUNa2d5nw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0

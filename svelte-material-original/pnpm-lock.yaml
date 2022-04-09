@@ -12,7 +12,7 @@ specifiers:
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.6
-  svelte-check: 2.5.0
+  svelte-check: 2.6.0
   svelte-preprocess: 4.10.5
   tslib: 2.3.1
   typescript: 4.6.3
@@ -20,7 +20,7 @@ specifiers:
 devDependencies:
   '@material/data-table': 13.0.0
   '@material/form-field': 13.0.0
-  '@sveltejs/kit': 1.0.0-next.308_svelte@3.46.6
+  '@sveltejs/kit': 1.0.0-next.310_svelte@3.46.6
   '@typescript-eslint/eslint-plugin': 5.18.0_a07dca3bdfc4bfa60f4dda0c1f9e3287
   '@typescript-eslint/parser': 5.18.0_eslint@8.12.0+typescript@4.6.3
   eslint: 8.12.0
@@ -29,7 +29,7 @@ devDependencies:
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
   svelte: 3.46.6
-  svelte-check: 2.5.0_svelte@3.46.6
+  svelte-check: 2.6.0_svelte@3.46.6
   svelte-preprocess: 4.10.5_svelte@3.46.6+typescript@4.6.3
   tslib: 2.3.1
   typescript: 4.6.3
@@ -372,8 +372,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.308_svelte@3.46.6:
-    resolution: {integrity: sha512-/ORLef5kZEMTUgUkdSQ5Lsn3IKBRNYmLdJ26JjtSa03nPKsybvSMiGIho9WS6ESBw3+XaYF91TqksTyr/gTeoA==}
+  /@sveltejs/kit/1.0.0-next.310_svelte@3.46.6:
+    resolution: {integrity: sha512-pTyMyaoyHS+V5cQZIQMfQXmLkhw1VaRwT9avOSgwDc0QBpnNw2LdzwoPYsUr96ca5B6cfT3SMUNolxErTNHmPQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1631,8 +1631,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.5.0_svelte@3.46.6:
-    resolution: {integrity: sha512-/laO032JQ1TpmYHgaaLndHNPeWW3VSL3liMB97sA9fYTEzlIy3jIo4Rgr7EzjNvieiNWG73C5voOAeNHlrwbpg==}
+  /svelte-check/2.6.0_svelte@3.46.6:
+    resolution: {integrity: sha512-POL3IqLUuGqb9DdvuXQaSTNXYnw/odK4hqW86+2LwGcZTdbUPKBBln7pq74wXmcnRE+12bXMY1CvbcUNa2d5nw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
