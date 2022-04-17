@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-links': 6.4.21
   '@storybook/addon-svelte-csf': 2.0.1
   '@storybook/svelte': 6.4.21
-  '@sveltejs/kit': 1.0.0-next.308
+  '@sveltejs/kit': 1.0.0-next.314
   '@typescript-eslint/eslint-plugin': 5.18.0
   '@typescript-eslint/parser': 5.18.0
   babel-loader: 8.2.4
@@ -30,7 +30,7 @@ devDependencies:
   '@storybook/addon-links': 6.4.21
   '@storybook/addon-svelte-csf': 2.0.1_770aa0324303d5eac3be8104f521894a
   '@storybook/svelte': 6.4.21_4935e8c0c146151c8c18e853e7459573
-  '@sveltejs/kit': 1.0.0-next.308_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.314_svelte@3.47.0
   '@typescript-eslint/eslint-plugin': 5.18.0_0dd9be2ba5ed9805045f3fec8be848f5
   '@typescript-eslint/parser': 5.18.0_eslint@8.13.0+typescript@4.6.3
   babel-loader: 8.2.4_@babel+core@7.17.8
@@ -3652,8 +3652,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.308_svelte@3.47.0:
-    resolution: {integrity: sha512-/ORLef5kZEMTUgUkdSQ5Lsn3IKBRNYmLdJ26JjtSa03nPKsybvSMiGIho9WS6ESBw3+XaYF91TqksTyr/gTeoA==}
+  /@sveltejs/kit/1.0.0-next.314_svelte@3.47.0:
+    resolution: {integrity: sha512-EkXjEd30XO8+AydBLARxAtI6Ak8V0KFSEJ07sNsrkGq9J70sWPL7yGenhGaeq6S852XZAqeyWd6uGQZmQLR4Wg==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
