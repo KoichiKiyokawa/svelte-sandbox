@@ -11,7 +11,7 @@ specifiers:
   eslint-plugin-svelte3: 3.4.1
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
-  smui-theme: 6.0.0-beta.15
+  smui-theme: 6.0.0-beta.16
   svelte: 3.46.6
   svelte-check: 2.6.0
   svelte-preprocess: 4.10.5
@@ -29,7 +29,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.4.1_eslint@8.12.0+svelte@3.46.6
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
-  smui-theme: 6.0.0-beta.15
+  smui-theme: 6.0.0-beta.16
   svelte: 3.46.6
   svelte-check: 2.6.0_svelte@3.46.6
   svelte-preprocess: 4.10.5_svelte@3.46.6+typescript@4.6.3
@@ -1566,8 +1566,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sass/1.49.7:
-    resolution: {integrity: sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==}
+  /sass/1.50.0:
+    resolution: {integrity: sha512-cLsD6MEZ5URXHStxApajEh7gW189kkjn4Rc8DQweMyF+o5HF5nfEz8QYLMlPsTOD88DknatTmBWkOcw5/LnJLQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -1601,12 +1601,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /smui-theme/6.0.0-beta.15:
-    resolution: {integrity: sha512-25lWU/WtwwEcnN0ZuC30s6sj5jj5Y8ro8CYf7oanK6YAM/izOrrPSSsgIZBcRnkzyGANVwkWG81gd1uR3UkEcg==}
+  /smui-theme/6.0.0-beta.16:
+    resolution: {integrity: sha512-koh62ENvVp7ure62NUHTTaLudH1nxdL/YJt5u0rLuBSs53UPg8L8hdmcGqmTawj3h2dlD+yuHnyx8lpT1y8EWQ==}
     hasBin: true
     dependencies:
       node-fetch: 2.6.7
-      sass: 1.49.7
+      sass: 1.50.0
       yargs: 17.3.1
     transitivePeerDependencies:
       - encoding
