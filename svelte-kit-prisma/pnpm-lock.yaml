@@ -25,7 +25,7 @@ specifiers:
   svelte-preprocess: 4.10.6
   tslib: 2.3.1
   typescript: 4.6.3
-  vite-plugin-windicss: 1.8.3
+  vite-plugin-windicss: 1.8.4
   windicss: 3.5.1
   zod: 3.14.4
 
@@ -57,13 +57,13 @@ devDependencies:
   svelte-preprocess: 4.10.6_svelte@3.47.0+typescript@4.6.3
   tslib: 2.3.1
   typescript: 4.6.3
-  vite-plugin-windicss: 1.8.3
+  vite-plugin-windicss: 1.8.4
   windicss: 3.5.1
 
 packages:
 
-  /@antfu/utils/0.5.0:
-    resolution: {integrity: sha512-MrAQ/MrPSxbh1bBrmwJjORfJymw4IqSHFBXqvxaga3ZdDM+/zokYF8DjyJpSjY2QmpmgQrajDUBJOWrYeARfzA==}
+  /@antfu/utils/0.5.1:
+    resolution: {integrity: sha512-8Afo0+xvYe1K8Wm4xHTymfTkpzy36aaqDvhXIayUwl+mecMG9Xzl3XjXa6swG6Bk8FBeQ646RyvmsYt6+2Be9g==}
     dev: true
 
   /@eslint/eslintrc/1.2.1:
@@ -71,7 +71,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.3
+      debug: 4.3.4
       espree: 9.3.1
       globals: 13.12.1
       ignore: 5.2.0
@@ -100,7 +100,7 @@ packages:
     engines: {node: '>=10.10.0'}
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
-      debug: 4.3.3
+      debug: 4.3.4
       minimatch: 3.0.4
     transitivePeerDependencies:
       - supports-color
@@ -226,7 +226,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 4.1.2
-      debug: 4.3.3
+      debug: 4.3.4
       kleur: 4.1.4
       magic-string: 0.25.7
       svelte: 3.47.0
@@ -324,7 +324,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/utils': 5.18.0_eslint@8.13.0+typescript@4.6.3
-      debug: 4.3.3
+      debug: 4.3.4
       eslint: 8.13.0
       tsutils: 3.21.0_typescript@4.6.3
       typescript: 4.6.3
@@ -348,7 +348,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.18.0
       '@typescript-eslint/visitor-keys': 5.18.0
-      debug: 4.3.3
+      debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.3.5
@@ -384,25 +384,25 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@windicss/config/1.8.3:
-    resolution: {integrity: sha512-1fvfZhRD7WfV/Xh6uIAYKIdbQWrwEgSdkFlHiLPzMDS44KjwNZILDzLAz9Y2W5H2K4MLGgGMnzGS89ECyjc0Ww==}
+  /@windicss/config/1.8.4:
+    resolution: {integrity: sha512-i4fFGFfZoRess6WMkauykHC3PFd9xKYVx7lSuLfMK7sgo6x3+l4dY42GbsWMHyLqH1sTMfyt1LgfXSIKYJozSA==}
     dependencies:
-      debug: 4.3.3
+      debug: 4.3.4
       jiti: 1.13.0
       windicss: 3.5.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@windicss/plugin-utils/1.8.3:
-    resolution: {integrity: sha512-emlMeDt73uNV1ZofLTDogcxqL9aZ5uIRYkjeHlrWiaDozFbX6Jc+a6eRo9Ieaar3JUryl6AnecTPHAiFDl4IXg==}
+  /@windicss/plugin-utils/1.8.4:
+    resolution: {integrity: sha512-DqJVwAfzlgd8nYSNlmhXOey32pI8UwH7QiOWdFS/AR2O/q9oLDGHDn97Its/kZdfoyhi8ylwZNP2Pk0H7cihhQ==}
     dependencies:
-      '@antfu/utils': 0.5.0
-      '@windicss/config': 1.8.3
-      debug: 4.3.3
+      '@antfu/utils': 0.5.1
+      '@windicss/config': 1.8.4
+      debug: 4.3.4
       fast-glob: 3.2.11
-      magic-string: 0.25.7
-      micromatch: 4.0.4
+      magic-string: 0.26.1
+      micromatch: 4.0.5
       windicss: 3.5.1
     transitivePeerDependencies:
       - supports-color
@@ -559,6 +559,18 @@ packages:
 
   /debug/4.3.3:
     resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: true
+
+  /debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1450,6 +1462,13 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
+  /magic-string/0.26.1:
+    resolution: {integrity: sha512-ndThHmvgtieXe8J/VGPjG+Apu7v7ItcD5mhEIvOscWjPF/ccOiLxHaSuCAS2G+3x4GKsAbT8u7zdyamupui8Tg==}
+    engines: {node: '>=12'}
+    dependencies:
+      sourcemap-codec: 1.4.8
+    dev: true
+
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -1457,6 +1476,14 @@ packages:
 
   /micromatch/4.0.4:
     resolution: {integrity: sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==}
+    engines: {node: '>=8.6'}
+    dependencies:
+      braces: 3.0.2
+      picomatch: 2.3.1
+    dev: true
+
+  /micromatch/4.0.5:
+    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
@@ -1935,13 +1962,13 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-windicss/1.8.3:
-    resolution: {integrity: sha512-RIw2GD6H6cKNE8wZXVOBs4L1uTicVS0FaAkeqXvy1oyuXLC4SXmvnzEuoK0+qFuWJjW0ECNwE8eU+ZZhzNQKUg==}
+  /vite-plugin-windicss/1.8.4:
+    resolution: {integrity: sha512-LSZAO8BZn3x406GRbYX5t5ONXXJVdqiQtN1qrznLA/Dy5/NzZVhfcrL6N1qEYYO7HsCDT4pLAjTzObvDnM9Y8A==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.8.3
-      debug: 4.3.3
+      '@windicss/plugin-utils': 1.8.4
+      debug: 4.3.4
       kolorist: 1.5.1
       windicss: 3.5.1
     transitivePeerDependencies:
