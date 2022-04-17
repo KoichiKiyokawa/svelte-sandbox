@@ -16,7 +16,7 @@
     "@tsconfig/svelte": "3.0.0",
     "jest": "27.5.1",
     "svelte": "3.47.0",
-    "svelte-check": "2.6.0",
+    "svelte-check": "2.7.0",
     "svelte-jester": "2.3.2",
     "svelte-preprocess": "4.10.6",
     "ts-jest": "27.1.4",
