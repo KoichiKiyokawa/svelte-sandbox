@@ -7,7 +7,7 @@ specifiers:
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
   svelte: 3.47.0
-  svelte-check: 2.6.0
+  svelte-check: 2.7.0
   svelte-jester: 2.3.2
   svelte-preprocess: 4.10.6
   ts-jest: 27.1.4
@@ -22,7 +22,7 @@ devDependencies:
   '@tsconfig/svelte': 3.0.0
   jest: 27.5.1
   svelte: 3.47.0
-  svelte-check: 2.6.0_svelte@3.47.0
+  svelte-check: 2.7.0_svelte@3.47.0
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.47.0
   svelte-preprocess: 4.10.6_svelte@3.47.0+typescript@4.6.3
   ts-jest: 27.1.4_jest@27.5.1+typescript@4.6.3
@@ -3071,8 +3071,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.6.0_svelte@3.47.0:
-    resolution: {integrity: sha512-POL3IqLUuGqb9DdvuXQaSTNXYnw/odK4hqW86+2LwGcZTdbUPKBBln7pq74wXmcnRE+12bXMY1CvbcUNa2d5nw==}
+  /svelte-check/2.7.0_svelte@3.47.0:
+    resolution: {integrity: sha512-GrvG24j0+i8AOm0k0KyJ6Dqc+TAR2yzB7rtS4nljHStunVxCTr/1KYlv4EsOeoqtHLzeWMOd5D2O6nDdP/yw4A==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
