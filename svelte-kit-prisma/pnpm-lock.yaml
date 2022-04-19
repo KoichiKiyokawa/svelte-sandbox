@@ -15,7 +15,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
   esno: 0.14.1
-  felte: 1.1.5
+  felte: 1.1.7
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
   prisma: 3.12.0
@@ -32,7 +32,7 @@ specifiers:
 dependencies:
   '@prisma/client': 3.12.0_prisma@3.12.0
   dayjs: 1.11.1
-  felte: 1.1.5_svelte@3.47.0
+  felte: 1.1.7_svelte@3.47.0
   svelte-kit-cookie-session: 2.1.2
   zod: 3.14.4
 
@@ -83,16 +83,16 @@ packages:
       - supports-color
     dev: true
 
-  /@felte/common/1.0.3:
-    resolution: {integrity: sha512-uOs9c9wHnfgKWsAqkUrcf2xY3zGu7JwgdgBn2ThFMJOxsdmR5GukckuRBlG0tdSSKg2UqdnWSE7IavCzBqCNMA==}
+  /@felte/common/1.0.4:
+    resolution: {integrity: sha512-KCH0mpOzEtp06AhCqu6egm9cEQ8TGUtt1LfiUTxnT+sGBBQi/qvcx15btZvoG4tG6+H08d/wlhpE0Jps0X7vdQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
-  /@felte/core/1.2.3:
-    resolution: {integrity: sha512-AkSAOjr5v3QOHmOc6aNblGfyzDSkZHd9efTkRrVmlh0PFctaipDgvwvaMk2SIQq3NQpJKg1n+SANqryu3p/5Jg==}
+  /@felte/core/1.2.5:
+    resolution: {integrity: sha512-fMqlmbvYMAwpv3Syz9PTPFS+H3lbKvGUiZ5gOqQol8SeqLjFsbHalT1fasKitBcBkAcP3bchKSosAJCK3T2Chw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      '@felte/common': 1.0.3
+      '@felte/common': 1.0.4
     dev: false
 
   /@humanwhocodes/config-array/0.9.3:
@@ -1215,13 +1215,13 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /felte/1.1.5_svelte@3.47.0:
-    resolution: {integrity: sha512-i8/ShRcgh2E3++VfegY4XVaY43R3ysa/+0HZL0bcvteUituslSVopqnDnu2H/A9qlAZqF+ETsBXmWC3S29U89Q==}
+  /felte/1.1.7_svelte@3.47.0:
+    resolution: {integrity: sha512-hvwi79UDRybKU3ybUzJFYt1aly0FKXxdPcWfXaCxTALTZ9yRVhT3lZG4YHUoyGsuWljerUp9v3i8KCLCPcpGjQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       svelte: ^3.31.0
     dependencies:
-      '@felte/core': 1.2.3
+      '@felte/core': 1.2.5
       svelte: 3.47.0
     dev: false
 
