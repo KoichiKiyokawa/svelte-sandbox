@@ -14,13 +14,13 @@ specifiers:
   svelte: 3.47.0
   svelte-check: 2.7.0
   svelte-preprocess: 4.10.6
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
 
 devDependencies:
   '@material/data-table': 13.0.0
   '@material/form-field': 13.0.0
-  '@sveltejs/kit': 1.0.0-next.315_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.318_svelte@3.47.0
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
   '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
   eslint: 8.13.0
@@ -31,7 +31,7 @@ devDependencies:
   svelte: 3.47.0
   svelte-check: 2.7.0_svelte@3.47.0
   svelte-preprocess: 4.10.6_svelte@3.47.0+typescript@4.6.3
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
 
 packages:
@@ -71,13 +71,13 @@ packages:
   /@material/animation/13.0.0:
     resolution: {integrity: sha512-YR0/u4u56qXDjKYolQ7F+IvlPkaSBhMl/dZv8DK0FbD6PH4ckOPd3bEXNRndXtprsxwknQQP2pttjPImylkl0g==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/base/13.0.0:
     resolution: {integrity: sha512-vFx0JryRfcvUNX3cZ2u32wUMvxzd+c/YW0LFOXNgqCDWlubHcMm0Y6Wz371LhfQo80/NE69u+/4Joo99yKnVeg==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/checkbox/13.0.0:
@@ -91,7 +91,7 @@ packages:
       '@material/ripple': 13.0.0
       '@material/theme': 13.0.0
       '@material/touch-target': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/data-table/13.0.0:
@@ -114,20 +114,20 @@ packages:
       '@material/theme': 13.0.0
       '@material/touch-target': 13.0.0
       '@material/typography': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/density/13.0.0:
     resolution: {integrity: sha512-ppJTzOsuhjQam5GvHaq/XZocZNUr+41XQ2sd5nONAmQ0wwzXgqG0FaxtF1EXqK3uZFadz+vAu6enagre9DXhTA==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/dom/13.0.0:
     resolution: {integrity: sha512-M9HLAYBZtkTUvf66FL+jAEvUOdhji1HkGA1mV6oyE+HY9gkCkmso+mngvzlLd5+uaAVE9I3WQFhSb9gp0cpXnw==}
     dependencies:
       '@material/feature-targeting': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/elevation/13.0.0:
@@ -138,13 +138,13 @@ packages:
       '@material/feature-targeting': 13.0.0
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/feature-targeting/13.0.0:
     resolution: {integrity: sha512-QJClfeaA4EMyAxKJy9WR0Nx+/VwSZCkhGLUVBG9NhxqYGfl/LtaeaidrNm32vYEoNZAofN92VD2RwQTRwp/dMQ==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/floating-label/13.0.0:
@@ -157,7 +157,7 @@ packages:
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
       '@material/typography': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/form-field/13.0.0:
@@ -169,7 +169,7 @@ packages:
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
       '@material/typography': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/icon-button/13.0.0:
@@ -183,7 +183,7 @@ packages:
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
       '@material/touch-target': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/line-ripple/13.0.0:
@@ -193,7 +193,7 @@ packages:
       '@material/base': 13.0.0
       '@material/feature-targeting': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/linear-progress/13.0.0:
@@ -205,7 +205,7 @@ packages:
       '@material/progress-indicator': 13.0.0
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/list/13.0.0:
@@ -220,7 +220,7 @@ packages:
       '@material/shape': 13.0.0
       '@material/theme': 13.0.0
       '@material/typography': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/menu-surface/13.0.0:
@@ -233,7 +233,7 @@ packages:
       '@material/rtl': 13.0.0
       '@material/shape': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/menu/13.0.0:
@@ -248,7 +248,7 @@ packages:
       '@material/ripple': 13.0.0
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/notched-outline/13.0.0:
@@ -260,13 +260,13 @@ packages:
       '@material/rtl': 13.0.0
       '@material/shape': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/progress-indicator/13.0.0:
     resolution: {integrity: sha512-IfhAMn03gWg/Rl0Bg26Q1g+DrMnaULllz+ZJeIY7BXZC5qFYq1fLq4+RiQmfPGlJfURUjrWNLcI1VDVyXUHHzg==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/ripple/13.0.0:
@@ -278,14 +278,14 @@ packages:
       '@material/feature-targeting': 13.0.0
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/rtl/13.0.0:
     resolution: {integrity: sha512-nFGy3iQg7k+xLs67eb86mRFVLwa0yi7MusqRK4OM8DXcLO5yoVfUTPKpdSykcbRryp9imVHsxutox2tZawR4og==}
     dependencies:
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/select/13.0.0:
@@ -307,7 +307,7 @@ packages:
       '@material/shape': 13.0.0
       '@material/theme': 13.0.0
       '@material/typography': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/shape/13.0.0:
@@ -316,14 +316,14 @@ packages:
       '@material/feature-targeting': 13.0.0
       '@material/rtl': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/theme/13.0.0:
     resolution: {integrity: sha512-KAe1s0MvvfCGAwJliDVTvgAKuD3ESwhl7F7br4Iam4IPdqME2rWl8NPhKHFfaWqTG7PyCgMMngYEYuA8cLNTsA==}
     dependencies:
       '@material/feature-targeting': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/touch-target/13.0.0:
@@ -332,7 +332,7 @@ packages:
       '@material/base': 13.0.0
       '@material/feature-targeting': 13.0.0
       '@material/rtl': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@material/typography/13.0.0:
@@ -340,7 +340,7 @@ packages:
     dependencies:
       '@material/feature-targeting': 13.0.0
       '@material/theme': 13.0.0
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -372,8 +372,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.315_svelte@3.47.0:
-    resolution: {integrity: sha512-f6ufqd9z6uicOOr1eSIclm4TonwoRtw0kuIYrDatYSZtu/081kZ5r0Vj6sXDI6tFI1kctoRzPtFECXf5zkZvlw==}
+  /@sveltejs/kit/1.0.0-next.318_svelte@3.47.0:
+    resolution: {integrity: sha512-/M/XNvEqK71KCGro1xLuiUuklsMPe+G5DiVMs39tpfFIFhH4oCzAt+YBaIZDKORogGz3QDaYc5BV+eFv9E5cyw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1738,8 +1738,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.3.1:
-    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.6.3:
