@@ -5,7 +5,7 @@ specifiers:
   '@storybook/addon-actions': 6.4.22
   '@storybook/addon-essentials': 6.4.22
   '@storybook/addon-links': 6.4.22
-  '@storybook/addon-svelte-csf': 2.0.2
+  '@storybook/addon-svelte-csf': 2.0.3
   '@storybook/svelte': 6.4.22
   '@sveltejs/kit': 1.0.0-next.317
   '@typescript-eslint/eslint-plugin': 5.20.0
@@ -28,7 +28,7 @@ devDependencies:
   '@storybook/addon-actions': 6.4.22
   '@storybook/addon-essentials': 6.4.22_3fc26801f00882e1edb4b8801eedc2d7
   '@storybook/addon-links': 6.4.22
-  '@storybook/addon-svelte-csf': 2.0.2_3eb2cdb15d21acefe63ce4aaed4c7678
+  '@storybook/addon-svelte-csf': 2.0.3_3eb2cdb15d21acefe63ce4aaed4c7678
   '@storybook/svelte': 6.4.22_f52e5a600a15add668ebe0b11e19870c
   '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
@@ -2134,17 +2134,17 @@ packages:
       - '@types/react'
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.2_3eb2cdb15d21acefe63ce4aaed4c7678:
-    resolution: {integrity: sha512-fywa26SGWenu8s6dYmKAotEzE/VTQ9oG/haZ7l6BjqaT3MKIvtWyMegBe8QUp/AS0qKJ8riADNSHQXnrpDS6xw==}
+  /@storybook/addon-svelte-csf/2.0.3_3eb2cdb15d21acefe63ce4aaed4c7678:
+    resolution: {integrity: sha512-4cSYmcUnfFIyrMA6PGPsVcF70vxzuCbICbazL5BSpZquzkRikYoYEDSAwlZ0V3yGKfaw1oHg2X7Ob72xec7OeA==}
     peerDependencies:
-      '@storybook/addons': ^6.4.20
-      '@storybook/api': ^6.4.20
-      '@storybook/client-api': ^6.4.20
-      '@storybook/client-logger': ^6.4.20
-      '@storybook/components': ^6.4.20
-      '@storybook/core-events': ^6.4.20
-      '@storybook/svelte': ^6.4.20
-      '@storybook/theming': ^6.4.20
+      '@storybook/addons': '>=6.4.20'
+      '@storybook/api': '>=6.4.20'
+      '@storybook/client-api': '>=6.4.20'
+      '@storybook/client-logger': '>=6.4.20'
+      '@storybook/components': '>=6.4.20'
+      '@storybook/core-events': '>=6.4.20'
+      '@storybook/svelte': '>=6.4.20'
+      '@storybook/theming': '>=6.4.20'
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
       svelte: ^3.46.6
