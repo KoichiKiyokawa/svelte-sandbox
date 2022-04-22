@@ -16,14 +16,14 @@ specifiers:
   svelte-check: 2.7.0
   svelte-preprocess: 4.10.6
   svemix: 0.8.4
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
 
 dependencies:
   '@prisma/client': 3.12.0_prisma@3.12.0
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.35
+  '@sveltejs/adapter-auto': 1.0.0-next.36
   '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
   '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
@@ -37,7 +37,7 @@ devDependencies:
   svelte-check: 2.7.0_svelte@3.47.0
   svelte-preprocess: 4.10.6_svelte@3.47.0+typescript@4.6.3
   svemix: 0.8.4
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
 
 packages:
@@ -130,12 +130,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.35:
-    resolution: {integrity: sha512-x0FLfs1c22lckDuO3Lqq++MQXw8vlKpNCj+AeYtK8EmGfQH3qHTxjPqLWzp/qcTkEx9c+UZyoZsJsGXBwISdFw==}
+  /@sveltejs/adapter-auto/1.0.0-next.36:
+    resolution: {integrity: sha512-BCvSlz77Mz38K2sQUQ3YcudxJsOZprOmIW05rzPf5KrqidWa5CvPH2PdQ7XKX7CYgcZHqWioyYt8oxdXBCIulA==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.18
-      '@sveltejs/adapter-netlify': 1.0.0-next.52
-      '@sveltejs/adapter-vercel': 1.0.0-next.48
+      '@sveltejs/adapter-netlify': 1.0.0-next.53
+      '@sveltejs/adapter-vercel': 1.0.0-next.49
     dev: true
 
   /@sveltejs/adapter-cloudflare/1.0.0-next.18:
@@ -145,16 +145,16 @@ packages:
       worktop: 0.8.0-next.12
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.52:
-    resolution: {integrity: sha512-QvlPSaU09mPY6eNgvqWct/KnZqr1MdyydUM/CF3c6fgwwqTPrxLdxqjLADSLNhbzjk1BMwx1uydVM0pvkoBC7Q==}
+  /@sveltejs/adapter-netlify/1.0.0-next.53:
+    resolution: {integrity: sha512-F35KBfdSbR2FXJWliTRj422Y8OAc3syx9vgVPO/bQRuqSnCpXmgxuUgmPZ73/skv3fS4QStXsXQGTnyV4Xs25A==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.29
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.48:
-    resolution: {integrity: sha512-l1CXPI8J6guIqEavyTpDdNVzpf1Tmi2QxnvuPIl4uotaAwOTSKE2mMSoAe9zZ3pINjmhxtFX0Uhb+6Dm0O55vQ==}
+  /@sveltejs/adapter-vercel/1.0.0-next.49:
+    resolution: {integrity: sha512-Me0Zb10iBv+ySVMc0XgI7rdzwiMmeVHq48iVv3oXORa/et/efJVEknVSVk22q15XRqys7DhoPirf54Mz4jElFQ==}
     dependencies:
       esbuild: 0.14.29
     dev: true
@@ -1570,8 +1570,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.3.1:
-    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.6.3:

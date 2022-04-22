@@ -11,7 +11,7 @@ specifiers:
   svelte-jester: 2.3.2
   svelte-preprocess: 4.10.6
   ts-jest: 27.1.4
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
   vite: 2.9.5
 
@@ -26,7 +26,7 @@ devDependencies:
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.47.0
   svelte-preprocess: 4.10.6_svelte@3.47.0+typescript@4.6.3
   ts-jest: 27.1.4_jest@27.5.1+typescript@4.6.3
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
   vite: 2.9.5
 
@@ -3265,8 +3265,8 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /tslib/2.3.1:
-    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /type-check/0.3.2:
