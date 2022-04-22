@@ -29,7 +29,7 @@
 		"@typescript-eslint/parser": "5.20.0",
 		"bcryptjs": "^2.4.3",
 		"carbon-icons-svelte": "11.0.1",
-		"eslint": "8.13.0",
+		"eslint": "8.14.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "3.4.1",
 		"esno": "0.14.1",
