@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@prisma/client': 3.12.0
-  '@sveltejs/adapter-auto': 1.0.0-next.38
+  '@sveltejs/adapter-auto': 1.0.0-next.39
   '@sveltejs/kit': 1.0.0-next.320
   '@types/bcryptjs': 2.4.2
   '@types/node': 16.11.28
@@ -37,7 +37,7 @@ dependencies:
   zod: 3.14.4
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.38
+  '@sveltejs/adapter-auto': 1.0.0-next.39
   '@sveltejs/kit': 1.0.0-next.320_svelte@3.47.0
   '@types/bcryptjs': 2.4.2
   '@types/node': 16.11.28
@@ -166,12 +166,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.38:
-    resolution: {integrity: sha512-1//aiV/Wzebj+j5X8VLRs0vJUT3andc/0+IRQwy5ykOwjpNo5/Mj2RX8SA+t5nxBFYyJJf2kj6sszKA8LjRAQQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.39:
+    resolution: {integrity: sha512-mscydZQzI9HZ+IjD+/yxyuKKd4/KxZv/M43BaeBvpuhToEe3crmatIHDQIZc0GBZZgTVpvk8yp3yIM8q3RugLw==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.18
       '@sveltejs/adapter-netlify': 1.0.0-next.55
-      '@sveltejs/adapter-vercel': 1.0.0-next.49
+      '@sveltejs/adapter-vercel': 1.0.0-next.50
     dev: true
 
   /@sveltejs/adapter-cloudflare/1.0.0-next.18:
@@ -189,8 +189,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.49:
-    resolution: {integrity: sha512-Me0Zb10iBv+ySVMc0XgI7rdzwiMmeVHq48iVv3oXORa/et/efJVEknVSVk22q15XRqys7DhoPirf54Mz4jElFQ==}
+  /@sveltejs/adapter-vercel/1.0.0-next.50:
+    resolution: {integrity: sha512-yta0AkuWEr7qrm8LB34F4ZdCtMxj+cHD4huwrRYCgjv+PSJHLPwe7aH53+Mhrv6La0TgeyQ/f2lTyhBMXZXn9Q==}
     dependencies:
       esbuild: 0.14.29
     dev: true
