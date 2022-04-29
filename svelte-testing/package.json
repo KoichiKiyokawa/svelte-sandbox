@@ -14,7 +14,7 @@
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/svelte": "3.1.1",
     "@tsconfig/svelte": "3.0.0",
-    "jest": "28.0.2",
+    "jest": "28.0.3",
     "svelte": "3.47.0",
     "svelte-check": "2.7.0",
     "svelte-jester": "2.3.2",
