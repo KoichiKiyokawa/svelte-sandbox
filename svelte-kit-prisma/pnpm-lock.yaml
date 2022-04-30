@@ -21,7 +21,7 @@ specifiers:
   prisma: 3.13.0
   svelte: 3.47.0
   svelte-check: 2.7.0
-  svelte-kit-cookie-session: 2.1.3
+  svelte-kit-cookie-session: 2.1.4
   svelte-preprocess: 4.10.6
   tslib: 2.4.0
   typescript: 4.6.4
@@ -33,7 +33,7 @@ dependencies:
   '@prisma/client': 3.13.0_prisma@3.13.0
   dayjs: 1.11.1
   felte: 1.1.7_svelte@3.47.0
-  svelte-kit-cookie-session: 2.1.3
+  svelte-kit-cookie-session: 2.1.4
   zod: 3.14.4
 
 devDependencies:
@@ -1820,8 +1820,8 @@ packages:
       svelte: 3.47.0
     dev: true
 
-  /svelte-kit-cookie-session/2.1.3:
-    resolution: {integrity: sha512-7Xk3CNbpLAi1KodlsV5W5jULQ2NxQunaXtAYqAuzIEXIq2EwC4oDa25kdmHjNe33epV0t4r0WwxZOuSdJPsapg==}
+  /svelte-kit-cookie-session/2.1.4:
+    resolution: {integrity: sha512-z/ckxHWguYyy66UqfId4Lu+A77ft/3mV5oozbRTI9bnQY0tyJfns/SM0ikdkj7OV5GiI8kq7GSOGvajWwyGeZw==}
     dev: false
 
   /svelte-preprocess/4.10.6_svelte@3.47.0+typescript@4.6.4:
