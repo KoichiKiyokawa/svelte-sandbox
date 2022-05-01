@@ -30,7 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@felte/validator-zod": "1.0.8",
+		"@felte/validator-zod": "1.0.9",
 		"felte": "1.2.0",
 		"zod": "3.14.4"
 	}
