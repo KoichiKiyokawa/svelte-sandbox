@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          # cache: 'pnpm'
           cache-dependency-path: smui6/pnpm-lock.yaml
       - run: pnpm i
       - run: pnpm lint

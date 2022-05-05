@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          #  temporary disabled until actions/setup-node supports pnpm 7
+          # temporary disabled
           # cache: 'pnpm'
           cache-dependency-path: svelte-kit-prisma/pnpm-lock.yaml
       - run: pnpm i
