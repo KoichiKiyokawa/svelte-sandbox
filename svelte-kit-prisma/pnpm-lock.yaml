@@ -13,7 +13,7 @@ specifiers:
   dayjs: 1.11.1
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-svelte3: 3.4.1
+  eslint-plugin-svelte3: 4.0.0
   esno: 0.14.1
   felte: 1.2.0
   prettier: 2.6.2
@@ -48,7 +48,7 @@ devDependencies:
   carbon-icons-svelte: 11.0.1
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
-  eslint-plugin-svelte3: 3.4.1_usjo443ynfgvutifl4ot2fkxzy
+  eslint-plugin-svelte3: 4.0.0_usjo443ynfgvutifl4ot2fkxzy
   esno: 0.14.1
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
@@ -1033,11 +1033,10 @@ packages:
       eslint: 8.15.0
     dev: true
 
-  /eslint-plugin-svelte3/3.4.1_usjo443ynfgvutifl4ot2fkxzy:
-    resolution: {integrity: sha512-7p59WG8qV8L6wLdl4d/c3mdjkgVglQCdv5XOTk/iNPBKXuuV+Q0eFP5Wa6iJd/G2M1qR3BkLPEzaANOqKAZczw==}
-    engines: {node: '>=10'}
+  /eslint-plugin-svelte3/4.0.0_usjo443ynfgvutifl4ot2fkxzy:
+    resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
     peerDependencies:
-      eslint: '>=6.0.0'
+      eslint: '>=8.0.0'
       svelte: ^3.2.0
     dependencies:
       eslint: 8.15.0
