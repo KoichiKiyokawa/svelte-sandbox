@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.42",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.43",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/svelte": "3.1.1",
     "@tsconfig/svelte": "3.0.0",
