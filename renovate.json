@@ -1,4 +1,3 @@
 {
-  "extends": ["config:base"],
-  "schedule": ["before 12am on Sunday"]
+  "extends": ["github>KoichiKiyokawa/renovate-config"]
 }
