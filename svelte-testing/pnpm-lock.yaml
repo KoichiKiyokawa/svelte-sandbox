@@ -1,34 +1,34 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.43
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.44
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.1
   '@tsconfig/svelte': 3.0.0
   jest: 28.1.0
   svelte: 3.48.0
-  svelte-check: 2.7.0
+  svelte-check: 2.7.1
   svelte-jester: 2.3.2
   svelte-preprocess: 4.10.6
   ts-jest: 28.0.2
   tslib: 2.4.0
   typescript: 4.6.4
-  vite: 2.9.8
+  vite: 2.9.9
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.43_svelte@3.48.0+vite@2.9.8
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.44_svelte@3.48.0+vite@2.9.9
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.1_svelte@3.48.0
   '@tsconfig/svelte': 3.0.0
   jest: 28.1.0
   svelte: 3.48.0
-  svelte-check: 2.7.0_svelte@3.48.0
+  svelte-check: 2.7.1_svelte@3.48.0
   svelte-jester: 2.3.2_jest@28.1.0+svelte@3.48.0
   svelte-preprocess: 4.10.6_wwvk7nlptlrqo2czohjtk6eiqm
   ts-jest: 28.0.2_uy2hwlw3b2xjbkk4v7x6v75ly4
   tslib: 2.4.0
   typescript: 4.6.4
-  vite: 2.9.8
+  vite: 2.9.9
 
 packages:
 
@@ -669,8 +669,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.43_svelte@3.48.0+vite@2.9.8:
-    resolution: {integrity: sha512-MzeczqGrnDmbAldw/LfXV/dhpLC2bdUzuMhcx0C2j79V2uNzQERHDinxXnG2AVTCTjSpbQxzQwMMmYflnI7W1g==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.44_svelte@3.48.0+vite@2.9.9:
+    resolution: {integrity: sha512-n+sssEWbzykPS447FmnNyU5GxEhrBPDVd0lxNZnxRGz9P6651LjjwAnISKr3CKgT9v8IybP8VD0n2i5XzbqExg==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
@@ -687,7 +687,7 @@ packages:
       magic-string: 0.26.1
       svelte: 3.48.0
       svelte-hmr: 0.14.11_svelte@3.48.0
-      vite: 2.9.8
+      vite: 2.9.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2735,11 +2735,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /source-map/0.7.3:
-    resolution: {integrity: sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==}
-    engines: {node: '>= 8'}
-    dev: true
-
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
@@ -2835,18 +2830,18 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.7.0_svelte@3.48.0:
-    resolution: {integrity: sha512-GrvG24j0+i8AOm0k0KyJ6Dqc+TAR2yzB7rtS4nljHStunVxCTr/1KYlv4EsOeoqtHLzeWMOd5D2O6nDdP/yw4A==}
+  /svelte-check/2.7.1_svelte@3.48.0:
+    resolution: {integrity: sha512-vHVu2+SQ6ibt77iTQaq2oiOjBgGL48qqcg0ZdEOsP5pPOjgeyR9QbnaEdzdBs9nsVYBc/42haKtzb2uFqS8GVw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
+      '@jridgewell/trace-mapping': 0.3.9
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      source-map: 0.7.3
       svelte: 3.48.0
       svelte-preprocess: 4.10.6_wwvk7nlptlrqo2czohjtk6eiqm
       typescript: 4.6.4
@@ -3038,8 +3033,8 @@ packages:
       convert-source-map: 1.8.0
     dev: true
 
-  /vite/2.9.8:
-    resolution: {integrity: sha512-zsBGwn5UT3YS0NLSJ7hnR54+vUKfgzMUh/Z9CxF1YKEBVIe213+63jrFLmZphgGI5zXwQCSmqIdbPuE8NJywPw==}
+  /vite/2.9.9:
+    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
