@@ -33,5 +33,6 @@
 		"@felte/validator-zod": "1.0.10",
 		"felte": "1.2.2",
 		"zod": "3.16.1"
-	}
+	},
+	"packageManager": "pnpm@7.1.2"
 }
