@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.44",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.45",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/svelte": "3.1.1",
     "@tsconfig/svelte": "3.0.0",
@@ -19,9 +19,9 @@
     "svelte-check": "2.7.1",
     "svelte-jester": "2.3.2",
     "svelte-preprocess": "4.10.6",
-    "ts-jest": "28.0.2",
+    "ts-jest": "28.0.3",
     "tslib": "2.4.0",
-    "typescript": "4.6.4",
+    "typescript": "4.7.2",
     "vite": "2.9.9"
   },
   "setupFilesAfterEnv": [
