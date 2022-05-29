@@ -33,7 +33,7 @@ jobs:
           # cache: 'pnpm'
           cache-dependency-path: carbon-felte/pnpm-lock.yaml
       - run: pnpm i
+      - run: pnpm build
       - run: pnpm lint
       - run: pnpm check
       - run: pnpm tsc --noEmit
-      - run: pnpm build
