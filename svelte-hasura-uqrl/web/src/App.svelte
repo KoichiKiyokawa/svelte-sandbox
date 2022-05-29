@@ -1,12 +1,11 @@
 <script lang="ts">
-  import { operationStore, query } from "@urql/svelte"
+  import { getContextClient, initContextClient, queryStore } from "@urql/svelte"
   import {
     GetUsersWithPosts,
     GetUsersWithPostsQuery,
   } from "./generated/graphql"
-  import { initClient } from "@urql/svelte"
 
-  initClient({
+  initContextClient({
     url: "https://hasura-prac.herokuapp.com/v1/graphql",
     fetchOptions: {
       headers: {
@@ -15,9 +14,11 @@
     },
   })
 
-  const usersQuery = operationStore<GetUsersWithPostsQuery>(GetUsersWithPosts)
-
-  query(usersQuery)
+  const usersQuery = queryStore<GetUsersWithPostsQuery>({
+    client: getContextClient(),
+    query: GetUsersWithPosts,
+    variables: {},
+  })
 </script>
 
 {#if $usersQuery.fetching}
