@@ -5,7 +5,7 @@
 	import { createForm } from '$lib/utils/form';
 	import { z } from 'zod';
 
-	const schema = z.object({ drop: z.string().nonempty() });
+	const schema = z.object({ drop: z.string().min(1) });
 
 	const { setFields, form, validate, isValid } = createForm<z.infer<typeof schema>>({
 		onSubmit: async (values) => {
