@@ -1,4 +1,4 @@
-import { ValidatorConfig } from '@felte/validator-zod';
+import type { ValidatorConfig } from '@felte/validator-zod';
 import { createForm as baseCreateForm } from 'felte';
 import { validator } from '@felte/validator-zod';
 
