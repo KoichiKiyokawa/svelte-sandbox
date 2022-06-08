@@ -14,11 +14,11 @@
   "devDependencies": {
     "@graphql-codegen/cli": "2.6.2",
     "@graphql-codegen/introspection": "2.1.1",
-    "@graphql-codegen/typescript": "2.4.11",
-    "@graphql-codegen/typescript-document-nodes": "2.2.11",
-    "@graphql-codegen/typescript-operations": "2.4.0",
-    "@graphql-codegen/urql-svelte-operations-store": "1.1.18",
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.47",
+    "@graphql-codegen/typescript": "2.5.0",
+    "@graphql-codegen/typescript-document-nodes": "2.2.12",
+    "@graphql-codegen/typescript-operations": "2.4.1",
+    "@graphql-codegen/urql-svelte-operations-store": "1.1.19",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.48",
     "@tsconfig/svelte": "3.0.0",
     "@urql/svelte": "2.0.0",
     "graphql": "16.5.0",
@@ -27,7 +27,7 @@
     "svelte-preprocess": "4.10.7",
     "tslib": "2.4.0",
     "typescript": "4.7.3",
-    "vite": "2.9.9"
+    "vite": "2.9.10"
   },
   "dependencies": {
     "@urql/core": "^2.3.3"
