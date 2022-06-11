@@ -16,7 +16,7 @@
 		"@sveltejs/kit": "1.0.0-next.350",
 		"@typescript-eslint/eslint-plugin": "5.27.1",
 		"@typescript-eslint/parser": "5.27.1",
-		"carbon-components-svelte": "0.65.0",
+		"carbon-components-svelte": "0.65.1",
 		"eslint": "8.17.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "4.0.0",
@@ -34,5 +34,5 @@
 		"felte": "1.2.2",
 		"zod": "3.17.3"
 	},
-	"packageManager": "pnpm@7.1.9"
+	"packageManager": "pnpm@7.2.1"
 }
