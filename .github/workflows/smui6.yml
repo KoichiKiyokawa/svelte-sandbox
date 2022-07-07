@@ -33,6 +33,7 @@ jobs:
           # cache: 'pnpm'
           cache-dependency-path: smui6/pnpm-lock.yaml
       - run: pnpm i
+      - run: pnpm sync
       - run: pnpm lint
       - run: pnpm check
       - run: pnpm tsc --noEmit
