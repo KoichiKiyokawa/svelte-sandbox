@@ -12,7 +12,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"dependencies": {
-		"@prisma/client": "3.15.2"
+		"@prisma/client": "4.0.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
