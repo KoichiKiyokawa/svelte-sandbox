@@ -37,4 +37,5 @@ jobs:
       - run: pnpm lint
       - run: pnpm check
       - run: pnpm tsc --noEmit
-      - run: pnpm build
+      # temporary disable
+      # - run: pnpm build
