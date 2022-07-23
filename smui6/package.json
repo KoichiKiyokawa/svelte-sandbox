@@ -17,8 +17,8 @@
 		"@smui/button": "6.0.0-beta.16",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"@typescript-eslint/eslint-plugin": "5.30.6",
-		"@typescript-eslint/parser": "5.30.6",
+		"@typescript-eslint/eslint-plugin": "5.30.7",
+		"@typescript-eslint/parser": "5.30.7",
 		"eslint": "8.20.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "4.0.0",
@@ -30,7 +30,7 @@
 		"svelte-preprocess": "4.10.7",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4",
-		"vite": "3.0.1"
+		"vite": "3.0.2"
 	},
 	"type": "module"
 }
