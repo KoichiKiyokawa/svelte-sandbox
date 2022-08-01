@@ -10,11 +10,7 @@ generates:
     plugins:
       - typescript
       - typescript-operations
-      - typescript-document-nodes
+      - typed-document-node
     config:
-      gqlImport: "@urql/svelte#gql"
       scalars:
         date: string
-  "./graphql.schema.json":
-    plugins:
-      - introspection

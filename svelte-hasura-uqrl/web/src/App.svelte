@@ -1,9 +1,6 @@
 <script lang="ts">
   import { getContextClient, initContextClient, queryStore } from "@urql/svelte"
-  import {
-    GetUsersWithPosts,
-    GetUsersWithPostsQuery,
-  } from "./generated/graphql"
+  import { GetUsersWithPostsDocument } from "./generated/graphql"
 
   initContextClient({
     url: "https://hasura-prac.herokuapp.com/v1/graphql",
@@ -14,10 +11,9 @@
     },
   })
 
-  const usersQuery = queryStore<GetUsersWithPostsQuery>({
+  const usersQuery = queryStore({
     client: getContextClient(),
-    query: GetUsersWithPosts,
-    variables: {},
+    query: GetUsersWithPostsDocument,
   })
 </script>
 

@@ -1,4 +1,4 @@
-import { gql } from '@urql/svelte';
+import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/core';
 export type Maybe<T> = T | null;
 export type InputMaybe<T> = Maybe<T>;
 export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
@@ -679,18 +679,4 @@ export type GetUsersWithPostsQueryVariables = Exact<{ [key: string]: never; }>;
 export type GetUsersWithPostsQuery = { __typename?: 'query_root', users: Array<{ __typename?: 'users', id: any, name: string, email: string, birthday: string, posts: Array<{ __typename?: 'posts', id: any, title: string, body: string }> }> };
 
 
-export const GetUsersWithPosts = gql`
-    query GetUsersWithPosts {
-  users {
-    id
-    name
-    email
-    birthday
-    posts {
-      id
-      title
-      body
-    }
-  }
-}
-    `;
+export const GetUsersWithPostsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetUsersWithPosts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"users"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"birthday"}},{"kind":"Field","name":{"kind":"Name","value":"posts"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"body"}}]}}]}}]}}]} as unknown as DocumentNode<GetUsersWithPostsQuery, GetUsersWithPostsQueryVariables>;

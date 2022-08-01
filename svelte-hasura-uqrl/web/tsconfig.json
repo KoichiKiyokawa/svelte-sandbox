@@ -15,7 +15,8 @@
     "allowJs": true,
     "checkJs": true,
     "strict": true,
-    "preserveValueImports": false
+    "preserveValueImports": false,
+    "importsNotUsedAsValues": "preserve"
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
 }
