@@ -8,10 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
-		methodOverride: {
-			allowed: ['PUT', 'PATCH', 'DELETE']
-		}
+		adapter: adapter()
 	}
 };
 
