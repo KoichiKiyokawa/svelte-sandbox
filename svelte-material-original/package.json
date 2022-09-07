@@ -14,18 +14,18 @@
     "@material/data-table": "14.0.0",
     "@material/form-field": "14.0.0",
     "@sveltejs/kit": "next",
-    "@typescript-eslint/eslint-plugin": "5.31.0",
-    "@typescript-eslint/parser": "5.31.0",
-    "eslint": "8.20.0",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-svelte3": "4.0.0",
     "prettier": "2.7.1",
     "prettier-plugin-svelte": "2.7.0",
-    "svelte": "3.49.0",
-    "svelte-check": "2.8.0",
+    "svelte": "3.50.0",
+    "svelte-check": "2.9.0",
     "svelte-preprocess": "4.10.7",
     "tslib": "2.4.0",
-    "typescript": "4.7.4"
+    "typescript": "4.8.2"
   },
   "type": "module"
 }
