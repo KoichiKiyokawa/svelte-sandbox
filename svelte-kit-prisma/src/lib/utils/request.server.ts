@@ -1,25 +1,3 @@
-import type { RequestHandler, ResponseBody } from '@sveltejs/kit';
-
-export const useAuthorizedHandler =
-	<
-		Params extends Record<string, string> = Record<string, string>,
-		Output extends ResponseBody = ResponseBody
-	>(
-		handler: RequestHandler<Params, Output>,
-		option?: { redirectTo?: string }
-	): RequestHandler<Params, Output> =>
-	(args) => {
-		if (args.locals.session.data?.userId === undefined)
-			return {
-				status: 302,
-				headers: {
-					location: option?.redirectTo ?? '/login'
-				}
-			};
-
-		return handler(args);
-	};
-
 export async function jsonifyRequest<T extends Record<string, unknown>>(
 	request: Request
 ): Promise<T> {

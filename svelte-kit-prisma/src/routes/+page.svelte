@@ -1,8 +1,8 @@
 <script lang="ts">
 	import ArticleCard from '$lib/components/domain/articles/ArticleCard.svelte';
-	import type { ArticleWithAuthorAndTag } from './index';
+	import type { PageData } from './$types';
 
-	export let articles: ArticleWithAuthorAndTag[];
+	export let data: PageData;
 </script>
 
 <!-- Hero -->
@@ -20,7 +20,7 @@
 	</ul>
 
 	<!-- Article -->
-	{#each articles as article}
+	{#each data.articles as article}
 		<div class="py-6 border-b border-gray-300 last:border-b-0">
 			<ArticleCard data={article} />
 		</div>
