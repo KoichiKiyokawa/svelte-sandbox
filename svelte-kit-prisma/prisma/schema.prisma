@@ -20,6 +20,15 @@ model User {
   updatedAt    DateTime  @updatedAt
   Article      Article[]
   likes        Like[]
+  session      Session?
+}
+
+model Session {
+  id       String   @id @default(cuid())
+  expireAt DateTime
+
+  userId String @unique
+  user   User   @relation(fields: [userId], references: [id])
 }
 
 model Article {

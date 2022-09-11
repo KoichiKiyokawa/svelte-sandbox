@@ -1,3 +1,29 @@
+import { CookieKeys } from '$lib/constants/cookie';
+import type { User } from '@prisma/client';
+import { redirect, type Cookies } from '@sveltejs/kit';
+import dayjs from 'dayjs';
+import { db } from './db.server';
+
+const redirectToLogin = redirect(302, '/login');
+
+/**
+ * @param cookies the value of `event.cookies`, the arg of `load` or `actions` function.
+ * @returns current user
+ * @throws redirect to login page
+ */
+export async function getCurrentUserByCookie(cookies: Cookies): Promise<User> {
+	const sessionId = cookies.get(CookieKeys.CurrentUser);
+	if (!sessionId) throw redirectToLogin;
+
+	const session = await db.session.findUnique({
+		where: { id: sessionId },
+		include: { user: true }
+	});
+	if (!session || dayjs(session.expireAt).isBefore(Date.now())) throw redirectToLogin;
+
+	return session.user;
+}
+
 export async function jsonifyRequest<T extends Record<string, unknown>>(
 	request: Request
 ): Promise<T> {

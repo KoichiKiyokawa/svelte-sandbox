@@ -1,9 +1,8 @@
 <script lang="ts">
-	import Form from '$lib/components/Form.svelte';
-
+	import { enhance } from '$app/forms';
 	import type { Article, Tag, User } from '@prisma/client';
-	import dayjs from 'dayjs';
 	import { LocationHeartFilled } from 'carbon-icons-svelte';
+	import dayjs from 'dayjs';
 
 	type ArticleWithAuthorAndTag = Article & {
 		author: Pick<User, 'id' | 'name'>;
@@ -24,7 +23,7 @@
 			<p class="text-[#BBBBBB] text-sm">{dayjs(data.createdAt).format('YYYY-MM-DD')}</p>
 		</div>
 
-		<Form method="POST">
+		<form method="POST" use:enhance>
 			<input type="hidden" name="type" value="like" />
 			<input type="hidden" name="redirectTo" value="/" />
 			<input type="hidden" name="articleSlug" value={data.slug} />
@@ -37,7 +36,7 @@
 				<LocationHeartFilled size={24} />
 				<span class="text-sm">{data.likeCount}</span>
 			</button>
-		</Form>
+		</form>
 	</div>
 
 	<a href="/articles/{data.slug}">
