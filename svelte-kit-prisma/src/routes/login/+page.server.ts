@@ -7,7 +7,7 @@ import dayjs from 'dayjs';
 import type { Actions } from './$types';
 
 export const actions: Actions = {
-	async login({ request, cookies }) {
+	async default({ request, cookies }) {
 		const { email, password } = await jsonifyRequest<{ email: string; password: string }>(request);
 		const targetUser = await db.user.findUnique({ where: { email } });
 		const noUserResponse = { error: 'No user found' };
@@ -23,11 +23,6 @@ export const actions: Actions = {
 		});
 		cookies.set(CookieKeys.CurrentUser, session.id);
 
-		throw redirect(303, '/');
-	},
-
-	async logout({ cookies }) {
-		cookies.delete(CookieKeys.CurrentUser);
-		throw redirect(303, '/login');
+		throw redirect(302, '/');
 	}
 };

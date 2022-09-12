@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ArticleCard from '$lib/components/domain/articles/ArticleCard.svelte';
+	import ArticleCard from '$lib/features/article/components/ArticleCard.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;

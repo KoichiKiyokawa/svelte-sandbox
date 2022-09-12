@@ -6,6 +6,7 @@ export default defineConfig({
 		extend: {
 			colors: {
 				black: {
+					extraLight: 'rgba(0, 0, 0, 0.3)',
 					light: 'rgba(0, 0, 0, 0.6)',
 					DEFAULT: '#373a3c'
 				},
@@ -15,6 +16,9 @@ export default defineConfig({
 				link: {
 					DEFAULT: colors.blue['500']
 				}
+			},
+			fontFamily: {
+				title: ['Titillium Web', 'sans-serif']
 			}
 		}
 	}
