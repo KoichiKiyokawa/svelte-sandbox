@@ -2,7 +2,7 @@
 	import { enhance } from '$app/forms';
 	import { page } from '$app/stores';
 
-	export let isLoggedIn: boolean = false;
+	export let isLoggedIn = false;
 </script>
 
 <header class="container mx-auto font-bold py-4 flex justify-between">
