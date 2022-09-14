@@ -11,31 +11,31 @@ specifiers:
   '@urql/core': ^2.6.1
   '@urql/svelte': 2.0.2
   graphql: 16.6.0
-  svelte: 3.50.0
+  svelte: 3.50.1
   svelte-check: 2.9.0
   svelte-preprocess: 4.10.7
   tslib: 2.4.0
-  typescript: 4.8.2
+  typescript: 4.8.3
   vite: 3.1.0
 
 dependencies:
   '@urql/core': 2.6.1_graphql@16.6.0
 
 devDependencies:
-  '@graphql-codegen/cli': 2.12.0_graphql@16.6.0+typescript@4.8.2
+  '@graphql-codegen/cli': 2.12.0_graphql@16.6.0+typescript@4.8.3
   '@graphql-codegen/typed-document-node': 2.3.3_graphql@16.6.0
   '@graphql-codegen/typescript': 2.7.3_graphql@16.6.0
   '@graphql-codegen/typescript-operations': 2.5.3_graphql@16.6.0
   '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
-  '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.0+vite@3.1.0
+  '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.0
   '@tsconfig/svelte': 3.0.0
-  '@urql/svelte': 2.0.2_graphql@16.6.0+svelte@3.50.0
+  '@urql/svelte': 2.0.2_graphql@16.6.0+svelte@3.50.1
   graphql: 16.6.0
-  svelte: 3.50.0
-  svelte-check: 2.9.0_svelte@3.50.0
-  svelte-preprocess: 4.10.7_svelte@3.50.0+typescript@4.8.2
+  svelte: 3.50.1
+  svelte-check: 2.9.0_svelte@3.50.1
+  svelte-preprocess: 4.10.7_svelte@3.50.1+typescript@4.8.3
   tslib: 2.4.0
-  typescript: 4.8.2
+  typescript: 4.8.3
   vite: 3.1.0
 
 packages:
@@ -660,7 +660,7 @@ packages:
     dev: true
     optional: true
 
-  /@graphql-codegen/cli/2.12.0_graphql@16.6.0+typescript@4.8.2:
+  /@graphql-codegen/cli/2.12.0_graphql@16.6.0+typescript@4.8.3:
     resolution: {integrity: sha512-esaMiiuypAtJNiZUhGdFmG0gTMEF5dYkqP/7I04egxSragwbIETU8gOl6/gHdLSAV5su7dgfIEZNdWmGCOWAbg==}
     hasBin: true
     peerDependencies:
@@ -683,11 +683,11 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.3
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 4.0.0_42b8f6371137ebb1f6c17f589f0ae5e0
+      cosmiconfig-typescript-loader: 4.0.0_f58bb8d11f2ddead3b26ebee7a940d9d
       debounce: 1.2.1
       detect-indent: 6.1.0
       graphql: 16.6.0
-      graphql-config: 4.3.5_graphql@16.6.0+typescript@4.8.2
+      graphql-config: 4.3.5_graphql@16.6.0+typescript@4.8.3
       inquirer: 8.2.0
       is-glob: 4.0.3
       json-to-pretty-yaml: 1.2.2
@@ -1240,7 +1240,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.5_svelte@3.50.0+vite@3.1.0:
+  /@sveltejs/vite-plugin-svelte/1.0.5_svelte@3.50.1+vite@3.1.0:
     resolution: {integrity: sha512-CmSdSow0Dr5ua1A11BQMtreWnE0JZmkVIcRU/yG3PKbycKUpXjNdgYTWFSbStLB0vdlGnBbm2+Y4sBVj+C+TIw==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -1256,8 +1256,8 @@ packages:
       deepmerge: 4.2.2
       kleur: 4.1.5
       magic-string: 0.26.3
-      svelte: 3.50.0
-      svelte-hmr: 0.14.12_svelte@3.50.0
+      svelte: 3.50.1
+      svelte-hmr: 0.14.12_svelte@3.50.1
       vite: 3.1.0
     transitivePeerDependencies:
       - supports-color
@@ -1346,7 +1346,7 @@ packages:
       wonka: 4.0.15
     dev: false
 
-  /@urql/svelte/2.0.2_graphql@16.6.0+svelte@3.50.0:
+  /@urql/svelte/2.0.2_graphql@16.6.0+svelte@3.50.1:
     resolution: {integrity: sha512-b/gLJGZK78GHbyKgraEZ09uHcGc4n0RePSIAPhj+sMTnIgRRaMQwU4D88dNruUdU363MCxFmy+d+V3FYNxmgNQ==}
     peerDependencies:
       graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -1354,7 +1354,7 @@ packages:
     dependencies:
       '@urql/core': 2.5.0_graphql@16.6.0
       graphql: 16.6.0
-      svelte: 3.50.0
+      svelte: 3.50.1
       wonka: 4.0.15
     dev: true
 
@@ -1837,7 +1837,7 @@ packages:
       '@iarna/toml': 2.2.5
     dev: true
 
-  /cosmiconfig-typescript-loader/4.0.0_2752d09f52425641a28a297c58307e49:
+  /cosmiconfig-typescript-loader/4.0.0_30a28df3bae440dbc87323192923f97a:
     resolution: {integrity: sha512-cVpucSc2Tf+VPwCCR7SZzmQTQkPbkk4O01yXsYqXBIbjE1bhwqSyAgYQkRK1un4i0OPziTleqFhdkmOc4RQ/9g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -1847,11 +1847,11 @@ packages:
       typescript: '>=3'
     dependencies:
       cosmiconfig: 7.0.1
-      ts-node: 10.9.1_typescript@4.8.2
-      typescript: 4.8.2
+      ts-node: 10.9.1_typescript@4.8.3
+      typescript: 4.8.3
     dev: true
 
-  /cosmiconfig-typescript-loader/4.0.0_42b8f6371137ebb1f6c17f589f0ae5e0:
+  /cosmiconfig-typescript-loader/4.0.0_f58bb8d11f2ddead3b26ebee7a940d9d:
     resolution: {integrity: sha512-cVpucSc2Tf+VPwCCR7SZzmQTQkPbkk4O01yXsYqXBIbjE1bhwqSyAgYQkRK1un4i0OPziTleqFhdkmOc4RQ/9g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -1861,7 +1861,7 @@ packages:
       typescript: '>=3'
     dependencies:
       cosmiconfig: 7.0.1
-      typescript: 4.8.2
+      typescript: 4.8.3
     dev: true
 
   /cosmiconfig/7.0.1:
@@ -2406,7 +2406,7 @@ packages:
     resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
     dev: true
 
-  /graphql-config/4.3.5_graphql@16.6.0+typescript@4.8.2:
+  /graphql-config/4.3.5_graphql@16.6.0+typescript@4.8.3:
     resolution: {integrity: sha512-B4jXhHL7j3llCem+ACeo48wvVYhtJxRyt5SfSnvywbRlVYyUzt5ibZV6WJU2Yii2/rcVRIGi7BHDgcAPWdWdJg==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -2420,11 +2420,11 @@ packages:
       '@graphql-tools/utils': 8.9.0_graphql@16.6.0
       cosmiconfig: 7.0.1
       cosmiconfig-toml-loader: 1.0.0
-      cosmiconfig-typescript-loader: 4.0.0_2752d09f52425641a28a297c58307e49
+      cosmiconfig-typescript-loader: 4.0.0_30a28df3bae440dbc87323192923f97a
       graphql: 16.6.0
       minimatch: 4.2.1
       string-env-interpolation: 1.0.1
-      ts-node: 10.9.1_typescript@4.8.2
+      ts-node: 10.9.1_typescript@4.8.3
       tslib: 2.4.0
     transitivePeerDependencies:
       - '@swc/core'
@@ -3558,7 +3558,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.9.0_svelte@3.50.0:
+  /svelte-check/2.9.0_svelte@3.50.1:
     resolution: {integrity: sha512-9AVrtP7WbfDgCdqTZNPdj5CCCy1OrYMxFVWAWzNw7fl93c9klFJFtqzVXa6fovfQ050CcpUyJE2dPFL9TFAREw==}
     hasBin: true
     peerDependencies:
@@ -3570,9 +3570,9 @@ packages:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 3.50.0
-      svelte-preprocess: 4.10.7_svelte@3.50.0+typescript@4.8.2
-      typescript: 4.8.2
+      svelte: 3.50.1
+      svelte-preprocess: 4.10.7_svelte@3.50.1+typescript@4.8.3
+      typescript: 4.8.3
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -3586,16 +3586,16 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-hmr/0.14.12_svelte@3.50.0:
+  /svelte-hmr/0.14.12_svelte@3.50.1:
     resolution: {integrity: sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.50.0
+      svelte: 3.50.1
     dev: true
 
-  /svelte-preprocess/4.10.7_svelte@3.50.0+typescript@4.8.2:
+  /svelte-preprocess/4.10.7_svelte@3.50.1+typescript@4.8.3:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -3642,12 +3642,12 @@ packages:
       magic-string: 0.25.7
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.50.0
-      typescript: 4.8.2
+      svelte: 3.50.1
+      typescript: 4.8.3
     dev: true
 
-  /svelte/3.50.0:
-    resolution: {integrity: sha512-zXeOUDS7+85i+RxLN+0iB6PMbGH7OhEgjETcD1fD8ZrhuhNFxYxYEHU41xuhkHIulJavcu3PKbPyuCrBxdxskQ==}
+  /svelte/3.50.1:
+    resolution: {integrity: sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -3694,7 +3694,7 @@ packages:
     resolution: {integrity: sha512-DEQrfv6l7IvN2jlzc/VTdZJYsWUnQNCsueYjMkC/iXoEoi5fNan6MjeDqkvhfzbmHgdz9UxDUluX3V5HdjTydQ==}
     dev: true
 
-  /ts-node/10.9.1_typescript@4.8.2:
+  /ts-node/10.9.1_typescript@4.8.3:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3719,7 +3719,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.8.2
+      typescript: 4.8.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -3733,8 +3733,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.8.2:
-    resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
+  /typescript/4.8.3:
+    resolution: {integrity: sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
