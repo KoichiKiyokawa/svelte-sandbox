@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
-	import { invalidateAll } from '$app/navigation';
 
 	// https://github.com/sveltejs/kit/issues/6631
 	// export let form: ActionData;
