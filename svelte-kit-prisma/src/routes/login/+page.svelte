@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
+	import { invalidateAll } from '$app/navigation';
 
 	// https://github.com/sveltejs/kit/issues/6631
 	// export let form: ActionData;
@@ -13,11 +14,13 @@
 	<a href="signup" class="block text-primary mt-2 mb-4 text-center">Need an account?</a>
 
 	<form
+		method="post"
 		use:enhance={() => {
 			submitting = true;
 			return async ({ result }) => {
+				await invalidateAll();
 				await applyAction(result);
-				submitting = false;
+				if (result.type === 'error') submitting = false;
 			};
 		}}
 	>

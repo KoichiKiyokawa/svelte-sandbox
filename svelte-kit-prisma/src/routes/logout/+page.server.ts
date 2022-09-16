@@ -8,7 +8,6 @@ export const actions: Actions = {
 		const sessionId = cookies.get(CookieKeys.CurrentUser);
 		await db.session.delete({ where: { id: sessionId } });
 		cookies.delete(CookieKeys.CurrentUser);
-		// FIXME: cannot redirect to /login
 		throw redirect(303, '/login');
 	}
 };
