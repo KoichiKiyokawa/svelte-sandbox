@@ -10,9 +10,12 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"codegen": "graphql-codegen"
 	},
 	"devDependencies": {
+		"@graphql-codegen/cli": "2.13.0",
+		"@graphql-codegen/client-preset": "1.0.1",
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
@@ -31,5 +34,10 @@
 		"vite": "^3.1.0"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.12.2"
+	"packageManager": "pnpm@7.12.2",
+	"dependencies": {
+		"@graphql-yoga/common": "2.12.12",
+		"@urql/core": "3.0.3",
+		"graphql": "16.6.0"
+	}
 }
