@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
+	import { applyAction, enhance } from '$app/forms';
+	import { invalidateAll } from '$app/navigation';
 	import type { Article, Tag, User } from '@prisma/client';
 	import { LocationHeartFilled } from 'carbon-icons-svelte';
 	import dayjs from 'dayjs';
@@ -14,6 +15,8 @@
 	export let data: ArticleWithAuthorAndTag;
 
 	const MAX_BODY_SHOW_LENGTH = 15;
+
+	let submitting = false;
 </script>
 
 <div>
@@ -23,13 +26,24 @@
 			<p class="text-[#BBBBBB] text-sm">{dayjs(data.createdAt).format('YYYY-MM-DD')}</p>
 		</div>
 
-		<form method="POST" use:enhance>
+		<form
+			method="POST"
+			use:enhance={() => {
+				submitting = true;
+				return async ({ result }) => {
+					await invalidateAll();
+					await applyAction(result);
+					submitting = false;
+				};
+			}}
+		>
 			<input type="hidden" name="type" value="like" />
 			<input type="hidden" name="redirectTo" value="/" />
 			<input type="hidden" name="articleSlug" value={data.slug} />
 
 			<button
-				class="flex items-center space-x-2 px-2 py-1 rounded border border-primary {data.hasLiked
+				disabled={submitting}
+				class="flex items-center space-x-2 px-2 py-1 rounded border border-primary disabled:bg-gray-400 {data.hasLiked
 					? 'bg-primary text-white'
 					: 'bg-white text-primary'}"
 			>
