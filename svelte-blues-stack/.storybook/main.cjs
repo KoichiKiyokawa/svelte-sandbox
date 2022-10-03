@@ -16,6 +16,7 @@ module.exports = {
 		preprocess: preprocess()
 	},
 	features: {
-		storyStoreV7: true
+		storyStoreV7: true,
+		previewCsfV3: true
 	}
 };
