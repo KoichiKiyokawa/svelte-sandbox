@@ -1,7 +1,8 @@
 <script lang="ts">
 	export let name: string;
+	export let initialCount: number = 0;
 
-	let count = 0;
+	let count = initialCount;
 
 	function increment() {
 		count += 1;
