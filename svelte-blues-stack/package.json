@@ -16,12 +16,11 @@
 		"build-storybook": "build-storybook"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.19.3",
 		"@playwright/test": "^1.25.0",
+		"@storybook/addon-a11y": "^6.5.12",
 		"@storybook/addon-actions": "^6.5.12",
 		"@storybook/addon-essentials": "^6.5.12",
 		"@storybook/addon-interactions": "^6.5.12",
-		"@storybook/addon-links": "^6.5.12",
 		"@storybook/builder-vite": "^0.2.3",
 		"@storybook/svelte": "^6.5.12",
 		"@storybook/testing-library": "^0.0.13",
