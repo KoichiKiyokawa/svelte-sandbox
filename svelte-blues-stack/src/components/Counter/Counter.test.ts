@@ -4,7 +4,7 @@ import Counter from './index.svelte';
 
 describe('Counter', () => {
 	const getCurrentCount = () => screen.getByTestId('counter-state').textContent;
-	render(Counter, { props: {} });
+	render(Counter, { props: { name: 'foo' } });
 
 	it('can increment', async () => {
 		const incrementButton = screen.getByRole('button', { name: '+1' });

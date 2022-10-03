@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let name: string;
+
 	let count = 0;
 
 	function increment() {
