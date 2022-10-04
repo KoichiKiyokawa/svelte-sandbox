@@ -1,6 +1,6 @@
-import { client } from 'src/lib/urql';
+import { client } from '~/lib/urql';
 import type { PageServerLoad } from './$types';
-import { graphql } from '../gql/gql';
+import { graphql } from '~/gql/gql';
 
 const helloDocument = graphql(/* GraphQL */ `
 	query Hello {
