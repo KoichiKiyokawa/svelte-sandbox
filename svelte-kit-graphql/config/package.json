@@ -1,3 +1,0 @@
-{
-	"description": "This package.json is to avoid type: module error for graphql codegen."
-}
