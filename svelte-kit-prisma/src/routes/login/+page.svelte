@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { applyAction, enhance } from '$app/forms';
-	import { invalidateAll } from '$app/navigation';
+	import { enhance } from '$app/forms';
+	import type { ActionData } from './$types';
 
-	// https://github.com/sveltejs/kit/issues/6631
-	// export let form: ActionData;
-	export let form: { error?: string };
+	export let form: ActionData;
 
 	let submitting = false;
 </script>
@@ -17,10 +15,9 @@
 		method="post"
 		use:enhance={() => {
 			submitting = true;
-			return async ({ result }) => {
-				await invalidateAll();
-				await applyAction(result);
-				if (result.type === 'error') submitting = false;
+			return async ({ update }) => {
+				await update();
+				submitting = false;
 			};
 		}}
 	>

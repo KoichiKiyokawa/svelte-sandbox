@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { applyAction, enhance } from '$app/forms';
-	import { invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
 
 	export let isLoggedIn = false;
@@ -12,16 +10,7 @@
 	<ul>
 		<li class="text-black-extraLight">
 			{#if isLoggedIn}
-				<form
-					method="post"
-					action="/logout"
-					use:enhance={() => {
-						return async ({ result }) => {
-							await applyAction(result);
-							await invalidateAll();
-						};
-					}}
-				>
+				<form method="post" action="/logout">
 					<button>Logout</button>
 				</form>
 			{:else if $page.routeId !== 'login'}

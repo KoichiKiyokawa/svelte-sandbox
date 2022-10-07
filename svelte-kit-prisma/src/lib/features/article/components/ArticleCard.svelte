@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { applyAction, enhance } from '$app/forms';
-	import { invalidateAll } from '$app/navigation';
+	import { enhance } from '$app/forms';
 	import type { Article, Tag, User } from '@prisma/client';
 	import { LocationHeartFilled } from 'carbon-icons-svelte';
 	import dayjs from 'dayjs';
@@ -30,9 +29,8 @@
 			method="POST"
 			use:enhance={() => {
 				submitting = true;
-				return async ({ result }) => {
-					await invalidateAll();
-					await applyAction(result);
+				return async ({ update }) => {
+					await update();
 					submitting = false;
 				};
 			}}
