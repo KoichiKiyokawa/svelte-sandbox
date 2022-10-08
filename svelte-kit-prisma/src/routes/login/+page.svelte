@@ -15,9 +15,9 @@
 		method="post"
 		use:enhance={() => {
 			submitting = true;
-			return async ({ update }) => {
+			return async ({ result, update }) => {
+				if (result.type !== 'success') submitting = false;
 				await update();
-				submitting = false;
 			};
 		}}
 	>
