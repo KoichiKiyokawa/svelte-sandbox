@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
 	import { page } from '$app/stores';
 
 	export let isLoggedIn = false;
@@ -10,7 +11,7 @@
 	<ul>
 		<li class="text-black-extraLight">
 			{#if isLoggedIn}
-				<form method="post" action="/logout">
+				<form method="post" action="/logout" use:enhance>
 					<button>Logout</button>
 				</form>
 			{:else if $page.routeId !== 'login'}

@@ -4,9 +4,10 @@
 	import type { LayoutData } from './$types';
 
 	export let data: LayoutData;
+	$: isLoggedIn = data.currentUser !== null;
 </script>
 
-<Header isLoggedIn={data.isLoggedIn} />
+<Header {isLoggedIn} />
 <main>
 	<slot />
 </main>

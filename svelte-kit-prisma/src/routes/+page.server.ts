@@ -1,12 +1,14 @@
 import { db } from '$lib/utils/db.server';
 import {
 	getCurrentUserByCookie as getCurrentUserByCookies,
-	jsonifyRequest
+	jsonifyRequest,
+	redirectToLogin
 } from '$lib/utils/request.server';
 import type { Actions, PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ cookies }) => {
-	const currentUser = await getCurrentUserByCookies(cookies);
+export const load: PageServerLoad = async ({ parent }) => {
+	const { currentUser } = await parent();
+	if (currentUser === null) throw redirectToLogin;
 
 	const data = await db.article.findMany({
 		include: {
@@ -31,6 +33,8 @@ export type PostParams = { articleSlug: string };
 export const actions: Actions = {
 	async default({ request, cookies }) {
 		const user = await getCurrentUserByCookies(cookies);
+		if (!user) throw redirectToLogin;
+
 		const data = await jsonifyRequest<PostParams>(request);
 
 		const existingLike = await db.like.findFirst({
