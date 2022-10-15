@@ -13,6 +13,9 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"dependencies": {
+		"daisyui": "^2.31.0"
+	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
@@ -38,8 +41,5 @@
 		"vitest": "0.24.3"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.13.4",
-	"dependencies": {
-		"daisyui": "^2.31.0"
-	}
+	"packageManager": "pnpm@7.13.4"
 }

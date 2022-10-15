@@ -6,7 +6,7 @@
 	<div class="card-body">
 		<h2 class="card-title">Login</h2>
 
-		<form class="">
+		<form>
 			<LabelInput id="email" label="Email:" placeholder="foo@example.com" type="email" />
 
 			<LabelInput id="password" label="Password:" type="password" class="mt-4" />

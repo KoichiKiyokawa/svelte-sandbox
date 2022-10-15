@@ -1,0 +1,76 @@
+// Vitest Snapshot v1
+
+exports[`login page > to match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="card max-w-screen-md mx-auto bg-base-300 shadow-xl mt-4"
+    >
+      <div
+        class="card-body"
+      >
+        <h2
+          class="card-title"
+        >
+          Login
+        </h2>
+         
+        <form>
+          <div
+            class="form-control w-full "
+          >
+            <label
+              class="label"
+              for="email"
+            >
+              <span
+                class="label-text"
+              >
+                Email:
+              </span>
+            </label>
+             
+            <input
+              class="input input-bordered w-full"
+              id="email"
+              placeholder="foo@example.com"
+              type="email"
+            />
+          </div>
+          <!--&lt;Index&gt;-->
+           
+          <div
+            class="form-control w-full mt-4"
+          >
+            <label
+              class="label"
+              for="password"
+            >
+              <span
+                class="label-text"
+              >
+                Password:
+              </span>
+            </label>
+             
+            <input
+              class="input input-bordered w-full"
+              id="password"
+              placeholder=""
+              type="password"
+            />
+          </div>
+          <!--&lt;Index&gt;-->
+           
+          <button
+            class="btn btn-primary mt-8"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+    <!--&lt;+page&gt;-->
+  </div>
+</body>
+`;
