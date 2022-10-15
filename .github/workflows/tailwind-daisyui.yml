@@ -1,0 +1,42 @@
+name: tailwind-daisyui
+on:
+  push:
+    paths:
+      - tailwind-daisyui/**
+      - .github/workflows/tailwind-daisyui.yml
+    branches:
+      - main
+  pull_request:
+    paths:
+      - tailwind-daisyui/**
+      - .github/workflows/tailwind-daisyui.yml
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tailwind-daisyui
+    strategy:
+      matrix:
+        node-version:
+          - 16.x
+          - 17.x
+          - 18.x
+    steps:
+      - uses: actions/checkout@v3
+      - run: corepack enable pnpm
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: tailwind-daisyui/pnpm-lock.yaml
+      - run: pnpm i
+      - run: pnpm sync
+      - run: pnpm lint
+      - run: pnpm check
+      - run: pnpm tsc --noEmit
+      - run: pnpm test
+      - run: pnpm build
