@@ -3,7 +3,7 @@
 	export let label: string;
 	export let type: string;
 	export let placeholder = '';
-	let klass: string = '';
+	let klass = '';
 	export { klass as class };
 </script>
 
