@@ -11,3 +11,9 @@
 	{/each}
 	<img src={Picture.fallback.src} alt="" />
 </picture>
+
+<style lang="postcss">
+	img {
+		width: 100%;
+	}
+</style>
