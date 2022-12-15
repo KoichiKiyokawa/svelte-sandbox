@@ -8,7 +8,7 @@ specifiers:
   '@graphql-typed-document-node/core': 3.1.1
   '@sveltejs/vite-plugin-svelte': 1.0.5
   '@tsconfig/svelte': 3.0.0
-  '@urql/core': ^2.6.1
+  '@urql/core': ^3.0.0
   '@urql/svelte': 2.0.2
   graphql: 16.6.0
   svelte: 3.50.1
@@ -19,7 +19,7 @@ specifiers:
   vite: 3.1.0
 
 dependencies:
-  '@urql/core': 2.6.1_graphql@16.6.0
+  '@urql/core': 3.0.3_graphql@16.6.0
 
 devDependencies:
   '@graphql-codegen/cli': 2.12.0_graphql@16.6.0+typescript@4.8.3
@@ -1326,16 +1326,6 @@ packages:
       '@types/node': 17.0.14
     dev: true
 
-  /@urql/core/2.5.0_graphql@16.6.0:
-    resolution: {integrity: sha512-xXdcgb0H3nNTP4OfC+5T3CHJ0iz7Jj0QQYSYhN/hvKrzFnisPz2n6WXmvsHmMXk5bJHsr39kx4eOHcpsJuyCew==}
-    peerDependencies:
-      graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
-      graphql: 16.6.0
-      wonka: 4.0.15
-    dev: true
-
   /@urql/core/2.6.1_graphql@16.6.0:
     resolution: {integrity: sha512-gYrEHy3tViJhwIhauK6MIf2Qp09QTsgNHZRd0n71rS+hF6gdwjspf1oKljl4m25+272cJF7fPjBUGmjaiEr7Kg==}
     peerDependencies:
@@ -1344,6 +1334,16 @@ packages:
       '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
       graphql: 16.6.0
       wonka: 4.0.15
+    dev: true
+
+  /@urql/core/3.0.3_graphql@16.6.0:
+    resolution: {integrity: sha512-raQP51ERNtg5BvlN8x8mHVRvk4K0ugWQ69n53BdkjKpXVV5kuWp7trnwriGv1fQKa8HuiGNSCfyslUucc0OVQg==}
+    peerDependencies:
+      graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
+      graphql: 16.6.0
+      wonka: 6.0.0
     dev: false
 
   /@urql/svelte/2.0.2_graphql@16.6.0+svelte@3.50.1:
@@ -1352,7 +1352,7 @@ packages:
       graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
       svelte: ^3.0.0
     dependencies:
-      '@urql/core': 2.5.0_graphql@16.6.0
+      '@urql/core': 2.6.1_graphql@16.6.0
       graphql: 16.6.0
       svelte: 3.50.1
       wonka: 4.0.15
@@ -3859,6 +3859,11 @@ packages:
 
   /wonka/4.0.15:
     resolution: {integrity: sha512-U0IUQHKXXn6PFo9nqsHphVCE5m3IntqZNB9Jjn7EB1lrR7YTDY3YWgFvEvwniTzXSvOH/XMzAZaIfJF/LvHYXg==}
+    dev: true
+
+  /wonka/6.0.0:
+    resolution: {integrity: sha512-TEiIOqkhQXbcmL1RrjxPCzTX15V5FSyJvZRSiTxvgTgrJMaOVKmzGTdRVh349CfaNo9dsIhWDyg1/GNq4NWrEg==}
+    dev: false
 
   /wrap-ansi/6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}

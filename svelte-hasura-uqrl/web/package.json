@@ -29,6 +29,6 @@
     "vite": "3.1.0"
   },
   "dependencies": {
-    "@urql/core": "^2.6.1"
+    "@urql/core": "^3.0.0"
   }
 }
