@@ -1,4 +1,5 @@
 schema:
+# TODO: herokuが死んだ
   - https://hasura-prac.herokuapp.com/v1/graphql:
       headers:
         x-hasura-admin-secret: ${AUTH_TOKEN}
