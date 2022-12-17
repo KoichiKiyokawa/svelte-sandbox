@@ -15,7 +15,7 @@
 		"seed": "tsx prisma/seed.ts"
 	},
 	"dependencies": {
-		"@prisma/client": "4.1.1",
+		"@prisma/client": "4.7.1",
 		"dayjs": "1.11.7",
 		"felte": "1.2.6",
 		"zod": "3.20.2"
@@ -34,7 +34,7 @@
 		"eslint-plugin-svelte3": "4.0.0",
 		"prettier": "2.8.1",
 		"prettier-plugin-svelte": "2.9.0",
-		"prisma": "4.1.1",
+		"prisma": "4.7.1",
 		"svelte": "3.55.0",
 		"svelte-check": "2.10.2",
 		"svelte-preprocess": "4.10.7",
