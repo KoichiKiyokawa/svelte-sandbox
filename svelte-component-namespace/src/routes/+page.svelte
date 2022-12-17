@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { TransposedTable } from '$lib/../components/TransposedTable/index.svelte';
+	import { TransposedTable } from '../components/TransposedTable/index.svelte';
 </script>
 
 <TransposedTable.Table>
