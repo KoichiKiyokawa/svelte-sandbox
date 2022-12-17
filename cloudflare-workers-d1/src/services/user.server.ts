@@ -21,4 +21,13 @@ export class UserService {
 
 		if (!res.success) throw Error('services.createUser(): failed');
 	}
+
+	async update(user: User) {
+		const res = await this.db
+			.prepare('UPDATE users SET name = ?, email = ? WHERE id = ?;')
+			.bind(user.name, user.email, user.id)
+			.run();
+
+		if (!res.success) throw Error('services.updateUser(): failed');
+	}
 }
