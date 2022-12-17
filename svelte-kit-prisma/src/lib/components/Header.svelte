@@ -14,7 +14,7 @@
 				<form method="post" action="/logout" use:enhance>
 					<button>Logout</button>
 				</form>
-			{:else if $page.routeId !== 'login'}
+			{:else if $page.route.id !== 'login'}
 				Sign in
 			{/if}
 		</li>
