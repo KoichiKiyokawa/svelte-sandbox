@@ -1,0 +1,12 @@
+name = "svelte-kit-d1"
+compatibility_date = "2022-12-17"
+
+build.command = "pnpm svelte-kit sync && pnpm build"
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "main"
+database_id = "3864bf3c-c8e6-4fb9-8a31-5272a8913857"
