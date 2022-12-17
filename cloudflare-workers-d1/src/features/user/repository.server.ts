@@ -1,6 +1,6 @@
-import type { User } from 'src/models/user';
+import type { User } from './model';
 
-export class UserService {
+export class UserRepository {
 	constructor(private db: D1Database) {}
 
 	async findAll(): Promise<User[]> {

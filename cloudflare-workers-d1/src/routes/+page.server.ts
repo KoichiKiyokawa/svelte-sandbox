@@ -1,9 +1,9 @@
-import { UserService } from '~/services/user.server';
+import { UserRepository } from '~/features/user/repository.server';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = ({ platform }) => {
-	const userService = new UserService(platform.env.DB);
+export const load: PageServerLoad = (event) => {
+	const userRepository = new UserRepository(event.platform.env.DB);
 	return {
-		users: userService.findAll()
+		users: userRepository.findAll()
 	};
 };
