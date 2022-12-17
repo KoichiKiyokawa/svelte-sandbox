@@ -14,8 +14,8 @@
 		"codegen": "graphql-codegen"
 	},
 	"devDependencies": {
-		"@graphql-codegen/cli": "2.13.3",
-		"@graphql-codegen/client-preset": "1.0.1",
+		"@graphql-codegen/cli": "2.16.1",
+		"@graphql-codegen/client-preset": "1.2.3",
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
@@ -34,10 +34,10 @@
 		"vite": "^3.1.0"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.12.2",
+	"packageManager": "pnpm@7.18.2",
 	"dependencies": {
 		"@graphql-yoga/common": "2.12.12",
-		"@urql/core": "3.0.3",
+		"@urql/core": "3.1.1",
 		"graphql": "16.6.0"
 	}
 }
