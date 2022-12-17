@@ -35,5 +35,5 @@
 		"wrangler": "2.6.2"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.18.0"
+	"packageManager": "pnpm@7.18.2"
 }
