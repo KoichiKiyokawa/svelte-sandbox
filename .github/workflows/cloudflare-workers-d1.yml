@@ -1,0 +1,40 @@
+name: cloudflare-workers-d1
+on:
+  push:
+    paths:
+      - cloudflare-workers-d1/**
+      - .github/workflows/cloudflare-workers-d1.yml
+    branches:
+      - main
+  pull_request:
+    paths:
+      - cloudflare-workers-d1/**
+      - .github/workflows/cloudflare-workers-d1.yml
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cloudflare-workers-d1
+    strategy:
+      matrix:
+        node-version:
+          - 16.x
+          - 18.x
+    steps:
+      - uses: actions/checkout@v3
+      - run: corepack enable pnpm
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          # cache: 'pnpm'
+          cache-dependency-path: cloudflare-workers-d1/pnpm-lock.yaml
+      - run: pnpm i
+      - run: pnpm lint
+      - run: pnpm check
+      - run: pnpm tsc --noEmit
+      - run: pnpm test:unit
+      - run: pnpm build
