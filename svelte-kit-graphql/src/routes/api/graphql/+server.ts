@@ -1,8 +1,8 @@
-import { createServer } from '@graphql-yoga/common';
+import { createSchema, createYoga } from '@graphql-yoga/common';
 import type { RequestHandler } from '@sveltejs/kit';
 
-const server = createServer({
-	schema: {
+const yoga = createYoga({
+	schema: createSchema({
 		typeDefs: /* GraphQL */ `
 			type Query {
 				hello: String
@@ -13,16 +13,14 @@ const server = createServer({
 				hello: () => 'SvelteKit - GraphQL Yoga'
 			}
 		}
-	},
-	graphiql: {
-		endpoint: '/api/graphql'
-	}
+	}),
+	graphqlEndpoint: '/api/graphql'
 });
 
 export const GET: RequestHandler = async ({ request }) => {
-	return server.getResponse(request, {});
+	return yoga.getResponse(request, {});
 };
 
 export const POST: RequestHandler = async ({ request }) => {
-	return server.getResponse(request, {});
+	return yoga.getResponse(request, {});
 };
