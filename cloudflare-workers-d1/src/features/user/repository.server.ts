@@ -1,33 +1,21 @@
+import { BaseRepository } from '../core/repository.server';
 import type { User } from './model';
 
-export class UserRepository {
-	constructor(private db: D1Database) {}
-
+export class UserRepository extends BaseRepository {
 	async findAll(): Promise<User[]> {
-		const res = await this.db.prepare('SELECT * FROM users;').all<User>();
-		if (res.success) return res.results ?? [];
-		throw Error('services.getUsers(): failed');
+		return this.sql`SELECT * FROM users;`.all<User>();
 	}
 
 	findOne(id: number) {
-		return this.db.prepare('SELECT * FROM users WHERE id = ?;').bind(id).first<User>();
+		return this.sql`SELECT * FROM users WHERE id = ${id};`.first<User>();
 	}
 
 	async create(user: Omit<User, 'id'>) {
-		const res = await this.db
-			.prepare('INSERT INTO users (name, email) VALUES (?, ?);')
-			.bind(user.name, user.email)
-			.run();
-
-		if (!res.success) throw Error('services.createUser(): failed');
+		return this.sql`INSERT INTO users (name, email) VALUES (${user.email}, ${user.name});`.run();
 	}
 
 	async update(user: User) {
-		const res = await this.db
-			.prepare('UPDATE users SET name = ?, email = ? WHERE id = ?;')
-			.bind(user.name, user.email, user.id)
-			.run();
-
-		if (!res.success) throw Error('services.updateUser(): failed');
+		return this
+			.sql`UPDATE users SET name = ${user.name}, email = ${user.email} WHERE id = ${user.id};`.run();
 	}
 }
