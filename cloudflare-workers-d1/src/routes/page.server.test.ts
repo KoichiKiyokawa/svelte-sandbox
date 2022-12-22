@@ -1,22 +1,31 @@
 import { describe, expect, it, vi } from 'vitest';
+import type { User } from '~/features/user/model';
 import { UserRepository } from '~/features/user/repository.server';
 import { PromiseObjectAll } from '~/test-utils/promise';
 import type { PageServerLoad } from './$types';
 import { load } from './+page.server';
 
 describe('load', () => {
-	const dummyEvent = {
-		platform: { env: { DB: null } }
-	} as unknown as Parameters<PageServerLoad>[0];
-	const userRepositoryFindAllSpy = vi.spyOn(UserRepository.prototype, 'findAll');
-	it('should return users', async () => {
-		userRepositoryFindAllSpy.mockResolvedValue([
-			{ id: 1, name: 'Alice', email: 'alice@example.com' },
-			{ id: 2, name: 'Bob', email: 'bob@example.com' }
-		]);
+	class UserRepositoryMock extends UserRepository {
+		constructor() {
+			super(null as unknown as D1Database);
+		}
 
-		const res = load(dummyEvent);
-		expect(await PromiseObjectAll(res)).toMatchInlineSnapshot(`
+		async findAll(): Promise<User[]> {
+			return [
+				{ id: 1, name: 'Alice', email: 'alice@example.com' },
+				{ id: 2, name: 'Bob', email: 'bob@example.com' }
+			];
+		}
+	}
+
+	const dummyEvent = {
+		locals: {
+			userRepository: new UserRepositoryMock()
+		}
+	} as Parameters<PageServerLoad>[0];
+	it('should return users', async () => {
+		expect(await PromiseObjectAll(load(dummyEvent))).toMatchInlineSnapshot(`
 			{
 			  "users": [
 			    {

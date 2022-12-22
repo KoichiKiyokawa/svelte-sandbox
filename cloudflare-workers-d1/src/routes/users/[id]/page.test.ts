@@ -47,4 +47,69 @@ describe('user show page', () => {
 			</body>
 		`);
 	});
+
+	it('should render with no user', () => {
+		vi.mock('$app/stores', () => ({
+			page: readable({ params: { id: 1 } })
+		}));
+
+		const args: ComponentProps<UserShowPage> = {
+			data: {
+				user: undefined
+			}
+		};
+		const { container } = render(UserShowPage, args);
+		expect(container).toMatchInlineSnapshot(`
+			<body>
+			  <div>
+			    <a
+			      href="/"
+			    >
+			      back
+			    </a>
+			     
+			    <h1>
+			      user show
+			    </h1>
+			     
+			    <div>
+			      {
+			  "id": 1,
+			  "name": "Alice",
+			  "email": "alice@example.com"
+			}
+			    </div>
+			     
+			    <a
+			      href="/users/1/edit"
+			    >
+			      edit
+			    </a>
+			    <!--&lt;+page&gt;-->
+			  </div>
+			  <div>
+			    <a
+			      href="/"
+			    >
+			      back
+			    </a>
+			     
+			    <h1>
+			      user show
+			    </h1>
+			     
+			    <div>
+			      undefined
+			    </div>
+			     
+			    <a
+			      href="/users/1/edit"
+			    >
+			      edit
+			    </a>
+			    <!--&lt;+page&gt;-->
+			  </div>
+			</body>
+		`);
+	});
 });
