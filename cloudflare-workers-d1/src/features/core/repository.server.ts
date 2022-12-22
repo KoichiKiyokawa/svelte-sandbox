@@ -18,7 +18,7 @@ class D1PreparedStatementWrapper {
 	constructor(private stmt: D1PreparedStatement) {}
 
 	async first<T>() {
-		return await this.stmt.first<T>();
+		return await this.stmt.first<T | undefined>();
 	}
 
 	async all<T>() {
