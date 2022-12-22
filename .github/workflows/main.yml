@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'version'
+        required: true
+        default: 'patch' 
+        type: choice
+        options:
+        - patch
+        - minor
+        - major 
