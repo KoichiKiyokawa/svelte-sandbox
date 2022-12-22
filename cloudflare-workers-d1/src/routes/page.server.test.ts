@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import type { User } from '~/features/user/model';
 import { UserRepository } from '~/features/user/repository.server';
 import { PromiseObjectAll } from '~/test-utils/promise';
