@@ -1,11 +1,15 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const PromiseObjectAll = async (obj: any) => {
-	const keys = Object.keys(obj);
-	const promises = keys.map((key) => obj[key]);
-	const values = await Promise.all(promises);
-	const result = {} as Record<string, unknown>;
-	for (let i = 0; i < keys.length; i++) {
-		result[keys[i]] = values[i];
-	}
-	return result;
+type MayBePromise<T> = T | Promise<T>;
+type MayBePromiseObject = {
+	[key: string]: MayBePromise<unknown>;
+};
+type ObjectAwaited<T extends MayBePromiseObject> = {
+	[K in keyof T]: Awaited<T[K]>;
+};
+
+export const PromiseObjectAll = async <T extends MayBePromiseObject>(
+	obj: T
+): Promise<ObjectAwaited<T>> => {
+	return Object.fromEntries(
+		await Promise.all(Object.entries(obj).map(async ([key, value]) => [key, await value]))
+	);
 };
