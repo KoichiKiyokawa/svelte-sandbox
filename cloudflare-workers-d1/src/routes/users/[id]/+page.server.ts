@@ -1,9 +1,7 @@
-import { UserRepository } from '~/features/user/repository.server';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = ({ platform, params }) => {
-	const userRepository = new UserRepository(platform.env.DB);
+export const load: PageServerLoad = ({ locals, params }) => {
 	return {
-		user: userRepository.findOne(Number(params.id))
+		user: locals.userRepository.findOne(Number(params.id))
 	};
 };
