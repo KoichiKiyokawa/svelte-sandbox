@@ -10,3 +10,8 @@ on:
         - patch
         - minor
         - major 
+jobs:
+  version-up:
+    runs-on: unintu-latest
+    steps:
+      - run: echo ${{ inputs.version }} 
