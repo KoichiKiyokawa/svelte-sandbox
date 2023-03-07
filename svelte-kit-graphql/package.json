@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@graphql-codegen/cli": "2.16.3",
-		"@graphql-codegen/client-preset": "1.2.5",
+		"@graphql-codegen/client-preset": "2.1.1",
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "1.0.0",
 		"@sveltejs/kit": "1.0.7",
