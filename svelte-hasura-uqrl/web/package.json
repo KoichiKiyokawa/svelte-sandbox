@@ -17,7 +17,7 @@
     "@graphql-codegen/typescript": "2.8.7",
     "@graphql-codegen/typescript-operations": "2.5.12",
     "@graphql-typed-document-node/core": "3.1.1",
-    "@sveltejs/vite-plugin-svelte": "1.4.0",
+    "@sveltejs/vite-plugin-svelte": "2.5.2",
     "@tsconfig/svelte": "3.0.0",
     "@urql/svelte": "3.0.3",
     "graphql": "16.6.0",
